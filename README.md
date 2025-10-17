@@ -28,7 +28,7 @@ can also run the exercises on Google Colab.
 - For plotting, we use the [holoviews library](https://holoviews.org/) as it is one of the simplest ways to create interactive figures in Python (it is a high-level interface to the [bokeh library](https://bokeh.org/)). You mind find the [Getting Started section of the documentation](https://holoviews.org/getting_started/) useful if you want to understand it better. I also found [this guide from Caltech](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2019a/content/lessons/lesson_03/intro_to_holoviews.html) useful.
 
 ## Collaborate using github
-When you work locally, in order to collaborate with your friends you may want to use github. In that case you need to clone this repository and instead of 
+When you work locally, in order to collaborate with your friends you may want to use github. In that case you need to fork this repository (so you will be the admin and can change things on github) and instead of 
 
 ```bash
 git clone --depth 1 https://github.com/amir-elahi/ml_project_ch315.git
@@ -52,15 +52,18 @@ The following steps assume that you use MacOS or some Linux flavor. If you use W
 
 Create a new folder and clone this repository (you need `git` for this, if you get a `missing command` error for `git` you can install it with `sudo apt-get install git`)
 
+#### In case you forked the repository, the below commands are wrong, you need to do what mentioned in [Collaborate using github](#collaborate-using-github) and skip this part, and continue on [Setting up the local environment](#setting-up-the-local-environment)
+
 ```bash
 git clone --depth 1 https://github.com/amir-elahi/ml_project_ch315.git
 cd ml_project_ch315
 git checkout 2025
 ```
 
+### Setting up the local environment
 We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there.
 
-Then, use
+Then, use (be sure to be in the correct directory.)
 
 ```bash
 conda env create -f environment.yml -n ml_project_ch315
