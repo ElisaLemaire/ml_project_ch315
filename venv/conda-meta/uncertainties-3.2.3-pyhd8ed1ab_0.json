@@ -1,0 +1,244 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "future",
+    "numpy",
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/uncertainties-3.2.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/METADATA",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/RECORD",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/WHEEL",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/licenses/LICENSE.txt",
+    "lib/python3.14/site-packages/uncertainties-3.2.3.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/uncertainties/__init__.py",
+    "lib/python3.14/site-packages/uncertainties/core.py",
+    "lib/python3.14/site-packages/uncertainties/formatting.py",
+    "lib/python3.14/site-packages/uncertainties/ops.py",
+    "lib/python3.14/site-packages/uncertainties/parsing.py",
+    "lib/python3.14/site-packages/uncertainties/umath.py",
+    "lib/python3.14/site-packages/uncertainties/umath_core.py",
+    "lib/python3.14/site-packages/uncertainties/unumpy/__init__.py",
+    "lib/python3.14/site-packages/uncertainties/unumpy/core.py",
+    "lib/python3.14/site-packages/uncertainties/unumpy/ulinalg.py",
+    "lib/python3.14/site-packages/uncertainties/version.py",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/core.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/formatting.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/ops.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/parsing.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/umath.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/umath_core.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/unumpy/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/unumpy/__pycache__/core.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/unumpy/__pycache__/ulinalg.cpython-314.pyc",
+    "lib/python3.14/site-packages/uncertainties/__pycache__/version.cpython-314.pyc"
+  ],
+  "fn": "uncertainties-3.2.3-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/conda/pkgs/uncertainties-3.2.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0ef430c64b59f8e67b0f668e26df2d00",
+  "name": "uncertainties",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/uncertainties-3.2.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f1e4b47d49c5c12967a500f30074732a9ad6e24538adde330376bafadad9066d",
+        "sha256_in_prefix": "f1e4b47d49c5c12967a500f30074732a9ad6e24538adde330376bafadad9066d",
+        "size_in_bytes": 6956
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5397d7c7702c19e180e41a7cae938aedb94bd7440a4166e3e1d57a9427005b4a",
+        "sha256_in_prefix": "5397d7c7702c19e180e41a7cae938aedb94bd7440a4166e3e1d57a9427005b4a",
+        "size_in_bytes": 2235
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a71c8cc602fcfa9adafeb29a43876b39901e80156e5fe1bfe274478e38166e6a",
+        "sha256_in_prefix": "a71c8cc602fcfa9adafeb29a43876b39901e80156e5fe1bfe274478e38166e6a",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "77edc571b9b8c59fa877a650f0ffe6e16a28e6808c8952f424bbba47e7d98e3a",
+        "sha256_in_prefix": "77edc571b9b8c59fa877a650f0ffe6e16a28e6808c8952f424bbba47e7d98e3a",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "607252657d1d0a066e035c00902555a211dc8d34b785b1f4774e926034b747c9",
+        "sha256_in_prefix": "607252657d1d0a066e035c00902555a211dc8d34b785b1f4774e926034b747c9",
+        "size_in_bytes": 1464
+      },
+      {
+        "_path": "site-packages/uncertainties-3.2.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "31fbe67216c6e9cdbb7bd3b531206937ea21cbe12302094a08b55b267971fbff",
+        "sha256_in_prefix": "31fbe67216c6e9cdbb7bd3b531206937ea21cbe12302094a08b55b267971fbff",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "site-packages/uncertainties/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b3f6c6f4af7abf194d9c653c0989c4be742fd9e2a7bb044da29d3f43eb736dd5",
+        "sha256_in_prefix": "b3f6c6f4af7abf194d9c653c0989c4be742fd9e2a7bb044da29d3f43eb736dd5",
+        "size_in_bytes": 9264
+      },
+      {
+        "_path": "site-packages/uncertainties/core.py",
+        "path_type": "hardlink",
+        "sha256": "5eae211bc850fb3718991fcff0c1907aaf33c1f749b0bf86355b813fc9ee7f86",
+        "sha256_in_prefix": "5eae211bc850fb3718991fcff0c1907aaf33c1f749b0bf86355b813fc9ee7f86",
+        "size_in_bytes": 38092
+      },
+      {
+        "_path": "site-packages/uncertainties/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "20164bf19ab9dbbf659efe731a0e84d5468c20a4f7e46cfc475247a5b0cc20d9",
+        "sha256_in_prefix": "20164bf19ab9dbbf659efe731a0e84d5468c20a4f7e46cfc475247a5b0cc20d9",
+        "size_in_bytes": 42692
+      },
+      {
+        "_path": "site-packages/uncertainties/ops.py",
+        "path_type": "hardlink",
+        "sha256": "8ff9c7b8e7b35be0eb743c2a15b5b7340a2b04d2446ed84345c119e0cd401cb6",
+        "sha256_in_prefix": "8ff9c7b8e7b35be0eb743c2a15b5b7340a2b04d2446ed84345c119e0cd401cb6",
+        "size_in_bytes": 30759
+      },
+      {
+        "_path": "site-packages/uncertainties/parsing.py",
+        "path_type": "hardlink",
+        "sha256": "31381a704155d7a5de077c98e3c394bc5f1fc593aa4a28bfdfb992b90696b595",
+        "sha256_in_prefix": "31381a704155d7a5de077c98e3c394bc5f1fc593aa4a28bfdfb992b90696b595",
+        "size_in_bytes": 7605
+      },
+      {
+        "_path": "site-packages/uncertainties/umath.py",
+        "path_type": "hardlink",
+        "sha256": "7c268baf6247cd58fcb67e7957183d8d8de1df40556b4cf68ae79ee4ce2956ea",
+        "sha256_in_prefix": "7c268baf6247cd58fcb67e7957183d8d8de1df40556b4cf68ae79ee4ce2956ea",
+        "size_in_bytes": 1266
+      },
+      {
+        "_path": "site-packages/uncertainties/umath_core.py",
+        "path_type": "hardlink",
+        "sha256": "013b192a4926859b555d804c1b2a85405a87282885739c3a1810afca08be2bc0",
+        "sha256_in_prefix": "013b192a4926859b555d804c1b2a85405a87282885739c3a1810afca08be2bc0",
+        "size_in_bytes": 15387
+      },
+      {
+        "_path": "site-packages/uncertainties/unumpy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ee939fab6e743710fb06695b742bbc6fac1d6f7ab203df1afacfcfb1c896919f",
+        "sha256_in_prefix": "ee939fab6e743710fb06695b742bbc6fac1d6f7ab203df1afacfcfb1c896919f",
+        "size_in_bytes": 2862
+      },
+      {
+        "_path": "site-packages/uncertainties/unumpy/core.py",
+        "path_type": "hardlink",
+        "sha256": "05f766089ebcb5f76d3c97c55581406131bb9c48cd9724eb90c37a44d071d253",
+        "sha256_in_prefix": "05f766089ebcb5f76d3c97c55581406131bb9c48cd9724eb90c37a44d071d253",
+        "size_in_bytes": 27291
+      },
+      {
+        "_path": "site-packages/uncertainties/unumpy/ulinalg.py",
+        "path_type": "hardlink",
+        "sha256": "7002e44eb543617e7bd54c303a2077e8e51d729fa2fae275c0c292332abf1e8d",
+        "sha256_in_prefix": "7002e44eb543617e7bd54c303a2077e8e51d729fa2fae275c0c292332abf1e8d",
+        "size_in_bytes": 333
+      },
+      {
+        "_path": "site-packages/uncertainties/version.py",
+        "path_type": "hardlink",
+        "sha256": "3fd9fceb2a83423e2ec43aaf7082869495ac03d619ec6d414ae11736a54009e2",
+        "sha256_in_prefix": "3fd9fceb2a83423e2ec43aaf7082869495ac03d619ec6d414ae11736a54009e2",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/core.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/formatting.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/ops.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/parsing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/umath.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/umath_core.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/unumpy/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/unumpy/__pycache__/core.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/unumpy/__pycache__/ulinalg.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/uncertainties/__pycache__/version.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "6bee1d370931b1ef4105635c66fa9e2350c1d180e22de0ba031810752a20762b",
+  "size": 56653,
+  "subdir": "noarch",
+  "timestamp": 1745274434000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/uncertainties-3.2.3-pyhd8ed1ab_0.conda",
+  "version": "3.2.3"
+}

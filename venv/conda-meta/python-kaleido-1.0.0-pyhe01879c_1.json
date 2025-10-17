@@ -1,0 +1,330 @@
+{
+  "build": "pyhe01879c_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "choreographer >=1.0.5",
+    "logistro >=1.0.8",
+    "orjson >=3.10.15",
+    "packaging",
+    "python"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/python-kaleido-1.0.0-pyhe01879c_1",
+  "files": [
+    "bin/kaleido_get_chrome",
+    "bin/kaleido_mocker",
+    "lib/python3.14/site-packages/docs/examples_script.py",
+    "lib/python3.14/site-packages/kaleido/__init__.py",
+    "lib/python3.14/site-packages/kaleido/_fig_tools.py",
+    "lib/python3.14/site-packages/kaleido/_kaleido_tab.py",
+    "lib/python3.14/site-packages/kaleido/_mocker.py",
+    "lib/python3.14/site-packages/kaleido/_page_generator.py",
+    "lib/python3.14/site-packages/kaleido/_utils.py",
+    "lib/python3.14/site-packages/kaleido/errors.py",
+    "lib/python3.14/site-packages/kaleido/kaleido.py",
+    "lib/python3.14/site-packages/kaleido/vendor/index.html",
+    "lib/python3.14/site-packages/kaleido/vendor/kaleido_scopes.js",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/licenses/LICENSE.md",
+    "lib/python3.14/site-packages/kaleido-1.0.0.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/site/examples_script.py",
+    "lib/python3.14/site-packages/tests/conftest.py",
+    "lib/python3.14/site-packages/tests/test_calc_fig.py",
+    "lib/python3.14/site-packages/tests/test_page_generator.py",
+    "lib/python3.14/site-packages/tests/test_placeholder.py",
+    "lib/python3.14/site-packages/docs/__pycache__/examples_script.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/_fig_tools.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/_kaleido_tab.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/_mocker.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/_page_generator.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/errors.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaleido/__pycache__/kaleido.cpython-314.pyc",
+    "lib/python3.14/site-packages/site/__pycache__/examples_script.cpython-314.pyc",
+    "lib/python3.14/site-packages/tests/__pycache__/conftest.cpython-314.pyc",
+    "lib/python3.14/site-packages/tests/__pycache__/test_calc_fig.cpython-314.pyc",
+    "lib/python3.14/site-packages/tests/__pycache__/test_page_generator.cpython-314.pyc",
+    "lib/python3.14/site-packages/tests/__pycache__/test_placeholder.cpython-314.pyc"
+  ],
+  "fn": "python-kaleido-1.0.0-pyhe01879c_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/python-kaleido-1.0.0-pyhe01879c_1",
+    "type": 1
+  },
+  "md5": "4106d29b2e11b71fc25c2e2388d1b354",
+  "name": "python-kaleido",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/python-kaleido-1.0.0-pyhe01879c_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/kaleido_get_chrome",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-kaleido_1755190006/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "efc5d2c5c6c16c9f25d1bded792b1470e4daf4424151de4f22d4c47ec99321c1",
+        "sha256_in_prefix": "9dda0b28ffc594c99cd3b6f6027a32aec87363af898514a0a5b8144a923547dd",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "python-scripts/kaleido_mocker",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-kaleido_1755190006/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "4890c10f3653cbaf1bb990b9f8c12702214301bc4ca6b694f24eda25c8316252",
+        "sha256_in_prefix": "3a19614f9ed4c545cd6f6a362cdb96d685dc6342bc260af8afc023c13bc29dd3",
+        "size_in_bytes": 484
+      },
+      {
+        "_path": "site-packages/docs/examples_script.py",
+        "path_type": "hardlink",
+        "sha256": "8999ca0c9b11a6a1a205a1aff2e0a6b36d092c0f3eb6b4e931010bbf0cd89cfe",
+        "sha256_in_prefix": "8999ca0c9b11a6a1a205a1aff2e0a6b36d092c0f3eb6b4e931010bbf0cd89cfe",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "site-packages/kaleido/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b7ff231eeec502a17caecbe8c521ef6e18fd9230ccedc15820df76222c887b2",
+        "sha256_in_prefix": "3b7ff231eeec502a17caecbe8c521ef6e18fd9230ccedc15820df76222c887b2",
+        "size_in_bytes": 3807
+      },
+      {
+        "_path": "site-packages/kaleido/_fig_tools.py",
+        "path_type": "hardlink",
+        "sha256": "46db4f100fc4ac2cad47e689d0fe2c026d3dbb8d3c34e741e63e67f20790abad",
+        "sha256_in_prefix": "46db4f100fc4ac2cad47e689d0fe2c026d3dbb8d3c34e741e63e67f20790abad",
+        "size_in_bytes": 4571
+      },
+      {
+        "_path": "site-packages/kaleido/_kaleido_tab.py",
+        "path_type": "hardlink",
+        "sha256": "130919f34419e43ffbb9aa35f8611d4403f0750c4c856c395397a0598cf4d287",
+        "sha256_in_prefix": "130919f34419e43ffbb9aa35f8611d4403f0750c4c856c395397a0598cf4d287",
+        "size_in_bytes": 13103
+      },
+      {
+        "_path": "site-packages/kaleido/_mocker.py",
+        "path_type": "hardlink",
+        "sha256": "8a629be2fe57ba2edfce289616e8382fb9658c593b6063377dfd995f67435299",
+        "sha256_in_prefix": "8a629be2fe57ba2edfce289616e8382fb9658c593b6063377dfd995f67435299",
+        "size_in_bytes": 8468
+      },
+      {
+        "_path": "site-packages/kaleido/_page_generator.py",
+        "path_type": "hardlink",
+        "sha256": "a7a8fc98b791cdcb4e224ad0ef6f01633cf5c3f064a3c1d1a141838c5268963c",
+        "sha256_in_prefix": "a7a8fc98b791cdcb4e224ad0ef6f01633cf5c3f064a3c1d1a141838c5268963c",
+        "size_in_bytes": 3886
+      },
+      {
+        "_path": "site-packages/kaleido/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "52d3535f229c2442643c162eb20acf39c8855352458f6d6409f16b9075b0f658",
+        "sha256_in_prefix": "52d3535f229c2442643c162eb20acf39c8855352458f6d6409f16b9075b0f658",
+        "size_in_bytes": 2709
+      },
+      {
+        "_path": "site-packages/kaleido/errors.py",
+        "path_type": "hardlink",
+        "sha256": "93929b12dc0a1e0d7d9cfe2d0e5bfac58ff23235426af7fda0ef7c35f78a4054",
+        "sha256_in_prefix": "93929b12dc0a1e0d7d9cfe2d0e5bfac58ff23235426af7fda0ef7c35f78a4054",
+        "size_in_bytes": 364
+      },
+      {
+        "_path": "site-packages/kaleido/kaleido.py",
+        "path_type": "hardlink",
+        "sha256": "98ef49feed10d229b613aaa0112dcaf0f9e39e5f1ae3a9c2f29f3710f8568460",
+        "sha256_in_prefix": "98ef49feed10d229b613aaa0112dcaf0f9e39e5f1ae3a9c2f29f3710f8568460",
+        "size_in_bytes": 19214
+      },
+      {
+        "_path": "site-packages/kaleido/vendor/index.html",
+        "path_type": "hardlink",
+        "sha256": "c0cbbd8061b06ddc7cb32f2897123d5c1fa7e5a5d4251975839f77fd3dce493a",
+        "sha256_in_prefix": "c0cbbd8061b06ddc7cb32f2897123d5c1fa7e5a5d4251975839f77fd3dce493a",
+        "size_in_bytes": 567
+      },
+      {
+        "_path": "site-packages/kaleido/vendor/kaleido_scopes.js",
+        "path_type": "hardlink",
+        "sha256": "d2adfaa205db90db80d3d6c6e32db615fa2364397f43d1079593089ef9c3bd32",
+        "sha256_in_prefix": "d2adfaa205db90db80d3d6c6e32db615fa2364397f43d1079593089ef9c3bd32",
+        "size_in_bytes": 90287
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c9da05b1974b50c5eddf9afb0456a50380d253bb1b48ee0e99507cbece52cf06",
+        "sha256_in_prefix": "c9da05b1974b50c5eddf9afb0456a50380d253bb1b48ee0e99507cbece52cf06",
+        "size_in_bytes": 5623
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "140501b4e8090a322f31151ea5e9d0ee05f17073b585519e1930fc9a343f5ad2",
+        "sha256_in_prefix": "140501b4e8090a322f31151ea5e9d0ee05f17073b585519e1930fc9a343f5ad2",
+        "size_in_bytes": 2914
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "47a05156d11ac05a75214e9b944d668d183ea3a0b117c13cc4a332a92a33baf4",
+        "sha256_in_prefix": "47a05156d11ac05a75214e9b944d668d183ea3a0b117c13cc4a332a92a33baf4",
+        "size_in_bytes": 125
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "948beac1c32a2af69bb547087570f79a618db5136489b3a297efd65f98fb3bf3",
+        "sha256_in_prefix": "948beac1c32a2af69bb547087570f79a618db5136489b3a297efd65f98fb3bf3",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "23d9b15f8d7806b212955a819411062051e4069fe4892cae66931c832fc8bde3",
+        "sha256_in_prefix": "23d9b15f8d7806b212955a819411062051e4069fe4892cae66931c832fc8bde3",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/kaleido-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9fbe06e12a0682e2b5899d89188a56d92dd888cdde77bf09f5dc170bbebd0b26",
+        "sha256_in_prefix": "9fbe06e12a0682e2b5899d89188a56d92dd888cdde77bf09f5dc170bbebd0b26",
+        "size_in_bytes": 24
+      },
+      {
+        "_path": "site-packages/site/examples_script.py",
+        "path_type": "hardlink",
+        "sha256": "8999ca0c9b11a6a1a205a1aff2e0a6b36d092c0f3eb6b4e931010bbf0cd89cfe",
+        "sha256_in_prefix": "8999ca0c9b11a6a1a205a1aff2e0a6b36d092c0f3eb6b4e931010bbf0cd89cfe",
+        "size_in_bytes": 2416
+      },
+      {
+        "_path": "site-packages/tests/conftest.py",
+        "path_type": "hardlink",
+        "sha256": "1b9cdc5017e3c8f91d44bbf19280b2051ff4fe6177d7260689c67c03f7a64c85",
+        "sha256_in_prefix": "1b9cdc5017e3c8f91d44bbf19280b2051ff4fe6177d7260689c67c03f7a64c85",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/tests/test_calc_fig.py",
+        "path_type": "hardlink",
+        "sha256": "d4de6b76a08dc0b188f5b8745eb7ce2480aa817be25842b40177145fbbcbbc5d",
+        "sha256_in_prefix": "d4de6b76a08dc0b188f5b8745eb7ce2480aa817be25842b40177145fbbcbbc5d",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "site-packages/tests/test_page_generator.py",
+        "path_type": "hardlink",
+        "sha256": "c6a2440dcd6cfdca3c755ea13c00bd8e3085d9a6d830f9fb358965ed217852f2",
+        "sha256_in_prefix": "c6a2440dcd6cfdca3c755ea13c00bd8e3085d9a6d830f9fb358965ed217852f2",
+        "size_in_bytes": 5190
+      },
+      {
+        "_path": "site-packages/tests/test_placeholder.py",
+        "path_type": "hardlink",
+        "sha256": "cbad219753cbd94a9e89451725e050e2f4f89735486a4e58ede5c1c5e8486aed",
+        "sha256_in_prefix": "cbad219753cbd94a9e89451725e050e2f4f89735486a4e58ede5c1c5e8486aed",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "lib/python3.14/site-packages/docs/__pycache__/examples_script.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/_fig_tools.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/_kaleido_tab.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/_mocker.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/_page_generator.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/errors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaleido/__pycache__/kaleido.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/site/__pycache__/examples_script.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/tests/__pycache__/conftest.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/tests/__pycache__/test_calc_fig.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/tests/__pycache__/test_page_generator.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/tests/__pycache__/test_placeholder.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f57d5f878e7630f6f29df43d15863ff9cb79123e85b970760cd78a08fda2152f",
+  "size": 50867,
+  "subdir": "noarch",
+  "timestamp": 1755190006000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-kaleido-1.0.0-pyhe01879c_1.conda",
+  "version": "1.0.0"
+}

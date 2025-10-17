@@ -1,0 +1,1318 @@
+{
+  "build": "pyhe01879c_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "bleach",
+    "certifi >=14.5.14",
+    "charset-normalizer",
+    "idna",
+    "python-dateutil >=2.5.3",
+    "python-slugify",
+    "requests",
+    "setuptools >=21.0.0",
+    "six >=1.10",
+    "text-unidecode",
+    "tqdm",
+    "urllib3 >=1.15.1",
+    "webencodings",
+    "protobuf",
+    "python"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/kaggle-1.7.4.5-pyhe01879c_0",
+  "files": [
+    "lib/python3.14/site-packages/kaggle/LICENSE",
+    "lib/python3.14/site-packages/kaggle/__init__.py",
+    "lib/python3.14/site-packages/kaggle/api/__init__.py",
+    "lib/python3.14/site-packages/kaggle/api/kaggle_api.py",
+    "lib/python3.14/site-packages/kaggle/api/kaggle_api_extended.py",
+    "lib/python3.14/site-packages/kaggle/cli.py",
+    "lib/python3.14/site-packages/kaggle/configuration.py",
+    "lib/python3.14/site-packages/kaggle/models/__init__.py",
+    "lib/python3.14/site-packages/kaggle/models/api_blob_type.py",
+    "lib/python3.14/site-packages/kaggle/models/dataset_column.py",
+    "lib/python3.14/site-packages/kaggle/models/dataset_new_request.py",
+    "lib/python3.14/site-packages/kaggle/models/dataset_new_version_request.py",
+    "lib/python3.14/site-packages/kaggle/models/dataset_update_settings_request.py",
+    "lib/python3.14/site-packages/kaggle/models/kaggle_models_extended.py",
+    "lib/python3.14/site-packages/kaggle/models/kernel_push_request.py",
+    "lib/python3.14/site-packages/kaggle/models/model_instance_new_version_request.py",
+    "lib/python3.14/site-packages/kaggle/models/model_instance_update_request.py",
+    "lib/python3.14/site-packages/kaggle/models/model_new_instance_request.py",
+    "lib/python3.14/site-packages/kaggle/models/model_new_request.py",
+    "lib/python3.14/site-packages/kaggle/models/model_update_request.py",
+    "lib/python3.14/site-packages/kaggle/models/start_blob_upload_request.py",
+    "lib/python3.14/site-packages/kaggle/models/start_blob_upload_response.py",
+    "lib/python3.14/site-packages/kaggle/models/upload_file.py",
+    "lib/python3.14/site-packages/kaggle/test/__init__.py",
+    "lib/python3.14/site-packages/kaggle/test/test_authenticate.py",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/METADATA",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/RECORD",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/WHEEL",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/kaggle-1.7.4.5.dist-info/licenses/LICENSE.txt",
+    "lib/python3.14/site-packages/kagglesdk/LICENSE",
+    "lib/python3.14/site-packages/kagglesdk/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/admin/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/admin/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/admin/services/inbox_file_service.py",
+    "lib/python3.14/site-packages/kagglesdk/admin/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/admin/types/inbox_file_service.py",
+    "lib/python3.14/site-packages/kagglesdk/blobs/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/blobs/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/blobs/services/blob_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/blobs/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/blobs/types/blob_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/common/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/common/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/common/types/file_download.py",
+    "lib/python3.14/site-packages/kagglesdk/common/types/http_redirect.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/services/competition_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/competition_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/competition_enums.py",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/submission_status.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/services/dataset_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/dataset_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/dataset_enums.py",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/dataset_types.py",
+    "lib/python3.14/site-packages/kagglesdk/education/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/education/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/education/services/education_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/education/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/education/types/education_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/education/types/education_service.py",
+    "lib/python3.14/site-packages/kagglesdk/kaggle_client.py",
+    "lib/python3.14/site-packages/kagglesdk/kaggle_env.py",
+    "lib/python3.14/site-packages/kagglesdk/kaggle_http_client.py",
+    "lib/python3.14/site-packages/kagglesdk/kaggle_object.py",
+    "lib/python3.14/site-packages/kagglesdk/kernels/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/kernels/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/kernels/services/kernels_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/kernels/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/kernels/types/kernels_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/kernels/types/kernels_enums.py",
+    "lib/python3.14/site-packages/kagglesdk/models/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/models/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/models/services/model_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/models/services/model_service.py",
+    "lib/python3.14/site-packages/kagglesdk/models/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/models/types/model_api_service.py",
+    "lib/python3.14/site-packages/kagglesdk/models/types/model_enums.py",
+    "lib/python3.14/site-packages/kagglesdk/models/types/model_service.py",
+    "lib/python3.14/site-packages/kagglesdk/models/types/model_types.py",
+    "lib/python3.14/site-packages/kagglesdk/security/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/security/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/security/services/oauth_service.py",
+    "lib/python3.14/site-packages/kagglesdk/security/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/security/types/authentication.py",
+    "lib/python3.14/site-packages/kagglesdk/security/types/oauth_service.py",
+    "lib/python3.14/site-packages/kagglesdk/test/test_client.py",
+    "lib/python3.14/site-packages/kagglesdk/users/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/users/services/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/users/services/account_service.py",
+    "lib/python3.14/site-packages/kagglesdk/users/types/__init__.py",
+    "lib/python3.14/site-packages/kagglesdk/users/types/account_service.py",
+    "lib/python3.14/site-packages/kagglesdk/users/types/users_enums.py",
+    "lib/python3.14/site-packages/kaggle/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/api/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/api/__pycache__/kaggle_api.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/api/__pycache__/kaggle_api_extended.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/__pycache__/cli.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/__pycache__/configuration.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/api_blob_type.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_column.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_new_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_new_version_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_update_settings_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/kaggle_models_extended.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/kernel_push_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/model_instance_new_version_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/model_instance_update_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/model_new_instance_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/model_new_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/model_update_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/start_blob_upload_request.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/start_blob_upload_response.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/models/__pycache__/upload_file.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/test/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kaggle/test/__pycache__/test_authenticate.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/admin/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/admin/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/admin/services/__pycache__/inbox_file_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/admin/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/admin/types/__pycache__/inbox_file_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/blobs/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/blobs/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/blobs/services/__pycache__/blob_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/blobs/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/blobs/types/__pycache__/blob_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/common/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/common/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/common/types/__pycache__/file_download.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/common/types/__pycache__/http_redirect.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/services/__pycache__/competition_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/competition_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/competition_enums.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/submission_status.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/services/__pycache__/dataset_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/dataset_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/dataset_enums.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/dataset_types.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/education/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/education/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/education/services/__pycache__/education_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/education/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/education/types/__pycache__/education_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/education/types/__pycache__/education_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_client.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_env.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_http_client.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_object.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/kernels/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/kernels/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/kernels/services/__pycache__/kernels_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/kernels/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/kernels/types/__pycache__/kernels_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/kernels/types/__pycache__/kernels_enums.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/services/__pycache__/model_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/services/__pycache__/model_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_api_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_enums.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_types.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/security/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/security/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/security/services/__pycache__/oauth_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/security/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/security/types/__pycache__/authentication.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/security/types/__pycache__/oauth_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/test/__pycache__/test_client.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/users/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/users/services/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/users/services/__pycache__/account_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/users/types/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/users/types/__pycache__/account_service.cpython-314.pyc",
+    "lib/python3.14/site-packages/kagglesdk/users/types/__pycache__/users_enums.cpython-314.pyc",
+    "bin/kaggle"
+  ],
+  "fn": "kaggle-1.7.4.5-pyhe01879c_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/opt/conda/pkgs/kaggle-1.7.4.5-pyhe01879c_0",
+    "type": 1
+  },
+  "md5": "79da038e68923d1edea5e20cdb54da3b",
+  "name": "kaggle",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/kaggle-1.7.4.5-pyhe01879c_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/kaggle/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3cde47ddcc15df15bd9ef51729c07f5ce1fad1c5aa9deeaa2b748013c348ef8b",
+        "sha256_in_prefix": "3cde47ddcc15df15bd9ef51729c07f5ce1fad1c5aa9deeaa2b748013c348ef8b",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/kaggle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5c501bb26072ee4be542b461c049767fcb1bd3e45d68b3a278b42c5f40a41075",
+        "sha256_in_prefix": "5c501bb26072ee4be542b461c049767fcb1bd3e45d68b3a278b42c5f40a41075",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "site-packages/kaggle/api/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kaggle/api/kaggle_api.py",
+        "path_type": "hardlink",
+        "sha256": "6c747cd48bf576f9c56b703198f0c2c88b6b03ada2a8f882d30807d82421e9b4",
+        "sha256_in_prefix": "6c747cd48bf576f9c56b703198f0c2c88b6b03ada2a8f882d30807d82421e9b4",
+        "size_in_bytes": 24682
+      },
+      {
+        "_path": "site-packages/kaggle/api/kaggle_api_extended.py",
+        "path_type": "hardlink",
+        "sha256": "6a1a3171f346aea79650f528f74e875be1b5745b4391d3ae00b87fc74de9c8d8",
+        "sha256_in_prefix": "6a1a3171f346aea79650f528f74e875be1b5745b4391d3ae00b87fc74de9c8d8",
+        "size_in_bytes": 181049
+      },
+      {
+        "_path": "site-packages/kaggle/cli.py",
+        "path_type": "hardlink",
+        "sha256": "c619699d62ed280506da6ddb6aa383217fb52debf8527d88a072c31db194d3a1",
+        "sha256_in_prefix": "c619699d62ed280506da6ddb6aa383217fb52debf8527d88a072c31db194d3a1",
+        "size_in_bytes": 63718
+      },
+      {
+        "_path": "site-packages/kaggle/configuration.py",
+        "path_type": "hardlink",
+        "sha256": "841cd03075cd21b70f736b1a93d3f1ee41a62394f204ce50e680fa01ac919efe",
+        "sha256_in_prefix": "841cd03075cd21b70f736b1a93d3f1ee41a62394f204ce50e680fa01ac919efe",
+        "size_in_bytes": 6072
+      },
+      {
+        "_path": "site-packages/kaggle/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kaggle/models/api_blob_type.py",
+        "path_type": "hardlink",
+        "sha256": "c0bc4b4bcea159694233e71a7785884c189410854d9016dc949eec666ef6bb40",
+        "sha256_in_prefix": "c0bc4b4bcea159694233e71a7785884c189410854d9016dc949eec666ef6bb40",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/kaggle/models/dataset_column.py",
+        "path_type": "hardlink",
+        "sha256": "06a5fcd91dbc7e4cf162ab6fd3da72738f8ee0db7d3d320cf5c6552c8e01d94e",
+        "sha256_in_prefix": "06a5fcd91dbc7e4cf162ab6fd3da72738f8ee0db7d3d320cf5c6552c8e01d94e",
+        "size_in_bytes": 6665
+      },
+      {
+        "_path": "site-packages/kaggle/models/dataset_new_request.py",
+        "path_type": "hardlink",
+        "sha256": "15f60b934d8f3d6d37a6d3ba53b8679b5104a22b1c1aea871557350281e3a4e0",
+        "sha256_in_prefix": "15f60b934d8f3d6d37a6d3ba53b8679b5104a22b1c1aea871557350281e3a4e0",
+        "size_in_bytes": 12357
+      },
+      {
+        "_path": "site-packages/kaggle/models/dataset_new_version_request.py",
+        "path_type": "hardlink",
+        "sha256": "aa9b5a973bd23c482bff68587ab976e9d439fd824bd3e81882199d7624212f45",
+        "sha256_in_prefix": "aa9b5a973bd23c482bff68587ab976e9d439fd824bd3e81882199d7624212f45",
+        "size_in_bytes": 9585
+      },
+      {
+        "_path": "site-packages/kaggle/models/dataset_update_settings_request.py",
+        "path_type": "hardlink",
+        "sha256": "e4d59b104466df864ca9c1aeb116ddda3950b660b41971c7897c92e179184501",
+        "sha256_in_prefix": "e4d59b104466df864ca9c1aeb116ddda3950b660b41971c7897c92e179184501",
+        "size_in_bytes": 9694
+      },
+      {
+        "_path": "site-packages/kaggle/models/kaggle_models_extended.py",
+        "path_type": "hardlink",
+        "sha256": "e47d1d3ec72af00f4d24df854c20645144e9bb3d618fa78ab56e70dc2f907075",
+        "sha256_in_prefix": "e47d1d3ec72af00f4d24df854c20645144e9bb3d618fa78ab56e70dc2f907075",
+        "size_in_bytes": 7431
+      },
+      {
+        "_path": "site-packages/kaggle/models/kernel_push_request.py",
+        "path_type": "hardlink",
+        "sha256": "489564e4ce9aa93074c31d5eb3aae1be909cef68c32145097a319b9cc2a8f89a",
+        "sha256_in_prefix": "489564e4ce9aa93074c31d5eb3aae1be909cef68c32145097a319b9cc2a8f89a",
+        "size_in_bytes": 19629
+      },
+      {
+        "_path": "site-packages/kaggle/models/model_instance_new_version_request.py",
+        "path_type": "hardlink",
+        "sha256": "dc5fffa5cf1d41c7e3fd256f861ac5692ae805c90ac6f9c64f8ff29b63d98576",
+        "sha256_in_prefix": "dc5fffa5cf1d41c7e3fd256f861ac5692ae805c90ac6f9c64f8ff29b63d98576",
+        "size_in_bytes": 4608
+      },
+      {
+        "_path": "site-packages/kaggle/models/model_instance_update_request.py",
+        "path_type": "hardlink",
+        "sha256": "d8a4ccd68ffa9e0fc7d938bdc15a34944879e3f3927303613960a3c6646e2929",
+        "sha256_in_prefix": "d8a4ccd68ffa9e0fc7d938bdc15a34944879e3f3927303613960a3c6646e2929",
+        "size_in_bytes": 13933
+      },
+      {
+        "_path": "site-packages/kaggle/models/model_new_instance_request.py",
+        "path_type": "hardlink",
+        "sha256": "2e5d98bb7b322eb1c68bcbc06b8086b2c8553525b4ad12cb2595cd0bc7acfeb2",
+        "sha256_in_prefix": "2e5d98bb7b322eb1c68bcbc06b8086b2c8553525b4ad12cb2595cd0bc7acfeb2",
+        "size_in_bytes": 16449
+      },
+      {
+        "_path": "site-packages/kaggle/models/model_new_request.py",
+        "path_type": "hardlink",
+        "sha256": "f75ebe5dfb2c86b7865b64ecb2dde5bb953c8bb88034ab04ada37f4ea42ad36b",
+        "sha256_in_prefix": "f75ebe5dfb2c86b7865b64ecb2dde5bb953c8bb88034ab04ada37f4ea42ad36b",
+        "size_in_bytes": 9465
+      },
+      {
+        "_path": "site-packages/kaggle/models/model_update_request.py",
+        "path_type": "hardlink",
+        "sha256": "49a334047c11ab7c746b1ea926e06cd0d071b8b9df4828b6bf34455ea72f53fc",
+        "sha256_in_prefix": "49a334047c11ab7c746b1ea926e06cd0d071b8b9df4828b6bf34455ea72f53fc",
+        "size_in_bytes": 8573
+      },
+      {
+        "_path": "site-packages/kaggle/models/start_blob_upload_request.py",
+        "path_type": "hardlink",
+        "sha256": "0aac7528b8deac1da1ba4cbb026bdb251043bb290739628f0419d8873836862b",
+        "sha256_in_prefix": "0aac7528b8deac1da1ba4cbb026bdb251043bb290739628f0419d8873836862b",
+        "size_in_bytes": 7141
+      },
+      {
+        "_path": "site-packages/kaggle/models/start_blob_upload_response.py",
+        "path_type": "hardlink",
+        "sha256": "002e6fb6e0a497631465c1ff4bfaed071eec3d2c5e2fa6b3d7be90bf6f385579",
+        "sha256_in_prefix": "002e6fb6e0a497631465c1ff4bfaed071eec3d2c5e2fa6b3d7be90bf6f385579",
+        "size_in_bytes": 4173
+      },
+      {
+        "_path": "site-packages/kaggle/models/upload_file.py",
+        "path_type": "hardlink",
+        "sha256": "b5b6279a7537cadbc930246248b37462f6da01577534dcb689b895808db00707",
+        "sha256_in_prefix": "b5b6279a7537cadbc930246248b37462f6da01577534dcb689b895808db00707",
+        "size_in_bytes": 4707
+      },
+      {
+        "_path": "site-packages/kaggle/test/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kaggle/test/test_authenticate.py",
+        "path_type": "hardlink",
+        "sha256": "b4eef5262793dda769d438b17caa351b9dc20721216a2d95c0dc56544e1184f6",
+        "sha256_in_prefix": "b4eef5262793dda769d438b17caa351b9dc20721216a2d95c0dc56544e1184f6",
+        "size_in_bytes": 1111
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a21f85b4086c1a3335e21cca5eef22784ab28c48fb1710a62c68e0218954fce9",
+        "sha256_in_prefix": "a21f85b4086c1a3335e21cca5eef22784ab28c48fb1710a62c68e0218954fce9",
+        "size_in_bytes": 16953
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7cb056c0b7d7e9daed6876d3438be96bbccb69199e175f1703edab7e111841f1",
+        "sha256_in_prefix": "7cb056c0b7d7e9daed6876d3438be96bbccb69199e175f1703edab7e111841f1",
+        "size_in_bytes": 15367
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f7905c3959d46abbb9ebc6d5606f22a0cd163332731a0eba80982d2457a02079",
+        "sha256_in_prefix": "f7905c3959d46abbb9ebc6d5606f22a0cd163332731a0eba80982d2457a02079",
+        "size_in_bytes": 117
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "865ddd4004b8aa95640b91568aa7e753aa8a254f76e0e10de8fb07122c3e1468",
+        "sha256_in_prefix": "865ddd4004b8aa95640b91568aa7e753aa8a254f76e0e10de8fb07122c3e1468",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/kaggle-1.7.4.5.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "23385f5abc4894501c8b79736428395961d9241235412cec1f13b4a6523adef9",
+        "sha256_in_prefix": "23385f5abc4894501c8b79736428395961d9241235412cec1f13b4a6523adef9",
+        "size_in_bytes": 11541
+      },
+      {
+        "_path": "site-packages/kagglesdk/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "3cde47ddcc15df15bd9ef51729c07f5ce1fad1c5aa9deeaa2b748013c348ef8b",
+        "sha256_in_prefix": "3cde47ddcc15df15bd9ef51729c07f5ce1fad1c5aa9deeaa2b748013c348ef8b",
+        "size_in_bytes": 11340
+      },
+      {
+        "_path": "site-packages/kagglesdk/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "012265ef8d74891af70f277870a604cf156f536401c9ff9aca0e25089f89d846",
+        "sha256_in_prefix": "012265ef8d74891af70f277870a604cf156f536401c9ff9aca0e25089f89d846",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/kagglesdk/admin/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/admin/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/admin/services/inbox_file_service.py",
+        "path_type": "hardlink",
+        "sha256": "75b36a0ce6428535a896df5e3f7f4cf1d3e0ec05c45d62308232e057cb61b229",
+        "sha256_in_prefix": "75b36a0ce6428535a896df5e3f7f4cf1d3e0ec05c45d62308232e057cb61b229",
+        "size_in_bytes": 777
+      },
+      {
+        "_path": "site-packages/kagglesdk/admin/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/admin/types/inbox_file_service.py",
+        "path_type": "hardlink",
+        "sha256": "ceccce1a2b6676b10c5b18b30b1390dbb702c0a0d63eef3261084d1c23cfcd50",
+        "sha256_in_prefix": "ceccce1a2b6676b10c5b18b30b1390dbb702c0a0d63eef3261084d1c23cfcd50",
+        "size_in_bytes": 1996
+      },
+      {
+        "_path": "site-packages/kagglesdk/blobs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/blobs/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/blobs/services/blob_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "d684ecf30202f1fa7bc672d8c54b88c6abf930f28b49a6126f91aae295e693ff",
+        "sha256_in_prefix": "d684ecf30202f1fa7bc672d8c54b88c6abf930f28b49a6126f91aae295e693ff",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "site-packages/kagglesdk/blobs/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/blobs/types/blob_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "be9fabe3b8736eae54b3f50d46469ee2b756015590b6bcdc22d251d140271594",
+        "sha256_in_prefix": "be9fabe3b8736eae54b3f50d46469ee2b756015590b6bcdc22d251d140271594",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "site-packages/kagglesdk/common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/common/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/common/types/file_download.py",
+        "path_type": "hardlink",
+        "sha256": "c7c88e821c3d2020ebd989e4073050b5f39d462857dd069d3a5b5d4765dcf41c",
+        "sha256_in_prefix": "c7c88e821c3d2020ebd989e4073050b5f39d462857dd069d3a5b5d4765dcf41c",
+        "size_in_bytes": 2881
+      },
+      {
+        "_path": "site-packages/kagglesdk/common/types/http_redirect.py",
+        "path_type": "hardlink",
+        "sha256": "edff85274ae00007668466662404bf135b8ba5337bfb0e2095ea357dfbd817f0",
+        "sha256_in_prefix": "edff85274ae00007668466662404bf135b8ba5337bfb0e2095ea357dfbd817f0",
+        "size_in_bytes": 3029
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/services/competition_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "3f708f3c9e26d3c1118e4060c1b4f8e84337f1cbfede85b165431bcef7c4cc6b",
+        "sha256_in_prefix": "3f708f3c9e26d3c1118e4060c1b4f8e84337f1cbfede85b165431bcef7c4cc6b",
+        "size_in_bytes": 5787
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/types/competition_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "3662743d122332b23f7e342ddfb60626d09614908214a6d8faf3b8bf5ee8fc96",
+        "sha256_in_prefix": "3662743d122332b23f7e342ddfb60626d09614908214a6d8faf3b8bf5ee8fc96",
+        "size_in_bytes": 60307
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/types/competition_enums.py",
+        "path_type": "hardlink",
+        "sha256": "82a8d362d949edb381ed00b46e788b0efeff197fd5f0116439863536a37e7ef5",
+        "sha256_in_prefix": "82a8d362d949edb381ed00b46e788b0efeff197fd5f0116439863536a37e7ef5",
+        "size_in_bytes": 1780
+      },
+      {
+        "_path": "site-packages/kagglesdk/competitions/types/submission_status.py",
+        "path_type": "hardlink",
+        "sha256": "0c76d3afc4bb00af10a59dba2e0d66e829c38ff2de8ab56e3ffc58b9205bc271",
+        "sha256_in_prefix": "0c76d3afc4bb00af10a59dba2e0d66e829c38ff2de8ab56e3ffc58b9205bc271",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/services/dataset_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "ca1151918c915b97da751e9faeaa19c1dced54971444c49166d8f7c6da9ebd05",
+        "sha256_in_prefix": "ca1151918c915b97da751e9faeaa19c1dced54971444c49166d8f7c6da9ebd05",
+        "size_in_bytes": 6862
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/types/dataset_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "21c1905c36a00b5b914fb11b57c1ed69cd6badd731f14f2c3b63ef1b2d8d0014",
+        "sha256_in_prefix": "21c1905c36a00b5b914fb11b57c1ed69cd6badd731f14f2c3b63ef1b2d8d0014",
+        "size_in_bytes": 80854
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/types/dataset_enums.py",
+        "path_type": "hardlink",
+        "sha256": "2efae8433906d601c2d5735437aa511f964c8be9e5009d8324c42e4abc2ef939",
+        "sha256_in_prefix": "2efae8433906d601c2d5735437aa511f964c8be9e5009d8324c42e4abc2ef939",
+        "size_in_bytes": 2355
+      },
+      {
+        "_path": "site-packages/kagglesdk/datasets/types/dataset_types.py",
+        "path_type": "hardlink",
+        "sha256": "53440348c6b5eee1bfe3375f2c56d44d2405711d349a5e998956b53a65d9e319",
+        "sha256_in_prefix": "53440348c6b5eee1bfe3375f2c56d44d2405711d349a5e998956b53a65d9e319",
+        "size_in_bytes": 19652
+      },
+      {
+        "_path": "site-packages/kagglesdk/education/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/education/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/education/services/education_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "c9d56dd7891102e646404f9bd4ad1275f7326369cbb845f0baf8bf4be1a70912",
+        "sha256_in_prefix": "c9d56dd7891102e646404f9bd4ad1275f7326369cbb845f0baf8bf4be1a70912",
+        "size_in_bytes": 805
+      },
+      {
+        "_path": "site-packages/kagglesdk/education/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/education/types/education_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "a6126e017fd2479ea3d3b712fbf4b479967df834c2e4ebc43d834c7d48fca70f",
+        "sha256_in_prefix": "a6126e017fd2479ea3d3b712fbf4b479967df834c2e4ebc43d834c7d48fca70f",
+        "size_in_bytes": 8848
+      },
+      {
+        "_path": "site-packages/kagglesdk/education/types/education_service.py",
+        "path_type": "hardlink",
+        "sha256": "893860ab86ef46984074daa2c002911d947e00484aa2e3da21a7207e1bb7f4f9",
+        "sha256_in_prefix": "893860ab86ef46984074daa2c002911d947e00484aa2e3da21a7207e1bb7f4f9",
+        "size_in_bytes": 4063
+      },
+      {
+        "_path": "site-packages/kagglesdk/kaggle_client.py",
+        "path_type": "hardlink",
+        "sha256": "3ed8ea5905cc173426532a8a01a22b6c898d70a1f4f1fd1fd7a35c3d941a094b",
+        "sha256_in_prefix": "3ed8ea5905cc173426532a8a01a22b6c898d70a1f4f1fd1fd7a35c3d941a094b",
+        "size_in_bytes": 3283
+      },
+      {
+        "_path": "site-packages/kagglesdk/kaggle_env.py",
+        "path_type": "hardlink",
+        "sha256": "8fc99a032753dcad7090e230d1d68d1767cbd488aa482a468032e6dd8c12929e",
+        "sha256_in_prefix": "8fc99a032753dcad7090e230d1d68d1767cbd488aa482a468032e6dd8c12929e",
+        "size_in_bytes": 1072
+      },
+      {
+        "_path": "site-packages/kagglesdk/kaggle_http_client.py",
+        "path_type": "hardlink",
+        "sha256": "496705e5c8c4bc7b804f0662ce0f80a9a1bf9b714b1cfb086655429c5a375c1d",
+        "sha256_in_prefix": "496705e5c8c4bc7b804f0662ce0f80a9a1bf9b714b1cfb086655429c5a375c1d",
+        "size_in_bytes": 10539
+      },
+      {
+        "_path": "site-packages/kagglesdk/kaggle_object.py",
+        "path_type": "hardlink",
+        "sha256": "87827b9c0e990a7cebaa1ac27584b1690ed3e9579210a429a0e8dc58b1f24643",
+        "sha256_in_prefix": "87827b9c0e990a7cebaa1ac27584b1690ed3e9579210a429a0e8dc58b1f24643",
+        "size_in_bytes": 10703
+      },
+      {
+        "_path": "site-packages/kagglesdk/kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/kernels/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/kernels/services/kernels_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "b91b166f81459a43ca8901aa6a34128baa11702524b8cef4c4c11b5967dfc690",
+        "sha256_in_prefix": "b91b166f81459a43ca8901aa6a34128baa11702524b8cef4c4c11b5967dfc690",
+        "size_in_bytes": 4402
+      },
+      {
+        "_path": "site-packages/kagglesdk/kernels/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/kernels/types/kernels_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "5ab034e496351c7663b452e8ca84f1d1dd6da5a70a04c12f664f6ba83eac2a1a",
+        "sha256_in_prefix": "5ab034e496351c7663b452e8ca84f1d1dd6da5a70a04c12f664f6ba83eac2a1a",
+        "size_in_bytes": 62183
+      },
+      {
+        "_path": "site-packages/kagglesdk/kernels/types/kernels_enums.py",
+        "path_type": "hardlink",
+        "sha256": "960d5b43254ddad67b93d1f2e5b639be39bd1b301bcc8d2e5be5b9dbb066cc80",
+        "sha256_in_prefix": "960d5b43254ddad67b93d1f2e5b639be39bd1b301bcc8d2e5be5b9dbb066cc80",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/services/model_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "d33f513a6e4b7f837e951dbcfcd0274a025a3ccf9fff0c6553b96dce8fd60c9d",
+        "sha256_in_prefix": "d33f513a6e4b7f837e951dbcfcd0274a025a3ccf9fff0c6553b96dce8fd60c9d",
+        "size_in_bytes": 10225
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/services/model_service.py",
+        "path_type": "hardlink",
+        "sha256": "f8a33ae2b9d804ef0bdad7a7e55121416ece8596bbc9a21ce1d39844eb49bd85",
+        "sha256_in_prefix": "f8a33ae2b9d804ef0bdad7a7e55121416ece8596bbc9a21ce1d39844eb49bd85",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/types/model_api_service.py",
+        "path_type": "hardlink",
+        "sha256": "98117c968c728bde784a3f4366bfb5568cb972e2934c5bb232b5d10364df8d6c",
+        "sha256_in_prefix": "98117c968c728bde784a3f4366bfb5568cb972e2934c5bb232b5d10364df8d6c",
+        "size_in_bytes": 112144
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/types/model_enums.py",
+        "path_type": "hardlink",
+        "sha256": "a62b606a93ca2cae0151614e3106920e0cabb24e9b609e27cd9dc524f6562560",
+        "sha256_in_prefix": "a62b606a93ca2cae0151614e3106920e0cabb24e9b609e27cd9dc524f6562560",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/types/model_service.py",
+        "path_type": "hardlink",
+        "sha256": "7002773ff0c89d5599d08a38eb38bc4969d0b41245209930e935b7df480c54b0",
+        "sha256_in_prefix": "7002773ff0c89d5599d08a38eb38bc4969d0b41245209930e935b7df480c54b0",
+        "size_in_bytes": 7648
+      },
+      {
+        "_path": "site-packages/kagglesdk/models/types/model_types.py",
+        "path_type": "hardlink",
+        "sha256": "8e0dab0d03f8f0e1b48629190b8348ead95fe05d347948113b606be9cf902540",
+        "sha256_in_prefix": "8e0dab0d03f8f0e1b48629190b8348ead95fe05d347948113b606be9cf902540",
+        "size_in_bytes": 8048
+      },
+      {
+        "_path": "site-packages/kagglesdk/security/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/security/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/security/services/oauth_service.py",
+        "path_type": "hardlink",
+        "sha256": "82d36734fd4894a48af1cdb3c31499382f96407a3902c6657fe87b83c9ea760a",
+        "sha256_in_prefix": "82d36734fd4894a48af1cdb3c31499382f96407a3902c6657fe87b83c9ea760a",
+        "size_in_bytes": 1177
+      },
+      {
+        "_path": "site-packages/kagglesdk/security/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/security/types/authentication.py",
+        "path_type": "hardlink",
+        "sha256": "359650109f1ec10889bbe52457767ba287ca400b341350a819403381113b1924",
+        "sha256_in_prefix": "359650109f1ec10889bbe52457767ba287ca400b341350a819403381113b1924",
+        "size_in_bytes": 4897
+      },
+      {
+        "_path": "site-packages/kagglesdk/security/types/oauth_service.py",
+        "path_type": "hardlink",
+        "sha256": "d72da8cfc4ca78a224476ebf233a6db23dbba2a01af6f69bc0ce8d3aa4d03381",
+        "sha256_in_prefix": "d72da8cfc4ca78a224476ebf233a6db23dbba2a01af6f69bc0ce8d3aa4d03381",
+        "size_in_bytes": 12892
+      },
+      {
+        "_path": "site-packages/kagglesdk/test/test_client.py",
+        "path_type": "hardlink",
+        "sha256": "0bf732cd5fd2685543b616c17f37f902a232cfd93783668eba8dbcdfdd3871c9",
+        "sha256_in_prefix": "0bf732cd5fd2685543b616c17f37f902a232cfd93783668eba8dbcdfdd3871c9",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/kagglesdk/users/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/users/services/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/users/services/account_service.py",
+        "path_type": "hardlink",
+        "sha256": "a52b2fff96b555627d8417293a886342eaa8a0bf34f3ac2d0a1312166a39440f",
+        "sha256_in_prefix": "a52b2fff96b555627d8417293a886342eaa8a0bf34f3ac2d0a1312166a39440f",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "site-packages/kagglesdk/users/types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/kagglesdk/users/types/account_service.py",
+        "path_type": "hardlink",
+        "sha256": "02cd5a201c426b0cf373a6758d82a4352b51b43641c15db42f6cf4219148594c",
+        "sha256_in_prefix": "02cd5a201c426b0cf373a6758d82a4352b51b43641c15db42f6cf4219148594c",
+        "size_in_bytes": 6890
+      },
+      {
+        "_path": "site-packages/kagglesdk/users/types/users_enums.py",
+        "path_type": "hardlink",
+        "sha256": "880cc8e5300cf2dcac39ca86d8052c6fe0d375611017d5cf382cbe33c56ffeba",
+        "sha256_in_prefix": "880cc8e5300cf2dcac39ca86d8052c6fe0d375611017d5cf382cbe33c56ffeba",
+        "size_in_bytes": 380
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/api/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/api/__pycache__/kaggle_api.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/api/__pycache__/kaggle_api_extended.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/__pycache__/cli.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/__pycache__/configuration.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/api_blob_type.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_column.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_new_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_new_version_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/dataset_update_settings_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/kaggle_models_extended.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/kernel_push_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/model_instance_new_version_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/model_instance_update_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/model_new_instance_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/model_new_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/model_update_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/start_blob_upload_request.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/start_blob_upload_response.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/models/__pycache__/upload_file.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/test/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kaggle/test/__pycache__/test_authenticate.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/admin/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/admin/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/admin/services/__pycache__/inbox_file_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/admin/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/admin/types/__pycache__/inbox_file_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/blobs/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/blobs/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/blobs/services/__pycache__/blob_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/blobs/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/blobs/types/__pycache__/blob_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/common/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/common/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/common/types/__pycache__/file_download.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/common/types/__pycache__/http_redirect.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/services/__pycache__/competition_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/competition_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/competition_enums.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/competitions/types/__pycache__/submission_status.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/services/__pycache__/dataset_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/dataset_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/dataset_enums.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/datasets/types/__pycache__/dataset_types.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/education/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/education/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/education/services/__pycache__/education_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/education/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/education/types/__pycache__/education_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/education/types/__pycache__/education_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_client.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_env.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_http_client.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/__pycache__/kaggle_object.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/kernels/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/kernels/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/kernels/services/__pycache__/kernels_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/kernels/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/kernels/types/__pycache__/kernels_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/kernels/types/__pycache__/kernels_enums.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/services/__pycache__/model_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/services/__pycache__/model_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_api_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_enums.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/models/types/__pycache__/model_types.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/security/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/security/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/security/services/__pycache__/oauth_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/security/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/security/types/__pycache__/authentication.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/security/types/__pycache__/oauth_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/test/__pycache__/test_client.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/users/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/users/services/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/users/services/__pycache__/account_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/users/types/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/users/types/__pycache__/account_service.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/kagglesdk/users/types/__pycache__/users_enums.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/kaggle",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "kaggle",
+  "sha256": "87ca3869590ce7c101757a19c3a43b78fa4e65a48a71581ede87ccc2760b6c63",
+  "size": 127460,
+  "subdir": "noarch",
+  "timestamp": 1754882296000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/kaggle-1.7.4.5-pyhe01879c_0.conda",
+  "version": "1.7.4.5"
+}

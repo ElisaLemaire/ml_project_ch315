@@ -1,0 +1,175 @@
+{
+  "build": "py314ha5689aa_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [
+    "__glibc >=2.17"
+  ],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=14",
+    "python >=3.14.0rc3,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "typing_extensions"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/moyopy-0.6.0-py314ha5689aa_0",
+  "files": [
+    "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/moyopy/__init__.py",
+    "lib/python3.14/site-packages/moyopy/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/moyopy/__pycache__/interface.cpython-314.pyc",
+    "lib/python3.14/site-packages/moyopy/_base.pyi",
+    "lib/python3.14/site-packages/moyopy/_data.pyi",
+    "lib/python3.14/site-packages/moyopy/_dataset.pyi",
+    "lib/python3.14/site-packages/moyopy/_identify.pyi",
+    "lib/python3.14/site-packages/moyopy/_moyopy.abi3.so",
+    "lib/python3.14/site-packages/moyopy/_moyopy.pyi",
+    "lib/python3.14/site-packages/moyopy/interface.py",
+    "lib/python3.14/site-packages/moyopy/py.typed"
+  ],
+  "fn": "moyopy-0.6.0-py314ha5689aa_0.conda",
+  "license": "Apache-2.0",
+  "link": {
+    "source": "/opt/conda/pkgs/moyopy-0.6.0-py314ha5689aa_0",
+    "type": 1
+  },
+  "md5": "134072e70661f110651115365eb939cf",
+  "name": "moyopy",
+  "package_tarball_full_path": "/opt/conda/pkgs/moyopy-0.6.0-py314ha5689aa_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "f1f4d77032b3e42f9bb683810043e06e1afe5850fbcafac3e42aef1374fe4604",
+        "sha256_in_prefix": "f1f4d77032b3e42f9bb683810043e06e1afe5850fbcafac3e42aef1374fe4604",
+        "size_in_bytes": 2637
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d20ba80ed54c8807dd5ab4958cbd13c725801d86d9f54021bbb08ea4d77aa174",
+        "sha256_in_prefix": "d20ba80ed54c8807dd5ab4958cbd13c725801d86d9f54021bbb08ea4d77aa174",
+        "size_in_bytes": 1254
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "542a14a908e7979c04c640bed8f1b7236b3bf8505762e9bebdfd6387caa2620f",
+        "sha256_in_prefix": "542a14a908e7979c04c640bed8f1b7236b3bf8505762e9bebdfd6387caa2620f",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy-0.6.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "55bb60e3ece844a21efc6860b5abad93bc204fa0948b2b0c764998dd3d7fbe45",
+        "sha256_in_prefix": "55bb60e3ece844a21efc6860b5abad93bc204fa0948b2b0c764998dd3d7fbe45",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ab4931badde6b0ad38e7a629c5f693921e2481e6ae6eee22a3845e5e11240a13",
+        "sha256_in_prefix": "ab4931badde6b0ad38e7a629c5f693921e2481e6ae6eee22a3845e5e11240a13",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad4d8b36cd40b53e53e4f2b87024255584ef8924f98e4fa7aa9aae276d292c74",
+        "sha256_in_prefix": "ad4d8b36cd40b53e53e4f2b87024255584ef8924f98e4fa7aa9aae276d292c74",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/__pycache__/interface.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff970592b3c982815f50e7daf107da72d24a12b0c3f38a4b5db76fd251b05cef",
+        "sha256_in_prefix": "ff970592b3c982815f50e7daf107da72d24a12b0c3f38a4b5db76fd251b05cef",
+        "size_in_bytes": 13623
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/_base.pyi",
+        "path_type": "hardlink",
+        "sha256": "04031f8dee0c6bf0f5e781e93f6954e257cb53a059bec44c93a29caf934d9090",
+        "sha256_in_prefix": "04031f8dee0c6bf0f5e781e93f6954e257cb53a059bec44c93a29caf934d9090",
+        "size_in_bytes": 4411
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/_data.pyi",
+        "path_type": "hardlink",
+        "sha256": "0dba1d11fa7d3307795675b6fa99cf9551b1dbee17012a2c3dd50d5be1f7be7d",
+        "sha256_in_prefix": "0dba1d11fa7d3307795675b6fa99cf9551b1dbee17012a2c3dd50d5be1f7be7d",
+        "size_in_bytes": 6904
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/_dataset.pyi",
+        "path_type": "hardlink",
+        "sha256": "0141d745e264beb53ad62b006739c2a13e9c7e1fcba71b6df5ade99df5592a42",
+        "sha256_in_prefix": "0141d745e264beb53ad62b006739c2a13e9c7e1fcba71b6df5ade99df5592a42",
+        "size_in_bytes": 12076
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/_identify.pyi",
+        "path_type": "hardlink",
+        "sha256": "108a190c3cced92e7dad79c02d90ad17449c0872b391472a0c57aca8c34fe735",
+        "sha256_in_prefix": "108a190c3cced92e7dad79c02d90ad17449c0872b391472a0c57aca8c34fe735",
+        "size_in_bytes": 1867
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/_moyopy.abi3.so",
+        "path_type": "hardlink",
+        "sha256": "29e75f23bb03192281ef8837c09091ff29a8caa766c44f78c0be5f8bb2cdb451",
+        "sha256_in_prefix": "29e75f23bb03192281ef8837c09091ff29a8caa766c44f78c0be5f8bb2cdb451",
+        "size_in_bytes": 3448608
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/_moyopy.pyi",
+        "path_type": "hardlink",
+        "sha256": "2c83b7e05ecca1cf55681bb41fc111cd084b2c52efad8f10949c5fa201eb9bf2",
+        "sha256_in_prefix": "2c83b7e05ecca1cf55681bb41fc111cd084b2c52efad8f10949c5fa201eb9bf2",
+        "size_in_bytes": 1153
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/interface.py",
+        "path_type": "hardlink",
+        "sha256": "f189c2730b329c91afc4818e80d8f7dc69bf66d1813d31921c7f83e86e47b5f3",
+        "sha256_in_prefix": "f189c2730b329c91afc4818e80d8f7dc69bf66d1813d31921c7f83e86e47b5f3",
+        "size_in_bytes": 9954
+      },
+      {
+        "_path": "lib/python3.14/site-packages/moyopy/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "377da245795c8f5c16211c16ba6192d1f229cf3115807aaf61026d86dc605c7a",
+  "size": 771313,
+  "subdir": "linux-64",
+  "timestamp": 1759575468000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/moyopy-0.6.0-py314ha5689aa_0.conda",
+  "version": "0.6.0"
+}

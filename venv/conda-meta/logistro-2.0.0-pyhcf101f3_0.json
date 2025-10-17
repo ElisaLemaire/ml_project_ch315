@@ -1,0 +1,147 @@
+{
+  "build": "pyhcf101f3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "python"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/logistro-2.0.0-pyhcf101f3_0",
+  "files": [
+    "lib/python3.14/site-packages/logistro/__init__.py",
+    "lib/python3.14/site-packages/logistro/_api.py",
+    "lib/python3.14/site-packages/logistro/_args.py",
+    "lib/python3.14/site-packages/logistro/py.typed",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/logistro-2.0.0.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/logistro/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/logistro/__pycache__/_api.cpython-314.pyc",
+    "lib/python3.14/site-packages/logistro/__pycache__/_args.cpython-314.pyc"
+  ],
+  "fn": "logistro-2.0.0-pyhcf101f3_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/logistro-2.0.0-pyhcf101f3_0",
+    "type": 1
+  },
+  "md5": "b87ff0e771c011b116db91c0d1406d3c",
+  "name": "logistro",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/logistro-2.0.0-pyhcf101f3_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/logistro/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2540ab9423b56dff2d256e53ec1292353c9607c3cea35f608fd08efd1cb2c2b6",
+        "sha256_in_prefix": "2540ab9423b56dff2d256e53ec1292353c9607c3cea35f608fd08efd1cb2c2b6",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "site-packages/logistro/_api.py",
+        "path_type": "hardlink",
+        "sha256": "f74ea917b3e3ae4dfd87abbed2df9b766e7cda6630c9545a446f914f7305d148",
+        "sha256_in_prefix": "f74ea917b3e3ae4dfd87abbed2df9b766e7cda6630c9545a446f914f7305d148",
+        "size_in_bytes": 9469
+      },
+      {
+        "_path": "site-packages/logistro/_args.py",
+        "path_type": "hardlink",
+        "sha256": "c98da77d858c331cd7a42710ec922c5d5d3c0fd3f178b7292a6c5edffda67402",
+        "sha256_in_prefix": "c98da77d858c331cd7a42710ec922c5d5d3c0fd3f178b7292a6c5edffda67402",
+        "size_in_bytes": 979
+      },
+      {
+        "_path": "site-packages/logistro/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d358fdeb79f6b6f7d889fd0329aa11218fe78633d59419bed6a56ad1f94dec73",
+        "sha256_in_prefix": "d358fdeb79f6b6f7d889fd0329aa11218fe78633d59419bed6a56ad1f94dec73",
+        "size_in_bytes": 3907
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "aab5644ae4b1c37a0ad11ee761be41f1fdaed73f9698b3a652726653306ad1c2",
+        "sha256_in_prefix": "aab5644ae4b1c37a0ad11ee761be41f1fdaed73f9698b3a652726653306ad1c2",
+        "size_in_bytes": 1117
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "fc994b3707415901909631454fe16c3056c9b10f0b28a72f9ac317545f78d2bf",
+        "sha256_in_prefix": "fc994b3707415901909631454fe16c3056c9b10f0b28a72f9ac317545f78d2bf",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "54a2215d03657666569d9f86c6ed63cc109254014ea9bde4760b9949f548132f",
+        "sha256_in_prefix": "54a2215d03657666569d9f86c6ed63cc109254014ea9bde4760b9949f548132f",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "site-packages/logistro-2.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "0e21f57f6fbe03512f3498ed6a5073f2b7f04ceb044469392c38b439af1bcdb3",
+        "sha256_in_prefix": "0e21f57f6fbe03512f3498ed6a5073f2b7f04ceb044469392c38b439af1bcdb3",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.14/site-packages/logistro/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/logistro/__pycache__/_api.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/logistro/__pycache__/_args.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0b2a6a8cb4b5b2bc22ea989d678cd363185e260e8145feee0f2f8a726b24561b",
+  "size": 15231,
+  "subdir": "noarch",
+  "timestamp": 1760428654000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/logistro-2.0.0-pyhcf101f3_0.conda",
+  "version": "2.0.0"
+}

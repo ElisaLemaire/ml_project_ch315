@@ -1,0 +1,523 @@
+{
+  "build": "pyhcf101f3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "logistro >=1.0.11",
+    "simplejson >=3.19.3",
+    "python"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/choreographer-1.1.2-pyhcf101f3_0",
+  "files": [
+    "bin/choreo_diagnose",
+    "bin/choreo_get_chrome",
+    "lib/python3.14/site-packages/choreographer/__init__.py",
+    "lib/python3.14/site-packages/choreographer/_brokers/__init__.py",
+    "lib/python3.14/site-packages/choreographer/_brokers/_async.py",
+    "lib/python3.14/site-packages/choreographer/_brokers/_sync.py",
+    "lib/python3.14/site-packages/choreographer/browser_async.py",
+    "lib/python3.14/site-packages/choreographer/browser_sync.py",
+    "lib/python3.14/site-packages/choreographer/browsers/__init__.py",
+    "lib/python3.14/site-packages/choreographer/browsers/_chrome_constants.py",
+    "lib/python3.14/site-packages/choreographer/browsers/_errors.py",
+    "lib/python3.14/site-packages/choreographer/browsers/_interface_type.py",
+    "lib/python3.14/site-packages/choreographer/browsers/_unix_pipe_chromium_wrapper.py",
+    "lib/python3.14/site-packages/choreographer/browsers/chromium.py",
+    "lib/python3.14/site-packages/choreographer/channels/__init__.py",
+    "lib/python3.14/site-packages/choreographer/channels/_errors.py",
+    "lib/python3.14/site-packages/choreographer/channels/_interface_type.py",
+    "lib/python3.14/site-packages/choreographer/channels/_wire.py",
+    "lib/python3.14/site-packages/choreographer/channels/pipe.py",
+    "lib/python3.14/site-packages/choreographer/cli/__init__.py",
+    "lib/python3.14/site-packages/choreographer/cli/_cli_utils.py",
+    "lib/python3.14/site-packages/choreographer/cli/_cli_utils_no_qa.py",
+    "lib/python3.14/site-packages/choreographer/cli/defaults.py",
+    "lib/python3.14/site-packages/choreographer/errors.py",
+    "lib/python3.14/site-packages/choreographer/protocol/__init__.py",
+    "lib/python3.14/site-packages/choreographer/protocol/devtools_async.py",
+    "lib/python3.14/site-packages/choreographer/protocol/devtools_sync.py",
+    "lib/python3.14/site-packages/choreographer/py.typed",
+    "lib/python3.14/site-packages/choreographer/resources/last_known_good_chrome.json",
+    "lib/python3.14/site-packages/choreographer/utils/__init__.py",
+    "lib/python3.14/site-packages/choreographer/utils/_kill.py",
+    "lib/python3.14/site-packages/choreographer/utils/_tmpfile.py",
+    "lib/python3.14/site-packages/choreographer/utils/_which.py",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/METADATA",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/RECORD",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/WHEEL",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/licenses/LICENSE.md",
+    "lib/python3.14/site-packages/choreographer-1.1.2.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/choreographer/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/_brokers/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/_brokers/__pycache__/_async.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/_brokers/__pycache__/_sync.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/__pycache__/browser_async.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/__pycache__/browser_sync.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/browsers/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_chrome_constants.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_errors.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_interface_type.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_unix_pipe_chromium_wrapper.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/browsers/__pycache__/chromium.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/channels/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/channels/__pycache__/_errors.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/channels/__pycache__/_interface_type.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/channels/__pycache__/_wire.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/channels/__pycache__/pipe.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/cli/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/cli/__pycache__/_cli_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/cli/__pycache__/_cli_utils_no_qa.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/cli/__pycache__/defaults.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/__pycache__/errors.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/protocol/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/protocol/__pycache__/devtools_async.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/protocol/__pycache__/devtools_sync.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/utils/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/utils/__pycache__/_kill.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/utils/__pycache__/_tmpfile.cpython-314.pyc",
+    "lib/python3.14/site-packages/choreographer/utils/__pycache__/_which.cpython-314.pyc"
+  ],
+  "fn": "choreographer-1.1.2-pyhcf101f3_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/choreographer-1.1.2-pyhcf101f3_0",
+    "type": 1
+  },
+  "md5": "42a144c1a6b762efc1619bd75d495b58",
+  "name": "choreographer",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/choreographer-1.1.2-pyhcf101f3_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/choreo_diagnose",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_choreographer_1759907535/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "5271aa316043f82f04ea650a23806a010a6bbbbbfb3302e1ad561bda141b68b8",
+        "sha256_in_prefix": "4e7d12b66dca07bd1213d1a1eda3d93adfdf12a965a64bda860dd183a66ada24",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "python-scripts/choreo_get_chrome",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_choreographer_1759907535/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "1d734db6d12b7894d087e847983b1e5ed77341aac9aefbf9f8ae35e83ad7291d",
+        "sha256_in_prefix": "9dda0b28ffc594c99cd3b6f6027a32aec87363af898514a0a5b8144a923547dd",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "site-packages/choreographer/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "50d212722e99de8a75778e16fd04c66e31a33235e05c1484af4ce21293012699",
+        "sha256_in_prefix": "50d212722e99de8a75778e16fd04c66e31a33235e05c1484af4ce21293012699",
+        "size_in_bytes": 501
+      },
+      {
+        "_path": "site-packages/choreographer/_brokers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "0726a95224ffe3b085402980940806e1888143212c0857fe280db58e816c570e",
+        "sha256_in_prefix": "0726a95224ffe3b085402980940806e1888143212c0857fe280db58e816c570e",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "site-packages/choreographer/_brokers/_async.py",
+        "path_type": "hardlink",
+        "sha256": "665504fdc643f55a02ade44276d678e125a3b151ff1e04f789cbb8cdd25238dc",
+        "sha256_in_prefix": "665504fdc643f55a02ade44276d678e125a3b151ff1e04f789cbb8cdd25238dc",
+        "size_in_bytes": 12278
+      },
+      {
+        "_path": "site-packages/choreographer/_brokers/_sync.py",
+        "path_type": "hardlink",
+        "sha256": "f7199dc49a8eff95387be50ae667f48756753d07817f0195004a2e0bf1d4ffae",
+        "sha256_in_prefix": "f7199dc49a8eff95387be50ae667f48756753d07817f0195004a2e0bf1d4ffae",
+        "size_in_bytes": 2403
+      },
+      {
+        "_path": "site-packages/choreographer/browser_async.py",
+        "path_type": "hardlink",
+        "sha256": "0234e0f569f3178138b8c9f084dc8b68e684459d8e2780c151ed9e1d9e68ec8b",
+        "sha256_in_prefix": "0234e0f569f3178138b8c9f084dc8b68e684459d8e2780c151ed9e1d9e68ec8b",
+        "size_in_bytes": 14883
+      },
+      {
+        "_path": "site-packages/choreographer/browser_sync.py",
+        "path_type": "hardlink",
+        "sha256": "f29e2501959d47bf5e96d64c316ea8405991e60bab259935210b07a224fbd219",
+        "sha256_in_prefix": "f29e2501959d47bf5e96d64c316ea8405991e60bab259935210b07a224fbd219",
+        "size_in_bytes": 6537
+      },
+      {
+        "_path": "site-packages/choreographer/browsers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a24158e0a5144e718f58443b7d1961c0e66e5b75e117300a78ff4a288a5f0833",
+        "sha256_in_prefix": "a24158e0a5144e718f58443b7d1961c0e66e5b75e117300a78ff4a288a5f0833",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/choreographer/browsers/_chrome_constants.py",
+        "path_type": "hardlink",
+        "sha256": "61ec868280fdb6889c639a2fa75de8134ddf3666d1d0f8baf707f345176c090c",
+        "sha256_in_prefix": "61ec868280fdb6889c639a2fa75de8134ddf3666d1d0f8baf707f345176c090c",
+        "size_in_bytes": 921
+      },
+      {
+        "_path": "site-packages/choreographer/browsers/_errors.py",
+        "path_type": "hardlink",
+        "sha256": "0ffcc2f214b518aadfa9a2f6c3821c46a06da09571bfe13fffe2b5685bf91fc6",
+        "sha256_in_prefix": "0ffcc2f214b518aadfa9a2f6c3821c46a06da09571bfe13fffe2b5685bf91fc6",
+        "size_in_bytes": 1526
+      },
+      {
+        "_path": "site-packages/choreographer/browsers/_interface_type.py",
+        "path_type": "hardlink",
+        "sha256": "7b8639b41cd6de66dae5ac38704fb0711b519fc4995d7f8903f51104a837f1a0",
+        "sha256_in_prefix": "7b8639b41cd6de66dae5ac38704fb0711b519fc4995d7f8903f51104a837f1a0",
+        "size_in_bytes": 1214
+      },
+      {
+        "_path": "site-packages/choreographer/browsers/_unix_pipe_chromium_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "560bf9e1288b97210d54cb32c13444b172dcf9ac44f8451b56677bd4b5894353",
+        "sha256_in_prefix": "560bf9e1288b97210d54cb32c13444b172dcf9ac44f8451b56677bd4b5894353",
+        "size_in_bytes": 1701
+      },
+      {
+        "_path": "site-packages/choreographer/browsers/chromium.py",
+        "path_type": "hardlink",
+        "sha256": "de82ee914a973a8733ecb17d3e767db58d73b7a4febca173da44caa2d435bdfe",
+        "sha256_in_prefix": "de82ee914a973a8733ecb17d3e767db58d73b7a4febca173da44caa2d435bdfe",
+        "size_in_bytes": 10873
+      },
+      {
+        "_path": "site-packages/choreographer/channels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac618bebf5de918396ce9d6bffcaf9ebd01a25fa12531c0be83ad6240c29e938",
+        "sha256_in_prefix": "ac618bebf5de918396ce9d6bffcaf9ebd01a25fa12531c0be83ad6240c29e938",
+        "size_in_bytes": 369
+      },
+      {
+        "_path": "site-packages/choreographer/channels/_errors.py",
+        "path_type": "hardlink",
+        "sha256": "8129a11587102f5e3f1abead06bf78ed6562e57cd5b581b9a11cfce593971b61",
+        "sha256_in_prefix": "8129a11587102f5e3f1abead06bf78ed6562e57cd5b581b9a11cfce593971b61",
+        "size_in_bytes": 298
+      },
+      {
+        "_path": "site-packages/choreographer/channels/_interface_type.py",
+        "path_type": "hardlink",
+        "sha256": "9b40c13e8703a663cc3dd9f5a213d34fbfe7d478ee874fa8a8f19a7cbea3a735",
+        "sha256_in_prefix": "9b40c13e8703a663cc3dd9f5a213d34fbfe7d478ee874fa8a8f19a7cbea3a735",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "site-packages/choreographer/channels/_wire.py",
+        "path_type": "hardlink",
+        "sha256": "199a5438032971179d5c21a65917fea727d3b3f88c9281c2a69438cac516e156",
+        "sha256_in_prefix": "199a5438032971179d5c21a65917fea727d3b3f88c9281c2a69438cac516e156",
+        "size_in_bytes": 2037
+      },
+      {
+        "_path": "site-packages/choreographer/channels/pipe.py",
+        "path_type": "hardlink",
+        "sha256": "a885ad950cfa06d1f548730571ce29dcfbbbafeb0e4a6dd7bc84e454fa97ad75",
+        "sha256_in_prefix": "a885ad950cfa06d1f548730571ce29dcfbbbafeb0e4a6dd7bc84e454fa97ad75",
+        "size_in_bytes": 8814
+      },
+      {
+        "_path": "site-packages/choreographer/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "60db72af561c27f4b7744afae836dc55c38e59ca88c9d860bb933eb3ba31028b",
+        "sha256_in_prefix": "60db72af561c27f4b7744afae836dc55c38e59ca88c9d860bb933eb3ba31028b",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/choreographer/cli/_cli_utils.py",
+        "path_type": "hardlink",
+        "sha256": "3e6e2993f171e6541026bcf09a9accfc237040e38f9ca210db115331f7d6e6ba",
+        "sha256_in_prefix": "3e6e2993f171e6541026bcf09a9accfc237040e38f9ca210db115331f7d6e6ba",
+        "size_in_bytes": 7535
+      },
+      {
+        "_path": "site-packages/choreographer/cli/_cli_utils_no_qa.py",
+        "path_type": "hardlink",
+        "sha256": "6f5a90afd3473e0f52d1ecc984ffc79c1f867950a58c3775b2672100c06e38e0",
+        "sha256_in_prefix": "6f5a90afd3473e0f52d1ecc984ffc79c1f867950a58c3775b2672100c06e38e0",
+        "size_in_bytes": 4435
+      },
+      {
+        "_path": "site-packages/choreographer/cli/defaults.py",
+        "path_type": "hardlink",
+        "sha256": "046563e88843417a2e7cda894d11f3245f078450aedf747457faabd59534d8d6",
+        "sha256_in_prefix": "046563e88843417a2e7cda894d11f3245f078450aedf747457faabd59534d8d6",
+        "size_in_bytes": 221
+      },
+      {
+        "_path": "site-packages/choreographer/errors.py",
+        "path_type": "hardlink",
+        "sha256": "fbb3b39c78a9412d4b10d83ef74f42c842fd626479ce9d1f2f44750bdf6e23f3",
+        "sha256_in_prefix": "fbb3b39c78a9412d4b10d83ef74f42c842fd626479ce9d1f2f44750bdf6e23f3",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "site-packages/choreographer/protocol/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "54d5db14f177c975238f50f39f75bfd7e831cb7c9419c095dea1965c384ce6c8",
+        "sha256_in_prefix": "54d5db14f177c975238f50f39f75bfd7e831cb7c9419c095dea1965c384ce6c8",
+        "size_in_bytes": 5936
+      },
+      {
+        "_path": "site-packages/choreographer/protocol/devtools_async.py",
+        "path_type": "hardlink",
+        "sha256": "596cd1f28c7a957d3becb59f5a95198adff1c9f13da641b6d1b13121f964d8aa",
+        "sha256_in_prefix": "596cd1f28c7a957d3becb59f5a95198adff1c9f13da641b6d1b13121f964d8aa",
+        "size_in_bytes": 9886
+      },
+      {
+        "_path": "site-packages/choreographer/protocol/devtools_sync.py",
+        "path_type": "hardlink",
+        "sha256": "c25f082222d066791f201216667285c639f63c50ed7db9ecaab7b0d55f07529c",
+        "sha256_in_prefix": "c25f082222d066791f201216667285c639f63c50ed7db9ecaab7b0d55f07529c",
+        "size_in_bytes": 4472
+      },
+      {
+        "_path": "site-packages/choreographer/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/choreographer/resources/last_known_good_chrome.json",
+        "path_type": "hardlink",
+        "sha256": "dc5b421f78c682c1b550cea54d1d339b9b6732bc91f2e40800cd80222053d70b",
+        "sha256_in_prefix": "dc5b421f78c682c1b550cea54d1d339b9b6732bc91f2e40800cd80222053d70b",
+        "size_in_bytes": 3134
+      },
+      {
+        "_path": "site-packages/choreographer/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "30d96e2d9a57553372d5f9d18e461d6324621b812a8822627cb447e466bb4e25",
+        "sha256_in_prefix": "30d96e2d9a57553372d5f9d18e461d6324621b812a8822627cb447e466bb4e25",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "site-packages/choreographer/utils/_kill.py",
+        "path_type": "hardlink",
+        "sha256": "8379d90396b1dfdd885bd350a3e7e892d34cb79fb24167eedb361e70361b60b9",
+        "sha256_in_prefix": "8379d90396b1dfdd885bd350a3e7e892d34cb79fb24167eedb361e70361b60b9",
+        "size_in_bytes": 714
+      },
+      {
+        "_path": "site-packages/choreographer/utils/_tmpfile.py",
+        "path_type": "hardlink",
+        "sha256": "a84e68ba0435c131a709da5149d1362ee21f84be3392a52d545de9e1e0a35edf",
+        "sha256_in_prefix": "a84e68ba0435c131a709da5149d1362ee21f84be3392a52d545de9e1e0a35edf",
+        "size_in_bytes": 7318
+      },
+      {
+        "_path": "site-packages/choreographer/utils/_which.py",
+        "path_type": "hardlink",
+        "sha256": "cc761d89f6a405779a99b69fa3e897dfcad7cad03e834f7b220e7fa7b70011a7",
+        "sha256_in_prefix": "cc761d89f6a405779a99b69fa3e897dfcad7cad03e834f7b220e7fa7b70011a7",
+        "size_in_bytes": 3422
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a04005dfe28e001892d43e5c4899085d838b217a7980041f8904aeac4273ade9",
+        "sha256_in_prefix": "a04005dfe28e001892d43e5c4899085d838b217a7980041f8904aeac4273ade9",
+        "size_in_bytes": 6688
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "f1c9f28174faedf8112b9f56b7f7429b8d03b21f3f6430a3407580e98c49cb4a",
+        "sha256_in_prefix": "f1c9f28174faedf8112b9f56b7f7429b8d03b21f3f6430a3407580e98c49cb4a",
+        "size_in_bytes": 5637
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "12e8c1ee8d743f84f7b301d1774e47038f06c1d3054c231f7cfc9f5a3919796e",
+        "sha256_in_prefix": "12e8c1ee8d743f84f7b301d1774e47038f06c1d3054c231f7cfc9f5a3919796e",
+        "size_in_bytes": 124
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "6b78dcfcca483851316e91911442663b6e874de4e5c96e53e72062133e70b6f5",
+        "sha256_in_prefix": "6b78dcfcca483851316e91911442663b6e874de4e5c96e53e72062133e70b6f5",
+        "size_in_bytes": 144
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "7c5aaf18c740f07cba42ade33eaf0bdcc6e34976e837ccaad2a8cd5271c37bf2",
+        "sha256_in_prefix": "7c5aaf18c740f07cba42ade33eaf0bdcc6e34976e837ccaad2a8cd5271c37bf2",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "site-packages/choreographer-1.1.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4b43f2e7cb62e2899f3c57e2d4c859ff6169caf877083ba0fef434be8d8a024e",
+        "sha256_in_prefix": "4b43f2e7cb62e2899f3c57e2d4c859ff6169caf877083ba0fef434be8d8a024e",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/_brokers/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/_brokers/__pycache__/_async.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/_brokers/__pycache__/_sync.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/__pycache__/browser_async.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/__pycache__/browser_sync.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/browsers/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_chrome_constants.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_errors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_interface_type.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/browsers/__pycache__/_unix_pipe_chromium_wrapper.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/browsers/__pycache__/chromium.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/channels/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/channels/__pycache__/_errors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/channels/__pycache__/_interface_type.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/channels/__pycache__/_wire.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/channels/__pycache__/pipe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/cli/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/cli/__pycache__/_cli_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/cli/__pycache__/_cli_utils_no_qa.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/cli/__pycache__/defaults.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/__pycache__/errors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/protocol/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/protocol/__pycache__/devtools_async.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/protocol/__pycache__/devtools_sync.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/utils/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/utils/__pycache__/_kill.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/utils/__pycache__/_tmpfile.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/choreographer/utils/__pycache__/_which.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "327a74115ccc7681fcd297777e76d6829e7896227df6ded0c4e6b968024f86ce",
+  "size": 39933,
+  "subdir": "noarch",
+  "timestamp": 1759907535000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/choreographer-1.1.2-pyhcf101f3_0.conda",
+  "version": "1.1.2"
+}

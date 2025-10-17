@@ -1,0 +1,1038 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "cloudpickle",
+    "future",
+    "networkx >=2.2",
+    "numpy >=1.17",
+    "py4j",
+    "python >=3.9",
+    "scipy",
+    "six",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/hyperopt-0.2.7-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/LICENSE.txt",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/METADATA",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/RECORD",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/WHEEL",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/entry_points.txt",
+    "lib/python3.14/site-packages/hyperopt-0.2.7.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/hyperopt/__init__.py",
+    "lib/python3.14/site-packages/hyperopt/algobase.py",
+    "lib/python3.14/site-packages/hyperopt/anneal.py",
+    "lib/python3.14/site-packages/hyperopt/atpe.py",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-gamma-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-gamma.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-nEICandidates-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-nEICandidates.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringAgeMultiplier-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringAgeMultiplier.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringLossRankMultiplier-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringLossRankMultiplier.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringMode-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringMode.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringRandomProbability-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-resultFilteringRandomProbability.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryCorrelationExponent-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryCorrelationExponent.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryCorrelationMultiplier-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryCorrelationMultiplier.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryCutoff-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryCutoff.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryFixedProbability-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryFixedProbability.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryLockingMode-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryLockingMode.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryProbabilityMode-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryProbabilityMode.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryTopLockingPercentile-configuration.json",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/model-secondaryTopLockingPercentile.txt",
+    "lib/python3.14/site-packages/hyperopt/atpe_models/scaling_model.json",
+    "lib/python3.14/site-packages/hyperopt/base.py",
+    "lib/python3.14/site-packages/hyperopt/criteria.py",
+    "lib/python3.14/site-packages/hyperopt/early_stop.py",
+    "lib/python3.14/site-packages/hyperopt/exceptions.py",
+    "lib/python3.14/site-packages/hyperopt/fmin.py",
+    "lib/python3.14/site-packages/hyperopt/graph_viz.py",
+    "lib/python3.14/site-packages/hyperopt/hp.py",
+    "lib/python3.14/site-packages/hyperopt/ipy.py",
+    "lib/python3.14/site-packages/hyperopt/main.py",
+    "lib/python3.14/site-packages/hyperopt/mix.py",
+    "lib/python3.14/site-packages/hyperopt/mongoexp.py",
+    "lib/python3.14/site-packages/hyperopt/plotting.py",
+    "lib/python3.14/site-packages/hyperopt/progress.py",
+    "lib/python3.14/site-packages/hyperopt/pyll/__init__.py",
+    "lib/python3.14/site-packages/hyperopt/pyll/base.py",
+    "lib/python3.14/site-packages/hyperopt/pyll/stochastic.py",
+    "lib/python3.14/site-packages/hyperopt/pyll/tests/__init__.py",
+    "lib/python3.14/site-packages/hyperopt/pyll/tests/test_base.py",
+    "lib/python3.14/site-packages/hyperopt/pyll/tests/test_stochastic.py",
+    "lib/python3.14/site-packages/hyperopt/pyll_utils.py",
+    "lib/python3.14/site-packages/hyperopt/rand.py",
+    "lib/python3.14/site-packages/hyperopt/rdists.py",
+    "lib/python3.14/site-packages/hyperopt/spark.py",
+    "lib/python3.14/site-packages/hyperopt/std_out_err_redirect_tqdm.py",
+    "lib/python3.14/site-packages/hyperopt/tests/__init__.py",
+    "lib/python3.14/site-packages/hyperopt/tests/integration/__init__.py",
+    "lib/python3.14/site-packages/hyperopt/tests/integration/test_mongoexp.py",
+    "lib/python3.14/site-packages/hyperopt/tests/integration/test_spark.py",
+    "lib/python3.14/site-packages/hyperopt/tests/test_base.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__init__.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_anneal.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_atpe_basic.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_criteria.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_domains.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_fmin.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_ipy.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_pchoice.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_plotting.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_progress.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_pyll_utils.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_rand.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_randint.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_rdists.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_tpe.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_utils.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_vectorize.py",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/test_webpage.py",
+    "lib/python3.14/site-packages/hyperopt/tpe.py",
+    "lib/python3.14/site-packages/hyperopt/utils.py",
+    "lib/python3.14/site-packages/hyperopt/vectorize.py",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/algobase.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/anneal.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/atpe.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/base.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/criteria.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/early_stop.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/fmin.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/graph_viz.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/hp.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/ipy.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/main.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/mix.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/mongoexp.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/plotting.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/progress.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/pyll/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/pyll/__pycache__/base.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/pyll/__pycache__/stochastic.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/pyll/tests/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/pyll/tests/__pycache__/test_base.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/pyll/tests/__pycache__/test_stochastic.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/pyll_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/rand.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/rdists.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/spark.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/std_out_err_redirect_tqdm.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/integration/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/integration/__pycache__/test_mongoexp.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/integration/__pycache__/test_spark.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/__pycache__/test_base.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_anneal.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_atpe_basic.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_criteria.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_domains.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_fmin.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_ipy.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_pchoice.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_plotting.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_progress.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_pyll_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_rand.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_randint.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_rdists.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_tpe.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_vectorize.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_webpage.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/tpe.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/hyperopt/__pycache__/vectorize.cpython-314.pyc",
+    "bin/hyperopt-mongo-worker"
+  ],
+  "fn": "hyperopt-0.2.7-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/conda/pkgs/hyperopt-0.2.7-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "6d445b7daedb9989985530de7d26eb4b",
+  "name": "hyperopt",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/hyperopt-0.2.7-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "00381d3a67ed5b7703b62f5c988a1af67c55fa582dd90f4b246e36f38e62e919",
+        "sha256_in_prefix": "00381d3a67ed5b7703b62f5c988a1af67c55fa582dd90f4b246e36f38e62e919",
+        "size_in_bytes": 1497
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4bace0dd8be7358917f07d11a26a6d2a88b9fdb627cce772bb96baf529828d2c",
+        "sha256_in_prefix": "4bace0dd8be7358917f07d11a26a6d2a88b9fdb627cce772bb96baf529828d2c",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "74a84ff458e89d737fd5d98b81ee1816d97b5b8c8e931f5940087a0897c1444f",
+        "sha256_in_prefix": "74a84ff458e89d737fd5d98b81ee1816d97b5b8c8e931f5940087a0897c1444f",
+        "size_in_bytes": 27373
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "sha256_in_prefix": "a7178d5f925db427b9f0f51260ff6ea6673b8dd44f82f4f41a6f646f5487955c",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "1ba72f8425caf7d54734266817d4238557436d8f5b042c04a6c3c344eb2463f9",
+        "sha256_in_prefix": "1ba72f8425caf7d54734266817d4238557436d8f5b042c04a6c3c344eb2463f9",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "cdefbd3b1c93f654074ad71a8586e4fae083fcd0f12aac62eb2dd97f53229b04",
+        "sha256_in_prefix": "cdefbd3b1c93f654074ad71a8586e4fae083fcd0f12aac62eb2dd97f53229b04",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "site-packages/hyperopt-0.2.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3d68e13b127538b8910a9984742c19b1a8e3c356bef06ac183f6bc9feaca94fe",
+        "sha256_in_prefix": "3d68e13b127538b8910a9984742c19b1a8e3c356bef06ac183f6bc9feaca94fe",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/hyperopt/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1c5f1cbbf5fa9987f1d722e66ca78aa9b85bba1755de3ce9431cabaee5c09ffc",
+        "sha256_in_prefix": "1c5f1cbbf5fa9987f1d722e66ca78aa9b85bba1755de3ce9431cabaee5c09ffc",
+        "size_in_bytes": 909
+      },
+      {
+        "_path": "site-packages/hyperopt/algobase.py",
+        "path_type": "hardlink",
+        "sha256": "662073953240cb40f9b59da27fc3202625228bdbc7c6607ff5e76456ee537279",
+        "sha256_in_prefix": "662073953240cb40f9b59da27fc3202625228bdbc7c6607ff5e76456ee537279",
+        "size_in_bytes": 10344
+      },
+      {
+        "_path": "site-packages/hyperopt/anneal.py",
+        "path_type": "hardlink",
+        "sha256": "b92ec176fc310c09f847887e0c30db2ca520a2858a4afb6195ff063482398a7a",
+        "sha256_in_prefix": "b92ec176fc310c09f847887e0c30db2ca520a2858a4afb6195ff063482398a7a",
+        "size_in_bytes": 14079
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe.py",
+        "path_type": "hardlink",
+        "sha256": "4a4f573eb64c825398ae3344de001607d1e093e58e95ed317ba08f3ac015a0be",
+        "sha256_in_prefix": "4a4f573eb64c825398ae3344de001607d1e093e58e95ed317ba08f3ac015a0be",
+        "size_in_bytes": 67565
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-gamma-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "1a1917abdb32859aea0b99be55db8dae64a96e3063ad5a253281ba6d35e94ff5",
+        "sha256_in_prefix": "1a1917abdb32859aea0b99be55db8dae64a96e3063ad5a253281ba6d35e94ff5",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-gamma.txt",
+        "path_type": "hardlink",
+        "sha256": "6acdea25418f401db89a63bf3f0a9d438235d6e0949c220700a03d1ae01a712b",
+        "sha256_in_prefix": "6acdea25418f401db89a63bf3f0a9d438235d6e0949c220700a03d1ae01a712b",
+        "size_in_bytes": 282814
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-nEICandidates-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "7a39a20d9ed542f0f0d561670c829a4b9e367a17ef97890d64795f9d19152029",
+        "sha256_in_prefix": "7a39a20d9ed542f0f0d561670c829a4b9e367a17ef97890d64795f9d19152029",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-nEICandidates.txt",
+        "path_type": "hardlink",
+        "sha256": "88b49b2eb8683613b8aa99d1ad6b4fe3b1be87e2a4e0e5515b8e1a0f9428e90a",
+        "sha256_in_prefix": "88b49b2eb8683613b8aa99d1ad6b4fe3b1be87e2a4e0e5515b8e1a0f9428e90a",
+        "size_in_bytes": 270887
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringAgeMultiplier-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "6da6ad82be1a9eaf63e3434bd2d5394e7c6e44622123b26b4be853b8895f31c3",
+        "sha256_in_prefix": "6da6ad82be1a9eaf63e3434bd2d5394e7c6e44622123b26b4be853b8895f31c3",
+        "size_in_bytes": 132
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringAgeMultiplier.txt",
+        "path_type": "hardlink",
+        "sha256": "78442208ac513ad3a560df1b8da8f9fda42a846cd5785f552e0ca067ece72490",
+        "sha256_in_prefix": "78442208ac513ad3a560df1b8da8f9fda42a846cd5785f552e0ca067ece72490",
+        "size_in_bytes": 135224
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringLossRankMultiplier-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "8b71b4b869b58ad3c9b922ba6dbbc0e8aed3a0dcb57cba426d0d836faedce90b",
+        "sha256_in_prefix": "8b71b4b869b58ad3c9b922ba6dbbc0e8aed3a0dcb57cba426d0d836faedce90b",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringLossRankMultiplier.txt",
+        "path_type": "hardlink",
+        "sha256": "faa0509ef87c03f6dc6da84655edb3fb55364e324be2b6ab84e7123ec03ac361",
+        "sha256_in_prefix": "faa0509ef87c03f6dc6da84655edb3fb55364e324be2b6ab84e7123ec03ac361",
+        "size_in_bytes": 147337
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringMode-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "e432b1c43f5ee84b161df89705a5797f479d0c3f072f690391e280c638c35030",
+        "sha256_in_prefix": "e432b1c43f5ee84b161df89705a5797f479d0c3f072f690391e280c638c35030",
+        "size_in_bytes": 548
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringMode.txt",
+        "path_type": "hardlink",
+        "sha256": "8ae0e3d517e2242ff2a1f3edb7b43761b58dda8e022c5a2364cdfe8eca08fa49",
+        "sha256_in_prefix": "8ae0e3d517e2242ff2a1f3edb7b43761b58dda8e022c5a2364cdfe8eca08fa49",
+        "size_in_bytes": 148641
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringRandomProbability-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "fbf7dc2b4977e44a93d68dc10ee581a8cd55fb15d5a1b408094757d7bc4cdb3c",
+        "sha256_in_prefix": "fbf7dc2b4977e44a93d68dc10ee581a8cd55fb15d5a1b408094757d7bc4cdb3c",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-resultFilteringRandomProbability.txt",
+        "path_type": "hardlink",
+        "sha256": "2c189f2e5417fe6a7c0676d97def13392e071ec9392dbe9565e7d183b29928d7",
+        "sha256_in_prefix": "2c189f2e5417fe6a7c0676d97def13392e071ec9392dbe9565e7d183b29928d7",
+        "size_in_bytes": 123318
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryCorrelationExponent-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "76c626f295f8b45d95a74980137f53e0b736bca300f26ccf6503210b02733338",
+        "sha256_in_prefix": "76c626f295f8b45d95a74980137f53e0b736bca300f26ccf6503210b02733338",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryCorrelationExponent.txt",
+        "path_type": "hardlink",
+        "sha256": "0a5c8fd698c58019fe3d5effe7d85c691402708738a67b837f1837919e4ec654",
+        "sha256_in_prefix": "0a5c8fd698c58019fe3d5effe7d85c691402708738a67b837f1837919e4ec654",
+        "size_in_bytes": 191358
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryCorrelationMultiplier-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "e9fd66e603d74b763b24ff3c6d810f5cff05116c159fd73c51dd59df5b93e426",
+        "sha256_in_prefix": "e9fd66e603d74b763b24ff3c6d810f5cff05116c159fd73c51dd59df5b93e426",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryCorrelationMultiplier.txt",
+        "path_type": "hardlink",
+        "sha256": "0a21cd67de96b89e18a888b119524561d120b3c55e10230aac7668ed1698ad37",
+        "sha256_in_prefix": "0a21cd67de96b89e18a888b119524561d120b3c55e10230aac7668ed1698ad37",
+        "size_in_bytes": 159460
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryCutoff-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "236fc47e2087675f8a7f09651cbc1331cc0deb1175cb2740cdbb91580e11b66a",
+        "sha256_in_prefix": "236fc47e2087675f8a7f09651cbc1331cc0deb1175cb2740cdbb91580e11b66a",
+        "size_in_bytes": 135
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryCutoff.txt",
+        "path_type": "hardlink",
+        "sha256": "77b3ca5fe6a8292ad1b8f0c6c3ddd542fdee911e627324b3b7249a95f33f3b7e",
+        "sha256_in_prefix": "77b3ca5fe6a8292ad1b8f0c6c3ddd542fdee911e627324b3b7249a95f33f3b7e",
+        "size_in_bytes": 280546
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryFixedProbability-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "e5ba06d4d6f88c96387fe2213e9b3a4d8c6644c8c6cbfccbee115ba2726d682d",
+        "sha256_in_prefix": "e5ba06d4d6f88c96387fe2213e9b3a4d8c6644c8c6cbfccbee115ba2726d682d",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryFixedProbability.txt",
+        "path_type": "hardlink",
+        "sha256": "fad85dd3e806d9b940ad1f6eae4003f54a4e86a61bcf7bbb32505d599222515f",
+        "sha256_in_prefix": "fad85dd3e806d9b940ad1f6eae4003f54a4e86a61bcf7bbb32505d599222515f",
+        "size_in_bytes": 217441
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryLockingMode-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "2c6e3fa4ba30d812d57732de446a9c96d26f2416ab17d3a81f28e9a436f37eb4",
+        "sha256_in_prefix": "2c6e3fa4ba30d812d57732de446a9c96d26f2416ab17d3a81f28e9a436f37eb4",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryLockingMode.txt",
+        "path_type": "hardlink",
+        "sha256": "99e78ad2110b08d508e0beeef07904aba850b230b8dc6857c8a2c6dab9ee7a84",
+        "sha256_in_prefix": "99e78ad2110b08d508e0beeef07904aba850b230b8dc6857c8a2c6dab9ee7a84",
+        "size_in_bytes": 13747
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryProbabilityMode-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "9bdca8fd054c91c66b353e1f048b137806f5d7be926310e1ee20a252b79682a1",
+        "sha256_in_prefix": "9bdca8fd054c91c66b353e1f048b137806f5d7be926310e1ee20a252b79682a1",
+        "size_in_bytes": 323
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryProbabilityMode.txt",
+        "path_type": "hardlink",
+        "sha256": "62e124dd9b01cf8ee15452ad68a5abb5e2beb5c179850b48aadc245d6f2aa5e8",
+        "sha256_in_prefix": "62e124dd9b01cf8ee15452ad68a5abb5e2beb5c179850b48aadc245d6f2aa5e8",
+        "size_in_bytes": 64420
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryTopLockingPercentile-configuration.json",
+        "path_type": "hardlink",
+        "sha256": "1cce7d30510c0a610d9ddcb23a80e9d48edf5683c026957c36a511d7697790db",
+        "sha256_in_prefix": "1cce7d30510c0a610d9ddcb23a80e9d48edf5683c026957c36a511d7697790db",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/model-secondaryTopLockingPercentile.txt",
+        "path_type": "hardlink",
+        "sha256": "19d3a143c10f76c4b62b6579ab64ff688d93bd6d367e80bb51f575b4ba076ac2",
+        "sha256_in_prefix": "19d3a143c10f76c4b62b6579ab64ff688d93bd6d367e80bb51f575b4ba076ac2",
+        "size_in_bytes": 170616
+      },
+      {
+        "_path": "site-packages/hyperopt/atpe_models/scaling_model.json",
+        "path_type": "hardlink",
+        "sha256": "05573c805bbbb08c8c79c328f5d02a52e6639321510fad3f34c22f202deb0ed1",
+        "sha256_in_prefix": "05573c805bbbb08c8c79c328f5d02a52e6639321510fad3f34c22f202deb0ed1",
+        "size_in_bytes": 15943
+      },
+      {
+        "_path": "site-packages/hyperopt/base.py",
+        "path_type": "hardlink",
+        "sha256": "b1038864bfbe82b4b7702ff111eda28de485f5a601aafe6cae4518267c91bbfc",
+        "sha256_in_prefix": "b1038864bfbe82b4b7702ff111eda28de485f5a601aafe6cae4518267c91bbfc",
+        "size_in_bytes": 34793
+      },
+      {
+        "_path": "site-packages/hyperopt/criteria.py",
+        "path_type": "hardlink",
+        "sha256": "6731d3d650271ed624d73025bf0936ca4eac0ea0403fbcf43ad930e8c00b2978",
+        "sha256_in_prefix": "6731d3d650271ed624d73025bf0936ca4eac0ea0403fbcf43ad930e8c00b2978",
+        "size_in_bytes": 2655
+      },
+      {
+        "_path": "site-packages/hyperopt/early_stop.py",
+        "path_type": "hardlink",
+        "sha256": "12aae07bf3153741e999f3765e71fd285a671e24bb3c0c927a141e9a2c5fe13b",
+        "sha256_in_prefix": "12aae07bf3153741e999f3765e71fd285a671e24bb3c0c927a141e9a2c5fe13b",
+        "size_in_bytes": 1617
+      },
+      {
+        "_path": "site-packages/hyperopt/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "ae60597d40d5c783d6fa625d75e5d39580556df28552881e51443063fe93255c",
+        "sha256_in_prefix": "ae60597d40d5c783d6fa625d75e5d39580556df28552881e51443063fe93255c",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "site-packages/hyperopt/fmin.py",
+        "path_type": "hardlink",
+        "sha256": "15519606b86d1115fb0bacc943951c3bb4a904992dd08a412d5ff13c9a46ac6e",
+        "sha256_in_prefix": "15519606b86d1115fb0bacc943951c3bb4a904992dd08a412d5ff13c9a46ac6e",
+        "size_in_bytes": 22674
+      },
+      {
+        "_path": "site-packages/hyperopt/graph_viz.py",
+        "path_type": "hardlink",
+        "sha256": "d0a7ed141e40b2b3296300424801eacd09873c18f71e8c53528a1e2837a67ab9",
+        "sha256_in_prefix": "d0a7ed141e40b2b3296300424801eacd09873c18f71e8c53528a1e2837a67ab9",
+        "size_in_bytes": 2534
+      },
+      {
+        "_path": "site-packages/hyperopt/hp.py",
+        "path_type": "hardlink",
+        "sha256": "a9568057580fd4b38a48b2732052e133215b4c324bb06d3c9ceef88b8f6bfada",
+        "sha256_in_prefix": "a9568057580fd4b38a48b2732052e133215b4c324bb06d3c9ceef88b8f6bfada",
+        "size_in_bytes": 671
+      },
+      {
+        "_path": "site-packages/hyperopt/ipy.py",
+        "path_type": "hardlink",
+        "sha256": "434bd7a3134577f080db90b796a5f83bb213887305c98a9878780d123182f912",
+        "sha256_in_prefix": "434bd7a3134577f080db90b796a5f83bb213887305c98a9878780d123182f912",
+        "size_in_bytes": 8502
+      },
+      {
+        "_path": "site-packages/hyperopt/main.py",
+        "path_type": "hardlink",
+        "sha256": "0249f83d1fe8b30952773057a297005caf6cf7349202007cfb8d0f73f7ae1c37",
+        "sha256_in_prefix": "0249f83d1fe8b30952773057a297005caf6cf7349202007cfb8d0f73f7ae1c37",
+        "size_in_bytes": 3829
+      },
+      {
+        "_path": "site-packages/hyperopt/mix.py",
+        "path_type": "hardlink",
+        "sha256": "251f74cb481fde297ea50bd83cda7e50377798dfe1878b23c81d36997c7671e5",
+        "sha256_in_prefix": "251f74cb481fde297ea50bd83cda7e50377798dfe1878b23c81d36997c7671e5",
+        "size_in_bytes": 1091
+      },
+      {
+        "_path": "site-packages/hyperopt/mongoexp.py",
+        "path_type": "hardlink",
+        "sha256": "d3f53d90ef8eac9dcbbf95f97977e6f72e34bc2e28f9c0acffcb4c4e8ac6558f",
+        "sha256_in_prefix": "d3f53d90ef8eac9dcbbf95f97977e6f72e34bc2e28f9c0acffcb4c4e8ac6558f",
+        "size_in_bytes": 49403
+      },
+      {
+        "_path": "site-packages/hyperopt/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "ffc62319247fa29cd1e3a8e66e7cfe9bbeef9031da4083a33c4172c42dc0089e",
+        "sha256_in_prefix": "ffc62319247fa29cd1e3a8e66e7cfe9bbeef9031da4083a33c4172c42dc0089e",
+        "size_in_bytes": 7865
+      },
+      {
+        "_path": "site-packages/hyperopt/progress.py",
+        "path_type": "hardlink",
+        "sha256": "f66f5bf0e89a4907a7a18cfe812a9ab9b24ecfba2c4513f37dba9c75bb171774",
+        "sha256_in_prefix": "f66f5bf0e89a4907a7a18cfe812a9ab9b24ecfba2c4513f37dba9c75bb171774",
+        "size_in_bytes": 898
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5cf561615b423603de57fdf29065259222612559ed732416c5bf47fa05fac571",
+        "sha256_in_prefix": "5cf561615b423603de57fdf29065259222612559ed732416c5bf47fa05fac571",
+        "size_in_bytes": 284
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll/base.py",
+        "path_type": "hardlink",
+        "sha256": "a0e6f62922f83f2b679f7f94d68b20a80272f8b739e9dcb143e6d780f1abe98c",
+        "sha256_in_prefix": "a0e6f62922f83f2b679f7f94d68b20a80272f8b739e9dcb143e6d780f1abe98c",
+        "size_in_bytes": 35197
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll/stochastic.py",
+        "path_type": "hardlink",
+        "sha256": "84836517c068531d99bd68ca739691827f3ac1a33267dd35d59fc3d76590a848",
+        "sha256_in_prefix": "84836517c068531d99bd68ca739691827f3ac1a33267dd35d59fc3d76590a848",
+        "size_in_bytes": 4886
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll/tests/test_base.py",
+        "path_type": "hardlink",
+        "sha256": "fb57df0bb5db766caadc1eb4191119f31cffb4a5e6ab40c254b78b7c087eca95",
+        "sha256_in_prefix": "fb57df0bb5db766caadc1eb4191119f31cffb4a5e6ab40c254b78b7c087eca95",
+        "size_in_bytes": 7635
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll/tests/test_stochastic.py",
+        "path_type": "hardlink",
+        "sha256": "b71313a8fa4b7ab6a189a187f62a516ce874ae631a9ce5f4e32d5702c95f08eb",
+        "sha256_in_prefix": "b71313a8fa4b7ab6a189a187f62a516ce874ae631a9ce5f4e32d5702c95f08eb",
+        "size_in_bytes": 2054
+      },
+      {
+        "_path": "site-packages/hyperopt/pyll_utils.py",
+        "path_type": "hardlink",
+        "sha256": "3a4c4d1c830242615318291d9d3d3fc4a972a27dba9241d8d264354a8fc2e99a",
+        "sha256_in_prefix": "3a4c4d1c830242615318291d9d3d3fc4a972a27dba9241d8d264354a8fc2e99a",
+        "size_in_bytes": 7429
+      },
+      {
+        "_path": "site-packages/hyperopt/rand.py",
+        "path_type": "hardlink",
+        "sha256": "3b4f6fa55ae80be1a221df9b34c76122c2d8f79ff71eacb5f5ae3abb4f77bf02",
+        "sha256_in_prefix": "3b4f6fa55ae80be1a221df9b34c76122c2d8f79ff71eacb5f5ae3abb4f77bf02",
+        "size_in_bytes": 1089
+      },
+      {
+        "_path": "site-packages/hyperopt/rdists.py",
+        "path_type": "hardlink",
+        "sha256": "039c6c199698adbe1946ac5e0ed1de5f490c8a665277dfa0476e95537aeeecf9",
+        "sha256_in_prefix": "039c6c199698adbe1946ac5e0ed1de5f490c8a665277dfa0476e95537aeeecf9",
+        "size_in_bytes": 8791
+      },
+      {
+        "_path": "site-packages/hyperopt/spark.py",
+        "path_type": "hardlink",
+        "sha256": "e56fd31df75ea11ff3ce6f6a35bd01371876a31ed8fc98b1d4a518fb33b4fef5",
+        "sha256_in_prefix": "e56fd31df75ea11ff3ce6f6a35bd01371876a31ed8fc98b1d4a518fb33b4fef5",
+        "size_in_bytes": 23092
+      },
+      {
+        "_path": "site-packages/hyperopt/std_out_err_redirect_tqdm.py",
+        "path_type": "hardlink",
+        "sha256": "65c8aa540ae25ef87264a1a52f3107819baef11067467eadb801fba61637bb8a",
+        "sha256_in_prefix": "65c8aa540ae25ef87264a1a52f3107819baef11067467eadb801fba61637bb8a",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/integration/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/integration/test_mongoexp.py",
+        "path_type": "hardlink",
+        "sha256": "f6229da29336d77267b62b027078fcc78c110e99302e2e288073f262de649bdc",
+        "sha256_in_prefix": "f6229da29336d77267b62b027078fcc78c110e99302e2e288073f262de649bdc",
+        "size_in_bytes": 14341
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/integration/test_spark.py",
+        "path_type": "hardlink",
+        "sha256": "e078ec7802479e3f8e6c3b80b690927289606c6e46762d82a8ffa1546c74b409",
+        "sha256_in_prefix": "e078ec7802479e3f8e6c3b80b690927289606c6e46762d82a8ffa1546c74b409",
+        "size_in_bytes": 21803
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/test_base.py",
+        "path_type": "hardlink",
+        "sha256": "ce08d3132a87c84a01c867af5805fb4097bb5c8e26b514c2704a455b30c58937",
+        "sha256_in_prefix": "ce08d3132a87c84a01c867af5805fb4097bb5c8e26b514c2704a455b30c58937",
+        "size_in_bytes": 8033
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_anneal.py",
+        "path_type": "hardlink",
+        "sha256": "7283e628307d50fd74d12f517b8bf36fd003cb096ba80ef195b5211da5cea17c",
+        "sha256_in_prefix": "7283e628307d50fd74d12f517b8bf36fd003cb096ba80ef195b5211da5cea17c",
+        "size_in_bytes": 2273
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_atpe_basic.py",
+        "path_type": "hardlink",
+        "sha256": "a0883137300e777a6fd314332f77cf2bc9da826639e8b6fb0189b301c19450af",
+        "sha256_in_prefix": "a0883137300e777a6fd314332f77cf2bc9da826639e8b6fb0189b301c19450af",
+        "size_in_bytes": 861
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_criteria.py",
+        "path_type": "hardlink",
+        "sha256": "e611eb491ede40f7d888c5aa1a69f7e1cbfdcda3bb99ed8e94bda269545109fe",
+        "sha256_in_prefix": "e611eb491ede40f7d888c5aa1a69f7e1cbfdcda3bb99ed8e94bda269545109fe",
+        "size_in_bytes": 1994
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_domains.py",
+        "path_type": "hardlink",
+        "sha256": "17655c402e2ba1ae745da879948fdc4a8a6520bed6afee8133ff4d24bc180e08",
+        "sha256_in_prefix": "17655c402e2ba1ae745da879948fdc4a8a6520bed6afee8133ff4d24bc180e08",
+        "size_in_bytes": 8734
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_fmin.py",
+        "path_type": "hardlink",
+        "sha256": "40aa7750d9f082eb472d93724729ed90fd26e7352f3e96aa35862b429daa1418",
+        "sha256_in_prefix": "40aa7750d9f082eb472d93724729ed90fd26e7352f3e96aa35862b429daa1418",
+        "size_in_bytes": 10184
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_ipy.py",
+        "path_type": "hardlink",
+        "sha256": "0d1627226c61d989394017f3ee35df40b28835f45254be04e0395f2a9dadacb0",
+        "sha256_in_prefix": "0d1627226c61d989394017f3ee35df40b28835f45254be04e0395f2a9dadacb0",
+        "size_in_bytes": 2065
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_pchoice.py",
+        "path_type": "hardlink",
+        "sha256": "0be7abb5cd6b5a1fd1df2c918c248a3f92ba47c123d1e1c3a55ab3ec48f105c7",
+        "sha256_in_prefix": "0be7abb5cd6b5a1fd1df2c918c248a3f92ba47c123d1e1c3a55ab3ec48f105c7",
+        "size_in_bytes": 5342
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_plotting.py",
+        "path_type": "hardlink",
+        "sha256": "28b4614d6dad2efd288669b678c05d7125171439324f436907ce1e5cb486f4e9",
+        "sha256_in_prefix": "28b4614d6dad2efd288669b678c05d7125171439324f436907ce1e5cb486f4e9",
+        "size_in_bytes": 1220
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_progress.py",
+        "path_type": "hardlink",
+        "sha256": "beecccf6eae4206149e1ca180d0b0e93d45c3200fa9e26489fce93f3eabd65c2",
+        "sha256_in_prefix": "beecccf6eae4206149e1ca180d0b0e93d45c3200fa9e26489fce93f3eabd65c2",
+        "size_in_bytes": 350
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_pyll_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7a8801d6b38f19608f49d641f9d6586e2798f2320451a03eb69d33559327a332",
+        "sha256_in_prefix": "7a8801d6b38f19608f49d641f9d6586e2798f2320451a03eb69d33559327a332",
+        "size_in_bytes": 4559
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_rand.py",
+        "path_type": "hardlink",
+        "sha256": "2d1c8831a75bf9a42ac11671b3dd466aaa27b48ae18fad8bf8252de5e9b7c5e1",
+        "sha256_in_prefix": "2d1c8831a75bf9a42ac11671b3dd466aaa27b48ae18fad8bf8252de5e9b7c5e1",
+        "size_in_bytes": 959
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_randint.py",
+        "path_type": "hardlink",
+        "sha256": "5dba134db76865db56f57861e04912b0306653219b125579d88bb4bd8f4474e1",
+        "sha256_in_prefix": "5dba134db76865db56f57861e04912b0306653219b125579d88bb4bd8f4474e1",
+        "size_in_bytes": 3334
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_rdists.py",
+        "path_type": "hardlink",
+        "sha256": "bf9af4a6e040b6f46ca29d25c12d7b4a8e3006ad24dd052ba0d2055ec4d2f866",
+        "sha256_in_prefix": "bf9af4a6e040b6f46ca29d25c12d7b4a8e3006ad24dd052ba0d2055ec4d2f866",
+        "size_in_bytes": 8726
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_tpe.py",
+        "path_type": "hardlink",
+        "sha256": "b1135b444cd787daaf831608877a4b454afcdf03723b3dc06812e5af2ae13161",
+        "sha256_in_prefix": "b1135b444cd787daaf831608877a4b454afcdf03723b3dc06812e5af2ae13161",
+        "size_in_bytes": 23135
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_utils.py",
+        "path_type": "hardlink",
+        "sha256": "803eb61b2862c8a64cdfc0e59b208f2bf1894650b509ff65d35b727a9eb67739",
+        "sha256_in_prefix": "803eb61b2862c8a64cdfc0e59b208f2bf1894650b509ff65d35b727a9eb67739",
+        "size_in_bytes": 4546
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_vectorize.py",
+        "path_type": "hardlink",
+        "sha256": "727abc9f490cff738ab4683c6d8338b41eec8b5bafa9becdb96c4a93714db4d2",
+        "sha256_in_prefix": "727abc9f490cff738ab4683c6d8338b41eec8b5bafa9becdb96c4a93714db4d2",
+        "size_in_bytes": 7599
+      },
+      {
+        "_path": "site-packages/hyperopt/tests/unit/test_webpage.py",
+        "path_type": "hardlink",
+        "sha256": "8214308335fc8ea5125accab1d195317c8029d418d99a2867f46af9a67545efd",
+        "sha256_in_prefix": "8214308335fc8ea5125accab1d195317c8029d418d99a2867f46af9a67545efd",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/hyperopt/tpe.py",
+        "path_type": "hardlink",
+        "sha256": "ec99546f38ce04623a3a2f1200e7f06cefa0a0b8154e52804ae5455a7641a393",
+        "sha256_in_prefix": "ec99546f38ce04623a3a2f1200e7f06cefa0a0b8154e52804ae5455a7641a393",
+        "size_in_bytes": 32598
+      },
+      {
+        "_path": "site-packages/hyperopt/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d1e732ed96623f01a2e427fed3aea9a0a57e703781c95cd61d86dbb3b5e09e40",
+        "sha256_in_prefix": "d1e732ed96623f01a2e427fed3aea9a0a57e703781c95cd61d86dbb3b5e09e40",
+        "size_in_bytes": 7909
+      },
+      {
+        "_path": "site-packages/hyperopt/vectorize.py",
+        "path_type": "hardlink",
+        "sha256": "ab342761168e24f2017244d172f2a2bacbbf771f848cd77623b18fa4eda7866a",
+        "sha256_in_prefix": "ab342761168e24f2017244d172f2a2bacbbf771f848cd77623b18fa4eda7866a",
+        "size_in_bytes": 16760
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/algobase.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/anneal.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/atpe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/base.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/criteria.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/early_stop.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/exceptions.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/fmin.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/graph_viz.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/hp.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/ipy.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/main.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/mix.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/mongoexp.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/plotting.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/progress.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/pyll/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/pyll/__pycache__/base.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/pyll/__pycache__/stochastic.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/pyll/tests/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/pyll/tests/__pycache__/test_base.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/pyll/tests/__pycache__/test_stochastic.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/pyll_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/rand.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/rdists.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/spark.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/std_out_err_redirect_tqdm.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/integration/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/integration/__pycache__/test_mongoexp.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/integration/__pycache__/test_spark.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/__pycache__/test_base.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_anneal.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_atpe_basic.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_criteria.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_domains.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_fmin.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_ipy.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_pchoice.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_plotting.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_progress.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_pyll_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_rand.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_randint.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_rdists.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_tpe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_vectorize.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/tests/unit/__pycache__/test_webpage.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/tpe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/hyperopt/__pycache__/vectorize.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/hyperopt-mongo-worker",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "hyperopt",
+  "sha256": "efcbc861813625145d2b20f37c85c3dec4451fad7c4306ed5fbcfa62d89def5c",
+  "size": 824987,
+  "subdir": "noarch",
+  "timestamp": 1734709990000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/hyperopt-0.2.7-pyhd8ed1ab_1.conda",
+  "version": "0.2.7"
+}

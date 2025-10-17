@@ -1,0 +1,2115 @@
+{
+  "build": "pyhcf101f3_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.10",
+    "python"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/narwhals-2.8.0-pyhcf101f3_0",
+  "files": [
+    "lib/python3.14/site-packages/narwhals/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/expr.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/series.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/series_cat.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/series_dt.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/series_list.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/series_str.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/series_struct.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/typing.py",
+    "lib/python3.14/site-packages/narwhals/_arrow/utils.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/any_namespace.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/column.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/expr.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/series.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/typing.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/when_then.py",
+    "lib/python3.14/site-packages/narwhals/_compliant/window.py",
+    "lib/python3.14/site-packages/narwhals/_constants.py",
+    "lib/python3.14/site-packages/narwhals/_dask/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_dask/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_dask/expr.py",
+    "lib/python3.14/site-packages/narwhals/_dask/expr_dt.py",
+    "lib/python3.14/site-packages/narwhals/_dask/expr_str.py",
+    "lib/python3.14/site-packages/narwhals/_dask/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_dask/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_dask/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_dask/utils.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/expr.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/expr_dt.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/expr_list.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/expr_str.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/expr_struct.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/series.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/typing.py",
+    "lib/python3.14/site-packages/narwhals/_duckdb/utils.py",
+    "lib/python3.14/site-packages/narwhals/_duration.py",
+    "lib/python3.14/site-packages/narwhals/_enum.py",
+    "lib/python3.14/site-packages/narwhals/_exceptions.py",
+    "lib/python3.14/site-packages/narwhals/_expression_parsing.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/expr.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/expr_dt.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/expr_list.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/expr_str.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/expr_struct.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/series.py",
+    "lib/python3.14/site-packages/narwhals/_ibis/utils.py",
+    "lib/python3.14/site-packages/narwhals/_interchange/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_interchange/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_interchange/series.py",
+    "lib/python3.14/site-packages/narwhals/_namespace.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/expr.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/series.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/series_cat.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/series_dt.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/series_list.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/series_str.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/series_struct.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/typing.py",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/utils.py",
+    "lib/python3.14/site-packages/narwhals/_polars/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_polars/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_polars/expr.py",
+    "lib/python3.14/site-packages/narwhals/_polars/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_polars/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_polars/series.py",
+    "lib/python3.14/site-packages/narwhals/_polars/typing.py",
+    "lib/python3.14/site-packages/narwhals/_polars/utils.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/expr.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/expr_dt.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/expr_list.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/expr_str.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/expr_struct.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/selectors.py",
+    "lib/python3.14/site-packages/narwhals/_spark_like/utils.py",
+    "lib/python3.14/site-packages/narwhals/_sql/__init__.py",
+    "lib/python3.14/site-packages/narwhals/_sql/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/_sql/expr.py",
+    "lib/python3.14/site-packages/narwhals/_sql/expr_dt.py",
+    "lib/python3.14/site-packages/narwhals/_sql/expr_str.py",
+    "lib/python3.14/site-packages/narwhals/_sql/group_by.py",
+    "lib/python3.14/site-packages/narwhals/_sql/namespace.py",
+    "lib/python3.14/site-packages/narwhals/_sql/typing.py",
+    "lib/python3.14/site-packages/narwhals/_sql/when_then.py",
+    "lib/python3.14/site-packages/narwhals/_translate.py",
+    "lib/python3.14/site-packages/narwhals/_typing.py",
+    "lib/python3.14/site-packages/narwhals/_typing_compat.py",
+    "lib/python3.14/site-packages/narwhals/_utils.py",
+    "lib/python3.14/site-packages/narwhals/dataframe.py",
+    "lib/python3.14/site-packages/narwhals/dependencies.py",
+    "lib/python3.14/site-packages/narwhals/dtypes.py",
+    "lib/python3.14/site-packages/narwhals/exceptions.py",
+    "lib/python3.14/site-packages/narwhals/expr.py",
+    "lib/python3.14/site-packages/narwhals/expr_cat.py",
+    "lib/python3.14/site-packages/narwhals/expr_dt.py",
+    "lib/python3.14/site-packages/narwhals/expr_list.py",
+    "lib/python3.14/site-packages/narwhals/expr_name.py",
+    "lib/python3.14/site-packages/narwhals/expr_str.py",
+    "lib/python3.14/site-packages/narwhals/expr_struct.py",
+    "lib/python3.14/site-packages/narwhals/functions.py",
+    "lib/python3.14/site-packages/narwhals/group_by.py",
+    "lib/python3.14/site-packages/narwhals/py.typed",
+    "lib/python3.14/site-packages/narwhals/schema.py",
+    "lib/python3.14/site-packages/narwhals/selectors.py",
+    "lib/python3.14/site-packages/narwhals/series.py",
+    "lib/python3.14/site-packages/narwhals/series_cat.py",
+    "lib/python3.14/site-packages/narwhals/series_dt.py",
+    "lib/python3.14/site-packages/narwhals/series_list.py",
+    "lib/python3.14/site-packages/narwhals/series_str.py",
+    "lib/python3.14/site-packages/narwhals/series_struct.py",
+    "lib/python3.14/site-packages/narwhals/stable/__init__.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__init__.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/_dtypes.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/_namespace.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/dependencies.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/dtypes.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/selectors.py",
+    "lib/python3.14/site-packages/narwhals/stable/v1/typing.py",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__init__.py",
+    "lib/python3.14/site-packages/narwhals/stable/v2/_namespace.py",
+    "lib/python3.14/site-packages/narwhals/stable/v2/dependencies.py",
+    "lib/python3.14/site-packages/narwhals/stable/v2/dtypes.py",
+    "lib/python3.14/site-packages/narwhals/stable/v2/selectors.py",
+    "lib/python3.14/site-packages/narwhals/stable/v2/typing.py",
+    "lib/python3.14/site-packages/narwhals/this.py",
+    "lib/python3.14/site-packages/narwhals/translate.py",
+    "lib/python3.14/site-packages/narwhals/typing.py",
+    "lib/python3.14/site-packages/narwhals/utils.py",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/narwhals-2.8.0.dist-info/licenses/LICENSE.md",
+    "lib/python3.14/site-packages/narwhals/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_cat.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/any_namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/column.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/when_then.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/window.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_constants.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/expr_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/expr_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_dask/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_duration.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_enum.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_expression_parsing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_interchange/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_interchange/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_interchange/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_cat.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_polars/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/expr_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/expr_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/_sql/__pycache__/when_then.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_translate.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_typing_compat.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/dataframe.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/dependencies.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/dtypes.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/exceptions.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr_cat.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr_name.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/expr_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/functions.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/group_by.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/schema.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/series.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/series_cat.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/series_dt.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/series_list.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/series_str.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/series_struct.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/_dtypes.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/_namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/dependencies.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/dtypes.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/_namespace.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/dependencies.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/dtypes.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/selectors.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/this.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/translate.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/narwhals/__pycache__/utils.cpython-314.pyc"
+  ],
+  "fn": "narwhals-2.8.0-pyhcf101f3_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/narwhals-2.8.0-pyhcf101f3_0",
+    "type": 1
+  },
+  "md5": "727dc504e3e5efbb7d48353335056ed2",
+  "name": "narwhals",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/narwhals-2.8.0-pyhcf101f3_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/narwhals/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fa3ac7f27500e6fb4e04344522b5afde4e5962532135abf5f97bbcabdb4161e1",
+        "sha256_in_prefix": "fa3ac7f27500e6fb4e04344522b5afde4e5962532135abf5f97bbcabdb4161e1",
+        "size_in_bytes": 3266
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "8c03ad901e8ef73acf23ee74b648c555fa9fea072bd2b7ef190deff1c4908f38",
+        "sha256_in_prefix": "8c03ad901e8ef73acf23ee74b648c555fa9fea072bd2b7ef190deff1c4908f38",
+        "size_in_bytes": 29842
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/expr.py",
+        "path_type": "hardlink",
+        "sha256": "a6c5193e0d9f293e150ec9f58c3e5cbe229cd3a7e5919fa8e94a89a94b06f113",
+        "sha256_in_prefix": "a6c5193e0d9f293e150ec9f58c3e5cbe229cd3a7e5919fa8e94a89a94b06f113",
+        "size_in_bytes": 6816
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "6a3f9ea045dce751f03201d722235bc2bb84e9311fb0ebce8f702662e5847673",
+        "sha256_in_prefix": "6a3f9ea045dce751f03201d722235bc2bb84e9311fb0ebce8f702662e5847673",
+        "size_in_bytes": 8663
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "9ac49141cf0ba1fdb4a57d2822d956828f0145f38192f1258ada148838b4e94e",
+        "sha256_in_prefix": "9ac49141cf0ba1fdb4a57d2822d956828f0145f38192f1258ada148838b4e94e",
+        "size_in_bytes": 11547
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "a887c29cc365439b2f43319a07e0d5e58138c52694695cc49533d8265ff40497",
+        "sha256_in_prefix": "a887c29cc365439b2f43319a07e0d5e58138c52694695cc49533d8265ff40497",
+        "size_in_bytes": 1128
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/series.py",
+        "path_type": "hardlink",
+        "sha256": "4ef29cd3307bd36137bd72ed913bfd0ac85e4df3a553abb9788a36ff0343c3ea",
+        "sha256_in_prefix": "4ef29cd3307bd36137bd72ed913bfd0ac85e4df3a553abb9788a36ff0343c3ea",
+        "size_in_bytes": 45113
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/series_cat.py",
+        "path_type": "hardlink",
+        "sha256": "8f60c56c5128696daf4a72e70b272ca5836d6cd61e5af55278b10b61bff7cc5d",
+        "sha256_in_prefix": "8f60c56c5128696daf4a72e70b272ca5836d6cd61e5af55278b10b61bff7cc5d",
+        "size_in_bytes": 686
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/series_dt.py",
+        "path_type": "hardlink",
+        "sha256": "c5342ddfd3ca4d53e4795c21f3bb280a577f965ebebff3902537542890418d2e",
+        "sha256_in_prefix": "c5342ddfd3ca4d53e4795c21f3bb280a577f965ebebff3902537542890418d2e",
+        "size_in_bytes": 9026
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/series_list.py",
+        "path_type": "hardlink",
+        "sha256": "2ec048b164aca302b32d76fdce6cffd44832d251b17d2f3d2e011d4689dc9abe",
+        "sha256_in_prefix": "2ec048b164aca302b32d76fdce6cffd44832d251b17d2f3d2e011d4689dc9abe",
+        "size_in_bytes": 736
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/series_str.py",
+        "path_type": "hardlink",
+        "sha256": "f6618826b4ff714f0b550fb5ea41e58620b21725711151241857d741e0ca98a6",
+        "sha256_in_prefix": "f6618826b4ff714f0b550fb5ea41e58620b21725711151241857d741e0ca98a6",
+        "size_in_bytes": 4689
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/series_struct.py",
+        "path_type": "hardlink",
+        "sha256": "328ad6eaf4cb2b1aa947de8d841e51c6490158ec6b093caf27be88967c1becb6",
+        "sha256_in_prefix": "328ad6eaf4cb2b1aa947de8d841e51c6490158ec6b093caf27be88967c1becb6",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/typing.py",
+        "path_type": "hardlink",
+        "sha256": "5b7573fe4739cf0f7855e633ac2f7134f6292416770ce4b27e9b963d45445b53",
+        "sha256_in_prefix": "5b7573fe4739cf0f7855e633ac2f7134f6292416770ce4b27e9b963d45445b53",
+        "size_in_bytes": 2359
+      },
+      {
+        "_path": "site-packages/narwhals/_arrow/utils.py",
+        "path_type": "hardlink",
+        "sha256": "181087b49502bd7266bddfb689126fb6d0176bdce24362df1eaa02946bd16b96",
+        "sha256_in_prefix": "181087b49502bd7266bddfb689126fb6d0176bdce24362df1eaa02946bd16b96",
+        "size_in_bytes": 17738
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "348ae50e6a3a5c6ac4b89907bf1b4f4e7b712665739f5a64bb7d4fd3a708e3c7",
+        "sha256_in_prefix": "348ae50e6a3a5c6ac4b89907bf1b4f4e7b712665739f5a64bb7d4fd3a708e3c7",
+        "size_in_bytes": 2460
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/any_namespace.py",
+        "path_type": "hardlink",
+        "sha256": "eae0188cdde7a8422f77a7a914a5c5ddc4d0b983dc81d5309c34db55f2f8520a",
+        "sha256_in_prefix": "eae0188cdde7a8422f77a7a914a5c5ddc4d0b983dc81d5309c34db55f2f8520a",
+        "size_in_bytes": 4214
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/column.py",
+        "path_type": "hardlink",
+        "sha256": "990773b4bbef7ce8b44aef23d85874dcc39772986358bdcadb007d8521c46bea",
+        "sha256_in_prefix": "990773b4bbef7ce8b44aef23d85874dcc39772986358bdcadb007d8521c46bea",
+        "size_in_bytes": 7449
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "b9886ba7f70d8f6aa1180f7c6244476d5fe5a43d895ab855c843e1274ffe086c",
+        "sha256_in_prefix": "b9886ba7f70d8f6aa1180f7c6244476d5fe5a43d895ab855c843e1274ffe086c",
+        "size_in_bytes": 16049
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/expr.py",
+        "path_type": "hardlink",
+        "sha256": "e1a0eb0a31a4fc350486469b5d9aacaf1a02015067a0c0022bc1f0508e311639",
+        "sha256_in_prefix": "e1a0eb0a31a4fc350486469b5d9aacaf1a02015067a0c0022bc1f0508e311639",
+        "size_in_bytes": 41638
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "efcc6f67766bca1e84536e541e4e6fad96e2f5aeb10938414d77c12e0634b879",
+        "sha256_in_prefix": "efcc6f67766bca1e84536e541e4e6fad96e2f5aeb10938414d77c12e0634b879",
+        "size_in_bytes": 6885
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "444f9159ba483b07b1d01950c2f858545b94bf83ff22b802e312a830e00371dd",
+        "sha256_in_prefix": "444f9159ba483b07b1d01950c2f858545b94bf83ff22b802e312a830e00371dd",
+        "size_in_bytes": 8801
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "d13133fe7f2b1effb4c1daacf96b5dc2f2940023f331e1f8d212e1855db1b61c",
+        "sha256_in_prefix": "d13133fe7f2b1effb4c1daacf96b5dc2f2940023f331e1f8d212e1855db1b61c",
+        "size_in_bytes": 11824
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/series.py",
+        "path_type": "hardlink",
+        "sha256": "86b00d62079aeb6f96fcfab6e1cbde8d7642b6f2473c25ecb07b2cf5b1d61d8b",
+        "sha256_in_prefix": "86b00d62079aeb6f96fcfab6e1cbde8d7642b6f2473c25ecb07b2cf5b1d61d8b",
+        "size_in_bytes": 13735
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/typing.py",
+        "path_type": "hardlink",
+        "sha256": "4992a3624029f25e0e69fd16f08ae7bee922f7fbf9bcd6b922bcc2125ca6f492",
+        "sha256_in_prefix": "4992a3624029f25e0e69fd16f08ae7bee922f7fbf9bcd6b922bcc2125ca6f492",
+        "size_in_bytes": 7527
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/when_then.py",
+        "path_type": "hardlink",
+        "sha256": "858d8ef1d35851a6bef4e4d4cd861faf3990a74c35ddc11fd06b55d61280896b",
+        "sha256_in_prefix": "858d8ef1d35851a6bef4e4d4cd861faf3990a74c35ddc11fd06b55d61280896b",
+        "size_in_bytes": 4323
+      },
+      {
+        "_path": "site-packages/narwhals/_compliant/window.py",
+        "path_type": "hardlink",
+        "sha256": "fe38b882854a913e183d3c996bf234376c869b005f075fcb0c6d1649719b9a5a",
+        "sha256_in_prefix": "fe38b882854a913e183d3c996bf234376c869b005f075fcb0c6d1649719b9a5a",
+        "size_in_bytes": 505
+      },
+      {
+        "_path": "site-packages/narwhals/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "904d4a5ac224cb8af269b1fe675d7b66d196db871c4dcade58e6498e969c3ba2",
+        "sha256_in_prefix": "904d4a5ac224cb8af269b1fe675d7b66d196db871c4dcade58e6498e969c3ba2",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "217ecb354420745a2f5f4ad7f4e5a681571b33b5d715f4007b6d1b206fcfba77",
+        "sha256_in_prefix": "217ecb354420745a2f5f4ad7f4e5a681571b33b5d715f4007b6d1b206fcfba77",
+        "size_in_bytes": 18509
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/expr.py",
+        "path_type": "hardlink",
+        "sha256": "1cc2f30615ef6e945d9813e2812650c95bfb94aaae2a33fe8038ec9b0d626858",
+        "sha256_in_prefix": "1cc2f30615ef6e945d9813e2812650c95bfb94aaae2a33fe8038ec9b0d626858",
+        "size_in_bytes": 27448
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/expr_dt.py",
+        "path_type": "hardlink",
+        "sha256": "eef69240f6485acc90b1954fd2f37dffad213fa6ce23458fe540c5ee392c97f6",
+        "sha256_in_prefix": "eef69240f6485acc90b1954fd2f37dffad213fa6ce23458fe540c5ee392c97f6",
+        "size_in_bytes": 6886
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/expr_str.py",
+        "path_type": "hardlink",
+        "sha256": "5e97636fa51fdf861ea4f14bd2f5f5a1b63cf4041854557027c22dc4b5a9ee33",
+        "sha256_in_prefix": "5e97636fa51fdf861ea4f14bd2f5f5a1b63cf4041854557027c22dc4b5a9ee33",
+        "size_in_bytes": 4530
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "7ee9d1e354dffa8f54c148a22faea8c51083a648f58f0901cb5c0843bfa8a6d0",
+        "sha256_in_prefix": "7ee9d1e354dffa8f54c148a22faea8c51083a648f58f0901cb5c0843bfa8a6d0",
+        "size_in_bytes": 4921
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "23c2b1fa227d548d49ae0d3433e799ac33780ec28bb426d8982951e565b00579",
+        "sha256_in_prefix": "23c2b1fa227d548d49ae0d3433e799ac33780ec28bb426d8982951e565b00579",
+        "size_in_bytes": 13193
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "15a7c571f15633ab9370a52c11ea9f6e6054220615cc7e5774deac15454b30a5",
+        "sha256_in_prefix": "15a7c571f15633ab9370a52c11ea9f6e6054220615cc7e5774deac15454b30a5",
+        "size_in_bytes": 1148
+      },
+      {
+        "_path": "site-packages/narwhals/_dask/utils.py",
+        "path_type": "hardlink",
+        "sha256": "a9db1291521dfc6ea2efbf277d6125e71a9bd4a6aae0c8e4846994186d1e0676",
+        "sha256_in_prefix": "a9db1291521dfc6ea2efbf277d6125e71a9bd4a6aae0c8e4846994186d1e0676",
+        "size_in_bytes": 5484
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "02cba32c9dd7eb07cdde1a1aee3b10a58b06f68fc355d8478515dad2f5b58328",
+        "sha256_in_prefix": "02cba32c9dd7eb07cdde1a1aee3b10a58b06f68fc355d8478515dad2f5b58328",
+        "size_in_bytes": 20666
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/expr.py",
+        "path_type": "hardlink",
+        "sha256": "4b845532bedbba5c9d016d30a76321e53dd4aab0aaa8e379e10cb61940c1ec12",
+        "sha256_in_prefix": "4b845532bedbba5c9d016d30a76321e53dd4aab0aaa8e379e10cb61940c1ec12",
+        "size_in_bytes": 11928
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/expr_dt.py",
+        "path_type": "hardlink",
+        "sha256": "42835b001934688b9137221aefdd07be2b1f075efbfc3b351ffc4c89958d9c73",
+        "sha256_in_prefix": "42835b001934688b9137221aefdd07be2b1f075efbfc3b351ffc4c89958d9c73",
+        "size_in_bytes": 4990
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/expr_list.py",
+        "path_type": "hardlink",
+        "sha256": "edd1f35ee591dce207ce07233abbd15f51325dbd276d8d46b2d33dbdf7ef0f38",
+        "sha256_in_prefix": "edd1f35ee591dce207ce07233abbd15f51325dbd276d8d46b2d33dbdf7ef0f38",
+        "size_in_bytes": 1422
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/expr_str.py",
+        "path_type": "hardlink",
+        "sha256": "ed71f31f540008540e08a9885fc9e18cda034379b9e24a8b63ff658799cb784e",
+        "sha256_in_prefix": "ed71f31f540008540e08a9885fc9e18cda034379b9e24a8b63ff658799cb784e",
+        "size_in_bytes": 1876
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/expr_struct.py",
+        "path_type": "hardlink",
+        "sha256": "78dd3a400d494bac2302deff019cd6df1a33b4733f86869d945525fe1c2c1221",
+        "sha256_in_prefix": "78dd3a400d494bac2302deff019cd6df1a33b4733f86869d945525fe1c2c1221",
+        "size_in_bytes": 576
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "d11c4d8994bb8cab7b5f9494d9c14818b6233d8b87448ca098d8d1f1d05caa8f",
+        "sha256_in_prefix": "d11c4d8994bb8cab7b5f9494d9c14818b6233d8b87448ca098d8d1f1d05caa8f",
+        "size_in_bytes": 1124
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "fcce24a5f4b8a87761dac71ace06f74f0edcc0581d44e409d18b235a667b3662",
+        "sha256_in_prefix": "fcce24a5f4b8a87761dac71ace06f74f0edcc0581d44e409d18b235a667b3662",
+        "size_in_bytes": 5689
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "c80d7a67e3252542418cebb45c8f6a54ee19c7b2ff4f914dd8342a340621bbea",
+        "sha256_in_prefix": "c80d7a67e3252542418cebb45c8f6a54ee19c7b2ff4f914dd8342a340621bbea",
+        "size_in_bytes": 1033
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/series.py",
+        "path_type": "hardlink",
+        "sha256": "c41a6e3d49d2488435bd810a8c740564dee2c7567233049c8658833e991fdd69",
+        "sha256_in_prefix": "c41a6e3d49d2488435bd810a8c740564dee2c7567233049c8658833e991fdd69",
+        "size_in_bytes": 1397
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/typing.py",
+        "path_type": "hardlink",
+        "sha256": "80efce7728a7927e10658fd3538baecdd6ba99b7a8dfc82538e514ae2a5c5a08",
+        "sha256_in_prefix": "80efce7728a7927e10658fd3538baecdd6ba99b7a8dfc82538e514ae2a5c5a08",
+        "size_in_bytes": 454
+      },
+      {
+        "_path": "site-packages/narwhals/_duckdb/utils.py",
+        "path_type": "hardlink",
+        "sha256": "9d4d427bcdbb75612cd815ca408825b47534ca03dc072fa97c213f9de9862c87",
+        "sha256_in_prefix": "9d4d427bcdbb75612cd815ca408825b47534ca03dc072fa97c213f9de9862c87",
+        "size_in_bytes": 15125
+      },
+      {
+        "_path": "site-packages/narwhals/_duration.py",
+        "path_type": "hardlink",
+        "sha256": "586ce3dc555c0b62a882a46135e8a6dd80c8c149fc1e45d01c0963b6f1eb8f04",
+        "sha256_in_prefix": "586ce3dc555c0b62a882a46135e8a6dd80c8c149fc1e45d01c0963b6f1eb8f04",
+        "size_in_bytes": 3139
+      },
+      {
+        "_path": "site-packages/narwhals/_enum.py",
+        "path_type": "hardlink",
+        "sha256": "b1447ed38c88c2300cb17e5e7a52a773550a5dce5d0688f5768d24aee6c0134e",
+        "sha256_in_prefix": "b1447ed38c88c2300cb17e5e7a52a773550a5dce5d0688f5768d24aee6c0134e",
+        "size_in_bytes": 1192
+      },
+      {
+        "_path": "site-packages/narwhals/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "b958052a0c7feae6fd30727fa89ef10b9ce27beb9156d6c9a348f7143a1702a9",
+        "sha256_in_prefix": "b958052a0c7feae6fd30727fa89ef10b9ce27beb9156d6c9a348f7143a1702a9",
+        "size_in_bytes": 1894
+      },
+      {
+        "_path": "site-packages/narwhals/_expression_parsing.py",
+        "path_type": "hardlink",
+        "sha256": "f9c7a496ceb60d785aede97208bbb9d97d1ead978ad663604183a335aa288340",
+        "sha256_in_prefix": "f9c7a496ceb60d785aede97208bbb9d97d1ead978ad663604183a335aa288340",
+        "size_in_bytes": 22904
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "2e4c07472e9ad287e52f830c606cc9d4bff330dbe02d99338987851bd16faa3d",
+        "sha256_in_prefix": "2e4c07472e9ad287e52f830c606cc9d4bff330dbe02d99338987851bd16faa3d",
+        "size_in_bytes": 16627
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/expr.py",
+        "path_type": "hardlink",
+        "sha256": "927aef8f8e3746875ca0751a9d05abff5204d60c04f45ce140c4f373e3270cc9",
+        "sha256_in_prefix": "927aef8f8e3746875ca0751a9d05abff5204d60c04f45ce140c4f373e3270cc9",
+        "size_in_bytes": 13954
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/expr_dt.py",
+        "path_type": "hardlink",
+        "sha256": "d114b507581e158c724b94699721bd5444bc985838b7295c1bbe5d20a733bcdb",
+        "sha256_in_prefix": "d114b507581e158c724b94699721bd5444bc985838b7295c1bbe5d20a733bcdb",
+        "size_in_bytes": 3308
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/expr_list.py",
+        "path_type": "hardlink",
+        "sha256": "4d27dbff810a45d4c521b676549f73a97265eb6643922bf078ae41894585b017",
+        "sha256_in_prefix": "4d27dbff810a45d4c521b676549f73a97265eb6643922bf078ae41894585b017",
+        "size_in_bytes": 948
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/expr_str.py",
+        "path_type": "hardlink",
+        "sha256": "ce29445b6eba56c2a52a6e3c7f902d4b5382af3c8030c650acc33481eb187950",
+        "sha256_in_prefix": "ce29445b6eba56c2a52a6e3c7f902d4b5382af3c8030c650acc33481eb187950",
+        "size_in_bytes": 2981
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/expr_struct.py",
+        "path_type": "hardlink",
+        "sha256": "143b1ae4ca9c1e1a8f9a964811f18101276ac4f932226ae51931fb5d44b0ddcb",
+        "sha256_in_prefix": "143b1ae4ca9c1e1a8f9a964811f18101276ac4f932226ae51931fb5d44b0ddcb",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "7a737300f52c03f2c8c0f349ee31bf3092b2a86d87c8289eb01117de92602418",
+        "sha256_in_prefix": "7a737300f52c03f2c8c0f349ee31bf3092b2a86d87c8289eb01117de92602418",
+        "size_in_bytes": 1031
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "4c249442a8dcee66b71f13262d69178578f5695cb7650732406c729088cf16c5",
+        "sha256_in_prefix": "4c249442a8dcee66b71f13262d69178578f5695cb7650732406c729088cf16c5",
+        "size_in_bytes": 5515
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "4a4171a2e92929cfce8f02a8287466f15c0c6a9842314796049da0fe85b3dc3d",
+        "sha256_in_prefix": "4a4171a2e92929cfce8f02a8287466f15c0c6a9842314796049da0fe85b3dc3d",
+        "size_in_bytes": 961
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/series.py",
+        "path_type": "hardlink",
+        "sha256": "0990f00cfb1d10b2ad76bece5a6705c86a9ec6bdf751c7e7bff454f79549c484",
+        "sha256_in_prefix": "0990f00cfb1d10b2ad76bece5a6705c86a9ec6bdf751c7e7bff454f79549c484",
+        "size_in_bytes": 1218
+      },
+      {
+        "_path": "site-packages/narwhals/_ibis/utils.py",
+        "path_type": "hardlink",
+        "sha256": "88b0ac4465e77fa13038fae652b536449ae924567fe228d74e31484321a1941b",
+        "sha256_in_prefix": "88b0ac4465e77fa13038fae652b536449ae924567fe228d74e31484321a1941b",
+        "size_in_bytes": 9702
+      },
+      {
+        "_path": "site-packages/narwhals/_interchange/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_interchange/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "142ff65aec7123844f50132a71abbaf2b91d7ecc610a5a2ee33084af1d5f95cc",
+        "sha256_in_prefix": "142ff65aec7123844f50132a71abbaf2b91d7ecc610a5a2ee33084af1d5f95cc",
+        "size_in_bytes": 6034
+      },
+      {
+        "_path": "site-packages/narwhals/_interchange/series.py",
+        "path_type": "hardlink",
+        "sha256": "9d2c5d94e66bc37c2d6af4b8d93311fdbfc41a03c1bf6db88a8641328e5ea02f",
+        "sha256_in_prefix": "9d2c5d94e66bc37c2d6af4b8d93311fdbfc41a03c1bf6db88a8641328e5ea02f",
+        "size_in_bytes": 1651
+      },
+      {
+        "_path": "site-packages/narwhals/_namespace.py",
+        "path_type": "hardlink",
+        "sha256": "c9bd00572e0da5f9f8268a645bfad51073175da16eb0ca700e5e78c5998bfff3",
+        "sha256_in_prefix": "c9bd00572e0da5f9f8268a645bfad51073175da16eb0ca700e5e78c5998bfff3",
+        "size_in_bytes": 14220
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "80a7968c044a23320f99191f4ff6e34499725697fa2fc82387c154a7630e791f",
+        "sha256_in_prefix": "80a7968c044a23320f99191f4ff6e34499725697fa2fc82387c154a7630e791f",
+        "size_in_bytes": 44379
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/expr.py",
+        "path_type": "hardlink",
+        "sha256": "56d25260b3cd89bb6722c04dd020a70aedfc4072adf8338df62b05ab4aebece5",
+        "sha256_in_prefix": "56d25260b3cd89bb6722c04dd020a70aedfc4072adf8338df62b05ab4aebece5",
+        "size_in_bytes": 16631
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "599b3b7ed8b795acd0017ee2816da150f17a947fb6064da78ea144d21ca55d35",
+        "sha256_in_prefix": "599b3b7ed8b795acd0017ee2816da150f17a947fb6064da78ea144d21ca55d35",
+        "size_in_bytes": 14178
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "8d72d44637893b5ae645d5613287392c9ff6cb4f157c35b2b8f59df9fef3dce2",
+        "sha256_in_prefix": "8d72d44637893b5ae645d5613287392c9ff6cb4f157c35b2b8f59df9fef3dce2",
+        "size_in_bytes": 16398
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "41feebd07e91f1c9e2c03c02db3956c5d76c3f1f801c5b19c033d0f62084887f",
+        "sha256_in_prefix": "41feebd07e91f1c9e2c03c02db3956c5d76c3f1f801c5b19c033d0f62084887f",
+        "size_in_bytes": 1261
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/series.py",
+        "path_type": "hardlink",
+        "sha256": "cf686afd0a076fdb2dbb6aa1cdddae5ef83199e460501ac9f72b2b1effd77638",
+        "sha256_in_prefix": "cf686afd0a076fdb2dbb6aa1cdddae5ef83199e460501ac9f72b2b1effd77638",
+        "size_in_bytes": 42737
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/series_cat.py",
+        "path_type": "hardlink",
+        "sha256": "309c029c9e3d85f9ce0e1e8980c1ce090d8a0654db9b2494ebf5f85d66aa8b3e",
+        "sha256_in_prefix": "309c029c9e3d85f9ce0e1e8980c1ce090d8a0654db9b2494ebf5f85d66aa8b3e",
+        "size_in_bytes": 527
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/series_dt.py",
+        "path_type": "hardlink",
+        "sha256": "12734fa7a4ad0e6c035fda779a5430de6e296563a9d14035661e5b26bfa03991",
+        "sha256_in_prefix": "12734fa7a4ad0e6c035fda779a5430de6e296563a9d14035661e5b26bfa03991",
+        "size_in_bytes": 11587
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/series_list.py",
+        "path_type": "hardlink",
+        "sha256": "c5cf66e1ce5fb4240f7e24f2ec4ba385f3479fb2876e305435afa25c7755f6df",
+        "sha256_in_prefix": "c5cf66e1ce5fb4240f7e24f2ec4ba385f3479fb2876e305435afa25c7755f6df",
+        "size_in_bytes": 1391
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/series_str.py",
+        "path_type": "hardlink",
+        "sha256": "0df2ac19e548742b9b2c66d35fd0e66b5f860d213cae34019e0180c72acd5ab4",
+        "sha256_in_prefix": "0df2ac19e548742b9b2c66d35fd0e66b5f860d213cae34019e0180c72acd5ab4",
+        "size_in_bytes": 4088
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/series_struct.py",
+        "path_type": "hardlink",
+        "sha256": "bd7f47a0ee36bc769c92f568cd47e9f2874cf6e278a3072de3dc9d2839e885d9",
+        "sha256_in_prefix": "bd7f47a0ee36bc769c92f568cd47e9f2874cf6e278a3072de3dc9d2839e885d9",
+        "size_in_bytes": 518
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/typing.py",
+        "path_type": "hardlink",
+        "sha256": "0309b66277b0bdd03797fe121306ffe408ad861c0160dc75b756a36879ef52c3",
+        "sha256_in_prefix": "0309b66277b0bdd03797fe121306ffe408ad861c0160dc75b756a36879ef52c3",
+        "size_in_bytes": 1064
+      },
+      {
+        "_path": "site-packages/narwhals/_pandas_like/utils.py",
+        "path_type": "hardlink",
+        "sha256": "fa4808eace83480dbbd20dbbfbd135997e0e871e38076b48f21e7c7df1d2b75f",
+        "sha256_in_prefix": "fa4808eace83480dbbd20dbbfbd135997e0e871e38076b48f21e7c7df1d2b75f",
+        "size_in_bytes": 27217
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "a054d4dfeb63e7d5844b839b5e2f552db8473ce0d0a2140d74cb5873bc430ae6",
+        "sha256_in_prefix": "a054d4dfeb63e7d5844b839b5e2f552db8473ce0d0a2140d74cb5873bc430ae6",
+        "size_in_bytes": 25079
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/expr.py",
+        "path_type": "hardlink",
+        "sha256": "9e673ac754d8290748d2b5c3878ea91ed365730fc2133bf060184dc1bdd4ba65",
+        "sha256_in_prefix": "9e673ac754d8290748d2b5c3878ea91ed365730fc2133bf060184dc1bdd4ba65",
+        "size_in_bytes": 16921
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "3ecc503d65fb416cb68975162447a50b93ba991d532abf4c07f8ba3b9455c66b",
+        "sha256_in_prefix": "3ecc503d65fb416cb68975162447a50b93ba991d532abf4c07f8ba3b9455c66b",
+        "size_in_bytes": 2373
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "85ee38154612c5da803998f3160f91405072a7d00317379400d601aeae0f3383",
+        "sha256_in_prefix": "85ee38154612c5da803998f3160f91405072a7d00317379400d601aeae0f3383",
+        "size_in_bytes": 10872
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/series.py",
+        "path_type": "hardlink",
+        "sha256": "66d2672c05cc60e1c2d21eb7db777a88cad5d0133720b74b8377e47844fb7b04",
+        "sha256_in_prefix": "66d2672c05cc60e1c2d21eb7db777a88cad5d0133720b74b8377e47844fb7b04",
+        "size_in_bytes": 27159
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/typing.py",
+        "path_type": "hardlink",
+        "sha256": "775d67558aafd5da82fc7d80f8f5f3d681d860200e9e42bfb3cef2b66e2dc0c0",
+        "sha256_in_prefix": "775d67558aafd5da82fc7d80f8f5f3d681d860200e9e42bfb3cef2b66e2dc0c0",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "site-packages/narwhals/_polars/utils.py",
+        "path_type": "hardlink",
+        "sha256": "81d6626917edcda64898c7465c91c5e705a42ce076ccf64c9874ec9521f1c944",
+        "sha256_in_prefix": "81d6626917edcda64898c7465c91c5e705a42ce076ccf64c9874ec9521f1c944",
+        "size_in_bytes": 12841
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4fbfd409e3ebad8b3565e31ab6f094614bd0717beb0e34386f4f3fba05881c0a",
+        "sha256_in_prefix": "4fbfd409e3ebad8b3565e31ab6f094614bd0717beb0e34386f4f3fba05881c0a",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "750815f1a819d570efa2d8127048a7a408486eb910f4e35dad176123223d5834",
+        "sha256_in_prefix": "750815f1a819d570efa2d8127048a7a408486eb910f4e35dad176123223d5834",
+        "size_in_bytes": 23601
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/expr.py",
+        "path_type": "hardlink",
+        "sha256": "870463eb6aeec866ad3b9448210bba1ac4f864a72cd7ccfda27bb9c133ad6036",
+        "sha256_in_prefix": "870463eb6aeec866ad3b9448210bba1ac4f864a72cd7ccfda27bb9c133ad6036",
+        "size_in_bytes": 14497
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/expr_dt.py",
+        "path_type": "hardlink",
+        "sha256": "d480b0236c694ee2b93f21a388b11d7cb82c82e7433c455d3068159ccfdce549",
+        "sha256_in_prefix": "d480b0236c694ee2b93f21a388b11d7cb82c82e7433c455d3068159ccfdce549",
+        "size_in_bytes": 7515
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/expr_list.py",
+        "path_type": "hardlink",
+        "sha256": "694dbd786450f3d17bcf95ed89c37dfa5ed28552690f6362e2b77113d59f77bc",
+        "sha256_in_prefix": "694dbd786450f3d17bcf95ed89c37dfa5ed28552690f6362e2b77113d59f77bc",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/expr_str.py",
+        "path_type": "hardlink",
+        "sha256": "20552000fdd62953d956ab215e458d229a7132b6365073ff86fe38c00107f021",
+        "sha256_in_prefix": "20552000fdd62953d956ab215e458d229a7132b6365073ff86fe38c00107f021",
+        "size_in_bytes": 2458
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/expr_struct.py",
+        "path_type": "hardlink",
+        "sha256": "85a043a6e4619ff9c60058cc1776ab86146be8d7de7cd7a2f6f12600e6b47d02",
+        "sha256_in_prefix": "85a043a6e4619ff9c60058cc1776ab86146be8d7de7cd7a2f6f12600e6b47d02",
+        "size_in_bytes": 613
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "0c7edf813a0e30b6905c454f4a4323ab34e9773d998c32003345a82bc5e34055",
+        "sha256_in_prefix": "0c7edf813a0e30b6905c454f4a4323ab34e9773d998c32003345a82bc5e34055",
+        "size_in_bytes": 1247
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "c674acb5109310a702101956b2b1dc28bfceb95f69d4768965111de778d03943",
+        "sha256_in_prefix": "c674acb5109310a702101956b2b1dc28bfceb95f69d4768965111de778d03943",
+        "size_in_bytes": 8028
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "4b324fa058f2204be2492bcf46f2fcd68d638d025c33e55ea9be76bc553ae894",
+        "sha256_in_prefix": "4b324fa058f2204be2492bcf46f2fcd68d638d025c33e55ea9be76bc553ae894",
+        "size_in_bytes": 1086
+      },
+      {
+        "_path": "site-packages/narwhals/_spark_like/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e1191cea359a8ba0d14eb6a4672c77d00e8efe5d5018c5ff0ffbfe2bfc25a4bb",
+        "sha256_in_prefix": "e1191cea359a8ba0d14eb6a4672c77d00e8efe5d5018c5ff0ffbfe2bfc25a4bb",
+        "size_in_bytes": 11731
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4fbfd409e3ebad8b3565e31ab6f094614bd0717beb0e34386f4f3fba05881c0a",
+        "sha256_in_prefix": "4fbfd409e3ebad8b3565e31ab6f094614bd0717beb0e34386f4f3fba05881c0a",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "46098d21c276af8248bab07ae2fceaa34faa3d4247f64045a38853d60bea074c",
+        "sha256_in_prefix": "46098d21c276af8248bab07ae2fceaa34faa3d4247f64045a38853d60bea074c",
+        "size_in_bytes": 1491
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/expr.py",
+        "path_type": "hardlink",
+        "sha256": "7c127fd560ac4b1351b609423a8261ac5277871dfc820d9785e24a2c08f5f921",
+        "sha256_in_prefix": "7c127fd560ac4b1351b609423a8261ac5277871dfc820d9785e24a2c08f5f921",
+        "size_in_bytes": 31672
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/expr_dt.py",
+        "path_type": "hardlink",
+        "sha256": "096167eca8b7616dd74ff1f2f3ca5d09366cf23ea33f81a93f7f2f80f77ebd7e",
+        "sha256_in_prefix": "096167eca8b7616dd74ff1f2f3ca5d09366cf23ea33f81a93f7f2f80f77ebd7e",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/expr_str.py",
+        "path_type": "hardlink",
+        "sha256": "959ce20b0bba7e5723c2dc945dafb63fa9868ad579ead299b276202c3eb087d2",
+        "sha256_in_prefix": "959ce20b0bba7e5723c2dc945dafb63fa9868ad579ead299b276202c3eb087d2",
+        "size_in_bytes": 5234
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "fb2479276f8a9346b0151a059cb89c8b4d2b7d32bfe42c452894b173e06df19b",
+        "sha256_in_prefix": "fb2479276f8a9346b0151a059cb89c8b4d2b7d32bfe42c452894b173e06df19b",
+        "size_in_bytes": 1669
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/namespace.py",
+        "path_type": "hardlink",
+        "sha256": "88f27166f32ad77cce34724f146eab35cb1b07dda6ac74cf65a5a898407dde69",
+        "sha256_in_prefix": "88f27166f32ad77cce34724f146eab35cb1b07dda6ac74cf65a5a898407dde69",
+        "size_in_bytes": 2746
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/typing.py",
+        "path_type": "hardlink",
+        "sha256": "7b72e42cf238a1ad88cf2911ec180ef4821f08a470d2fad7e2e1f13d307eb893",
+        "sha256_in_prefix": "7b72e42cf238a1ad88cf2911ec180ef4821f08a470d2fad7e2e1f13d307eb893",
+        "size_in_bytes": 487
+      },
+      {
+        "_path": "site-packages/narwhals/_sql/when_then.py",
+        "path_type": "hardlink",
+        "sha256": "e255dc73f27f37abc719bcba90f265d4f1aa2cf5066e01d8b885e26113b2a16e",
+        "sha256_in_prefix": "e255dc73f27f37abc719bcba90f265d4f1aa2cf5066e01d8b885e26113b2a16e",
+        "size_in_bytes": 3636
+      },
+      {
+        "_path": "site-packages/narwhals/_translate.py",
+        "path_type": "hardlink",
+        "sha256": "7bc463342357e1018958a8cce9500d0d31bf6d54f656eb2335f8ec9e40813b78",
+        "sha256_in_prefix": "7bc463342357e1018958a8cce9500d0d31bf6d54f656eb2335f8ec9e40813b78",
+        "size_in_bytes": 6112
+      },
+      {
+        "_path": "site-packages/narwhals/_typing.py",
+        "path_type": "hardlink",
+        "sha256": "35b4853c249dca915d285028253add4435b1999dd7c8b58f8634816707afe9d6",
+        "sha256_in_prefix": "35b4853c249dca915d285028253add4435b1999dd7c8b58f8634816707afe9d6",
+        "size_in_bytes": 6430
+      },
+      {
+        "_path": "site-packages/narwhals/_typing_compat.py",
+        "path_type": "hardlink",
+        "sha256": "87e06d2c497b0ab67e8582e5c184ce70276c512dddbe0be4c504dc0d0ed16260",
+        "sha256_in_prefix": "87e06d2c497b0ab67e8582e5c184ce70276c512dddbe0be4c504dc0d0ed16260",
+        "size_in_bytes": 2516
+      },
+      {
+        "_path": "site-packages/narwhals/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "de615ed186016bf484afa63f1d5d23702dda36fd96f6d38d22bcc26b78f6bc1e",
+        "sha256_in_prefix": "de615ed186016bf484afa63f1d5d23702dda36fd96f6d38d22bcc26b78f6bc1e",
+        "size_in_bytes": 71638
+      },
+      {
+        "_path": "site-packages/narwhals/dataframe.py",
+        "path_type": "hardlink",
+        "sha256": "e0c523fa233ff1928718096abc39ffe3e41ece95adf583528f1723814ca84959",
+        "sha256_in_prefix": "e0c523fa233ff1928718096abc39ffe3e41ece95adf583528f1723814ca84959",
+        "size_in_bytes": 137388
+      },
+      {
+        "_path": "site-packages/narwhals/dependencies.py",
+        "path_type": "hardlink",
+        "sha256": "327ab7826d3ace5c04c4df3e97f7b52e6177ae4b47276c02c576926a33605f23",
+        "sha256_in_prefix": "327ab7826d3ace5c04c4df3e97f7b52e6177ae4b47276c02c576926a33605f23",
+        "size_in_bytes": 19628
+      },
+      {
+        "_path": "site-packages/narwhals/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "d28f800759c3a0613c36b554ffb321cf88f8047fc02ac280d3c5144528ba542a",
+        "sha256_in_prefix": "d28f800759c3a0613c36b554ffb321cf88f8047fc02ac280d3c5144528ba542a",
+        "size_in_bytes": 30464
+      },
+      {
+        "_path": "site-packages/narwhals/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "f6872b6cb34fedf64ba8fda05753d2f4e7b1361cdff21ee87f6c11e708b9904d",
+        "sha256_in_prefix": "f6872b6cb34fedf64ba8fda05753d2f4e7b1361cdff21ee87f6c11e708b9904d",
+        "size_in_bytes": 3704
+      },
+      {
+        "_path": "site-packages/narwhals/expr.py",
+        "path_type": "hardlink",
+        "sha256": "b19211fe95dfe78a5dc91c17231bb605ddb220aba59d0cce5b607cace631d342",
+        "sha256_in_prefix": "b19211fe95dfe78a5dc91c17231bb605ddb220aba59d0cce5b607cace631d342",
+        "size_in_bytes": 101697
+      },
+      {
+        "_path": "site-packages/narwhals/expr_cat.py",
+        "path_type": "hardlink",
+        "sha256": "a383211a63e83b7fc3964441d3a6778a5caaca3ef49b0716de47ed45ac83ab6b",
+        "sha256_in_prefix": "a383211a63e83b7fc3964441d3a6778a5caaca3ef49b0716de47ed45ac83ab6b",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "site-packages/narwhals/expr_dt.py",
+        "path_type": "hardlink",
+        "sha256": "47717dcfd14096e64167b113b7694e76432babf3a61b660c601a642241b35107",
+        "sha256_in_prefix": "47717dcfd14096e64167b113b7694e76432babf3a61b660c601a642241b35107",
+        "size_in_bytes": 32465
+      },
+      {
+        "_path": "site-packages/narwhals/expr_list.py",
+        "path_type": "hardlink",
+        "sha256": "6baa9599822c5858386008437cf73f4edac4891d883569a63e81dd666b2e6cf4",
+        "sha256_in_prefix": "6baa9599822c5858386008437cf73f4edac4891d883569a63e81dd666b2e6cf4",
+        "size_in_bytes": 6696
+      },
+      {
+        "_path": "site-packages/narwhals/expr_name.py",
+        "path_type": "hardlink",
+        "sha256": "d100fc620ec52aeef7f44352248da5c481928e1a3cf49f65f438f17813b3f5b3",
+        "sha256_in_prefix": "d100fc620ec52aeef7f44352248da5c481928e1a3cf49f65f438f17813b3f5b3",
+        "size_in_bytes": 4866
+      },
+      {
+        "_path": "site-packages/narwhals/expr_str.py",
+        "path_type": "hardlink",
+        "sha256": "65444397904c2484761c8edf6a8acb1f529a8dee6718d245cca15a87febb6ed8",
+        "sha256_in_prefix": "65444397904c2484761c8edf6a8acb1f529a8dee6718d245cca15a87febb6ed8",
+        "size_in_bytes": 23313
+      },
+      {
+        "_path": "site-packages/narwhals/expr_struct.py",
+        "path_type": "hardlink",
+        "sha256": "57f1e3de40a175c64f2257dbfcab25a795be8fe5c615c7dd305cd8a597633561",
+        "sha256_in_prefix": "57f1e3de40a175c64f2257dbfcab25a795be8fe5c615c7dd305cd8a597633561",
+        "size_in_bytes": 1742
+      },
+      {
+        "_path": "site-packages/narwhals/functions.py",
+        "path_type": "hardlink",
+        "sha256": "388486eb370e73d6c7dfb39d9542ef0a501af17f17edffb1310e185332b834b1",
+        "sha256_in_prefix": "388486eb370e73d6c7dfb39d9542ef0a501af17f17edffb1310e185332b834b1",
+        "size_in_bytes": 67859
+      },
+      {
+        "_path": "site-packages/narwhals/group_by.py",
+        "path_type": "hardlink",
+        "sha256": "ed491b16f099ea7d2bb600e8bdb125b9e100f29e284b78b79f2fe0e5319a6de9",
+        "sha256_in_prefix": "ed491b16f099ea7d2bb600e8bdb125b9e100f29e284b78b79f2fe0e5319a6de9",
+        "size_in_bytes": 7164
+      },
+      {
+        "_path": "site-packages/narwhals/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals/schema.py",
+        "path_type": "hardlink",
+        "sha256": "e32891cfa42fdfbdc04e937a90214d49b9546f8bcc0d7f544a929e2530d1ad82",
+        "sha256_in_prefix": "e32891cfa42fdfbdc04e937a90214d49b9546f8bcc0d7f544a929e2530d1ad82",
+        "size_in_bytes": 12369
+      },
+      {
+        "_path": "site-packages/narwhals/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "2e2f066f4e525f0df7b042ae1b83babcb64fdfba6759a00b1ba5d51d0439e6fd",
+        "sha256_in_prefix": "2e2f066f4e525f0df7b042ae1b83babcb64fdfba6759a00b1ba5d51d0439e6fd",
+        "size_in_bytes": 10439
+      },
+      {
+        "_path": "site-packages/narwhals/series.py",
+        "path_type": "hardlink",
+        "sha256": "a148a923e8cdd4d83b9fad53703f73bfc11a42cc3fa0c04cfc8ed850e8e9dbec",
+        "sha256_in_prefix": "a148a923e8cdd4d83b9fad53703f73bfc11a42cc3fa0c04cfc8ed850e8e9dbec",
+        "size_in_bytes": 96246
+      },
+      {
+        "_path": "site-packages/narwhals/series_cat.py",
+        "path_type": "hardlink",
+        "sha256": "294e4332d0aa8b428a56b9937c22e9808df6006b98dcc619725345eaca21d577",
+        "sha256_in_prefix": "294e4332d0aa8b428a56b9937c22e9808df6006b98dcc619725345eaca21d577",
+        "size_in_bytes": 834
+      },
+      {
+        "_path": "site-packages/narwhals/series_dt.py",
+        "path_type": "hardlink",
+        "sha256": "6bb24832d03f5a7f598816bd3bffadee4e8b93e033d808476d06254b5570c400",
+        "sha256_in_prefix": "6bb24832d03f5a7f598816bd3bffadee4e8b93e033d808476d06254b5570c400",
+        "size_in_bytes": 23051
+      },
+      {
+        "_path": "site-packages/narwhals/series_list.py",
+        "path_type": "hardlink",
+        "sha256": "eca25a5272854a87339e1cc3eba6cfc0ad13040fcc0521d9d93c96994751ec97",
+        "sha256_in_prefix": "eca25a5272854a87339e1cc3eba6cfc0ad13040fcc0521d9d93c96994751ec97",
+        "size_in_bytes": 3758
+      },
+      {
+        "_path": "site-packages/narwhals/series_str.py",
+        "path_type": "hardlink",
+        "sha256": "a2270670795bb19d0a51190bfe12b3ac671ec6459fc72281c073f249c9c4ca23",
+        "sha256_in_prefix": "a2270670795bb19d0a51190bfe12b3ac671ec6459fc72281c073f249c9c4ca23",
+        "size_in_bytes": 17293
+      },
+      {
+        "_path": "site-packages/narwhals/series_struct.py",
+        "path_type": "hardlink",
+        "sha256": "6e2c717404a5c58c8fd69ac38cc99f96d554e76d766b9f7a550644d75caccd48",
+        "sha256_in_prefix": "6e2c717404a5c58c8fd69ac38cc99f96d554e76d766b9f7a550644d75caccd48",
+        "size_in_bytes": 930
+      },
+      {
+        "_path": "site-packages/narwhals/stable/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6fdb280a41a4433805e633b911d43a20e4299dce86e9ea96998e96c29a128e19",
+        "sha256_in_prefix": "6fdb280a41a4433805e633b911d43a20e4299dce86e9ea96998e96c29a128e19",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "aff08d51e10760d325461de446466a27515f13082eaf6c3194d5e18c252085c4",
+        "sha256_in_prefix": "aff08d51e10760d325461de446466a27515f13082eaf6c3194d5e18c252085c4",
+        "size_in_bytes": 43284
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/_dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "a61aff508ec3aa0ef719bb7e988034f44bddb81b8b38cb070c99c67369b20625",
+        "sha256_in_prefix": "a61aff508ec3aa0ef719bb7e988034f44bddb81b8b38cb070c99c67369b20625",
+        "size_in_bytes": 2796
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/_namespace.py",
+        "path_type": "hardlink",
+        "sha256": "81fb1b4f847868b9a6740ad8df92d1a441cf8947992841275c6898f72a45b701",
+        "sha256_in_prefix": "81fb1b4f847868b9a6740ad8df92d1a441cf8947992841275c6898f72a45b701",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/dependencies.py",
+        "path_type": "hardlink",
+        "sha256": "68cd084a117885b69a3040d12505efb2ee1100164e7411b8421ae924fc5bedf8",
+        "sha256_in_prefix": "68cd084a117885b69a3040d12505efb2ee1100164e7411b8421ae924fc5bedf8",
+        "size_in_bytes": 5001
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "bb63450c9c82923b0aea9dcaf542c94bb0a81b5eb3d19d4c4220024d5921907e",
+        "sha256_in_prefix": "bb63450c9c82923b0aea9dcaf542c94bb0a81b5eb3d19d4c4220024d5921907e",
+        "size_in_bytes": 1082
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "c4403d6c1ce4a53c146a7186a05c0109c1c80176fc6a5c2b3d7d668f313d9833",
+        "sha256_in_prefix": "c4403d6c1ce4a53c146a7186a05c0109c1c80176fc6a5c2b3d7d668f313d9833",
+        "size_in_bytes": 312
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v1/typing.py",
+        "path_type": "hardlink",
+        "sha256": "edd050571996eb340e8df4f6374ac475d294043eb5ae8c616490c9840a42d1f9",
+        "sha256_in_prefix": "edd050571996eb340e8df4f6374ac475d294043eb5ae8c616490c9840a42d1f9",
+        "size_in_bytes": 6433
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "22d101bc48567a5341d57407282cc2debe02f7747493a0e25a0f365be2db02fb",
+        "sha256_in_prefix": "22d101bc48567a5341d57407282cc2debe02f7747493a0e25a0f365be2db02fb",
+        "size_in_bytes": 40077
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v2/_namespace.py",
+        "path_type": "hardlink",
+        "sha256": "a180799eb146c6aa93a27911c7dbd46a7c81c46b3661bd23eff8ee332be7bd60",
+        "sha256_in_prefix": "a180799eb146c6aa93a27911c7dbd46a7c81c46b3661bd23eff8ee332be7bd60",
+        "size_in_bytes": 296
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v2/dependencies.py",
+        "path_type": "hardlink",
+        "sha256": "be9616c7f76ba27eb015d6d0eb41b4e84576509fcb31de762c3a1d0ab018e498",
+        "sha256_in_prefix": "be9616c7f76ba27eb015d6d0eb41b4e84576509fcb31de762c3a1d0ab018e498",
+        "size_in_bytes": 86
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v2/dtypes.py",
+        "path_type": "hardlink",
+        "sha256": "88ca64d8a73598d8906266e83928268808a39254940474871762d328c2a719ef",
+        "sha256_in_prefix": "88ca64d8a73598d8906266e83928268808a39254940474871762d328c2a719ef",
+        "size_in_bytes": 80
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v2/selectors.py",
+        "path_type": "hardlink",
+        "sha256": "b2324bdda80777c4607ff9568600a610aaee856124c07757df6fa7f393aa5495",
+        "sha256_in_prefix": "b2324bdda80777c4607ff9568600a610aaee856124c07757df6fa7f393aa5495",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/narwhals/stable/v2/typing.py",
+        "path_type": "hardlink",
+        "sha256": "9b299f3fbc20e857f2ba71a22b9d48fa3a8421c3c0e6ef2014e1cde2c0e8cf92",
+        "sha256_in_prefix": "9b299f3fbc20e857f2ba71a22b9d48fa3a8421c3c0e6ef2014e1cde2c0e8cf92",
+        "size_in_bytes": 6042
+      },
+      {
+        "_path": "site-packages/narwhals/this.py",
+        "path_type": "hardlink",
+        "sha256": "05b29c8f445e5aa134d65ce7cca8eeaaaee8b5738dbe305ebd6582e5a261431b",
+        "sha256_in_prefix": "05b29c8f445e5aa134d65ce7cca8eeaaaee8b5738dbe305ebd6582e5a261431b",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "site-packages/narwhals/translate.py",
+        "path_type": "hardlink",
+        "sha256": "3be2fd200558a1d8245052bfd58460ff711730672f0e5f5640768e822a5e853b",
+        "sha256_in_prefix": "3be2fd200558a1d8245052bfd58460ff711730672f0e5f5640768e822a5e853b",
+        "size_in_bytes": 24704
+      },
+      {
+        "_path": "site-packages/narwhals/typing.py",
+        "path_type": "hardlink",
+        "sha256": "9465f0cd347517ada628ce6daec41406f0d96d966c85810193da5453b50bb337",
+        "sha256_in_prefix": "9465f0cd347517ada628ce6daec41406f0d96d966c85810193da5453b50bb337",
+        "size_in_bytes": 17283
+      },
+      {
+        "_path": "site-packages/narwhals/utils.py",
+        "path_type": "hardlink",
+        "sha256": "d864f75f1b9c588ea5f6bf634f0330ec085ad86ef716c4978173456773bf6720",
+        "sha256_in_prefix": "d864f75f1b9c588ea5f6bf634f0330ec085ad86ef716c4978173456773bf6720",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "sha256_in_prefix": "bc33022edcb7639ff53355b4e91dade50a0bbf0299efeb6171d1ec0ba5029cfc",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "7d501630acdecea7edc4db525d1558694bb8b13a7e23d1f1fe7a0cfce40317bb",
+        "sha256_in_prefix": "7d501630acdecea7edc4db525d1558694bb8b13a7e23d1f1fe7a0cfce40317bb",
+        "size_in_bytes": 11307
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "56cc485d9c35ae144e87cb42a28393a7929c2fb608df013ad5f315a41f07d0d8",
+        "sha256_in_prefix": "56cc485d9c35ae144e87cb42a28393a7929c2fb608df013ad5f315a41f07d0d8",
+        "size_in_bytes": 22491
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "090abf9a954e7ce96cf03934963a17f43eaa76a2c8ee4742f6c3901f1b237b68",
+        "sha256_in_prefix": "090abf9a954e7ce96cf03934963a17f43eaa76a2c8ee4742f6c3901f1b237b68",
+        "size_in_bytes": 119
+      },
+      {
+        "_path": "site-packages/narwhals-2.8.0.dist-info/licenses/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "85e303ea1b5ae91cde06e729a71e7d0140a0affba4458d00063d1b72b37798ab",
+        "sha256_in_prefix": "85e303ea1b5ae91cde06e729a71e7d0140a0affba4458d00063d1b72b37798ab",
+        "size_in_bytes": 1071
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_cat.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/series_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_arrow/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/any_namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/column.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/when_then.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_compliant/__pycache__/window.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_constants.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/expr_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/expr_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_dask/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/expr_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_duckdb/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_duration.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_enum.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_exceptions.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_expression_parsing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/expr_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_ibis/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_interchange/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_interchange/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_interchange/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_cat.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/series_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_pandas_like/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_polars/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/expr_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_spark_like/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/expr_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/expr_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/_sql/__pycache__/when_then.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_translate.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_typing_compat.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/dataframe.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/dependencies.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/dtypes.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/exceptions.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr_cat.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr_name.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/expr_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/functions.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/group_by.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/schema.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/series.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/series_cat.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/series_dt.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/series_list.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/series_str.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/series_struct.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/_dtypes.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/_namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/dependencies.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/dtypes.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v1/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/_namespace.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/dependencies.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/dtypes.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/selectors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/stable/v2/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/this.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/translate.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/narwhals/__pycache__/utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4f90f77ba10c4aca8d2965c9576786848069ec311ad37cd0e18693b642cba29c",
+  "size": 259305,
+  "subdir": "noarch",
+  "timestamp": 1760347630000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/narwhals-2.8.0-pyhcf101f3_0.conda",
+  "version": "2.8.0"
+}

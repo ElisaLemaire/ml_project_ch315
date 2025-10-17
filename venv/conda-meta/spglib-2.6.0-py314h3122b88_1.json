@@ -1,0 +1,402 @@
+{
+  "build": "py314h3122b88_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "importlib-resources",
+    "libgcc >=14",
+    "libgfortran",
+    "libgfortran5 >=14.3.0",
+    "libstdcxx >=14",
+    "numpy >=1.23,<3",
+    "python >=3.14.0rc2,<3.15.0a0",
+    "python_abi 3.14.* *_cp314",
+    "typing-extensions"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/spglib-2.6.0-py314h3122b88_1",
+  "files": [
+    "include/Spglib_Fortran/GNU-14.3.0/spglib_f08.mod",
+    "include/spglib.h",
+    "include/spglib_f08.F90",
+    "lib/cmake/Spglib/PackageCompsHelper.cmake",
+    "lib/cmake/Spglib/SpglibConfig.cmake",
+    "lib/cmake/Spglib/SpglibConfigVersion.cmake",
+    "lib/cmake/Spglib/SpglibTargets_fortran_shared-release.cmake",
+    "lib/cmake/Spglib/SpglibTargets_fortran_shared.cmake",
+    "lib/cmake/Spglib/SpglibTargets_shared-release.cmake",
+    "lib/cmake/Spglib/SpglibTargets_shared.cmake",
+    "lib/cmake/Spglib/try_compile.f90",
+    "lib/libspglib_f08.so",
+    "lib/libspglib_f08.so.2",
+    "lib/libspglib_f08.so.2.6.0",
+    "lib/libsymspg.so",
+    "lib/libsymspg.so.2",
+    "lib/libsymspg.so.2.6.0",
+    "lib/pkgconfig/spglib.pc",
+    "lib/pkgconfig/spglib_f08.pc",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/METADATA",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/RECORD",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/WHEEL",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/spglib-2.6.0.dist-info/licenses/COPYING",
+    "lib/python3.14/site-packages/spglib/__init__.py",
+    "lib/python3.14/site-packages/spglib/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/__pycache__/spglib.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/_compat/__init__.py",
+    "lib/python3.14/site-packages/spglib/_compat/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/_compat/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/_compat/__pycache__/warnings.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/_compat/importlib/__init__.py",
+    "lib/python3.14/site-packages/spglib/_compat/importlib/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/_compat/importlib/__pycache__/resources.cpython-314.pyc",
+    "lib/python3.14/site-packages/spglib/_compat/importlib/resources.py",
+    "lib/python3.14/site-packages/spglib/_compat/typing.py",
+    "lib/python3.14/site-packages/spglib/_compat/warnings.py",
+    "lib/python3.14/site-packages/spglib/_spglib.cpython-314-x86_64-linux-gnu.so",
+    "lib/python3.14/site-packages/spglib/_spglib.pyi",
+    "lib/python3.14/site-packages/spglib/_version.py",
+    "lib/python3.14/site-packages/spglib/py.typed",
+    "lib/python3.14/site-packages/spglib/spglib.py"
+  ],
+  "fn": "spglib-2.6.0-py314h3122b88_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/conda/pkgs/spglib-2.6.0-py314h3122b88_1",
+    "type": 1
+  },
+  "md5": "b57758d74459e627e54df10670849975",
+  "name": "spglib",
+  "package_tarball_full_path": "/opt/conda/pkgs/spglib-2.6.0-py314h3122b88_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/Spglib_Fortran/GNU-14.3.0/spglib_f08.mod",
+        "path_type": "hardlink",
+        "sha256": "7164ab36d778d3c6ff956180f63ece54bf29724f85f5b1ebc494d3c8a93cb0d1",
+        "sha256_in_prefix": "7164ab36d778d3c6ff956180f63ece54bf29724f85f5b1ebc494d3c8a93cb0d1",
+        "size_in_bytes": 7769
+      },
+      {
+        "_path": "include/spglib.h",
+        "path_type": "hardlink",
+        "sha256": "429f9293ba2fba2b347c5329e1a6b814c99031397a4a258faad1a1b37367b0c5",
+        "sha256_in_prefix": "429f9293ba2fba2b347c5329e1a6b814c99031397a4a258faad1a1b37367b0c5",
+        "size_in_bytes": 26399
+      },
+      {
+        "_path": "include/spglib_f08.F90",
+        "path_type": "hardlink",
+        "sha256": "eab191a8e31d5fdcf22ccbd88076aa7057e1e99798e9c127137bcf28cda32285",
+        "sha256_in_prefix": "eab191a8e31d5fdcf22ccbd88076aa7057e1e99798e9c127137bcf28cda32285",
+        "size_in_bytes": 47353
+      },
+      {
+        "_path": "lib/cmake/Spglib/PackageCompsHelper.cmake",
+        "path_type": "hardlink",
+        "sha256": "e7e41f2253534fc7018110952ac07751d6be7181699004450353ef77cd1d5905",
+        "sha256_in_prefix": "e7e41f2253534fc7018110952ac07751d6be7181699004450353ef77cd1d5905",
+        "size_in_bytes": 23209
+      },
+      {
+        "_path": "lib/cmake/Spglib/SpglibConfig.cmake",
+        "path_type": "hardlink",
+        "sha256": "d260463ba03266b7534f35efdf11620b9ebf7cca84e4e08beebc17ffc860e2f3",
+        "sha256_in_prefix": "d260463ba03266b7534f35efdf11620b9ebf7cca84e4e08beebc17ffc860e2f3",
+        "size_in_bytes": 2801
+      },
+      {
+        "_path": "lib/cmake/Spglib/SpglibConfigVersion.cmake",
+        "path_type": "hardlink",
+        "sha256": "c90df8fd93e962ef6fa16348a94a9523187b82aa4ab90177a904b1fe55db31de",
+        "sha256_in_prefix": "c90df8fd93e962ef6fa16348a94a9523187b82aa4ab90177a904b1fe55db31de",
+        "size_in_bytes": 2762
+      },
+      {
+        "_path": "lib/cmake/Spglib/SpglibTargets_fortran_shared-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "5468620b6f2af7b90fefc9d306dd9c028fc17db189d3811158cba3da057eb6f7",
+        "sha256_in_prefix": "5468620b6f2af7b90fefc9d306dd9c028fc17db189d3811158cba3da057eb6f7",
+        "size_in_bytes": 887
+      },
+      {
+        "_path": "lib/cmake/Spglib/SpglibTargets_fortran_shared.cmake",
+        "path_type": "hardlink",
+        "sha256": "c4da858f25f93be9f183d763af12e7dae67c64f3c1c46323184bb5677343d536",
+        "sha256_in_prefix": "c4da858f25f93be9f183d763af12e7dae67c64f3c1c46323184bb5677343d536",
+        "size_in_bytes": 5304
+      },
+      {
+        "_path": "lib/cmake/Spglib/SpglibTargets_shared-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "bb83bc47be94673313a28a694573427fd1a1471ca7a465eaa4f1729dc6895f7f",
+        "sha256_in_prefix": "bb83bc47be94673313a28a694573427fd1a1471ca7a465eaa4f1729dc6895f7f",
+        "size_in_bytes": 850
+      },
+      {
+        "_path": "lib/cmake/Spglib/SpglibTargets_shared.cmake",
+        "path_type": "hardlink",
+        "sha256": "7a5e5aa5dbc7274542185280b65c7fcbfb5425788fd30c4925afa72a03e840b7",
+        "sha256_in_prefix": "7a5e5aa5dbc7274542185280b65c7fcbfb5425788fd30c4925afa72a03e840b7",
+        "size_in_bytes": 4532
+      },
+      {
+        "_path": "lib/cmake/Spglib/try_compile.f90",
+        "path_type": "hardlink",
+        "sha256": "52336dbbeac51e784c4b6a3e6699dc7c02cdd17960ffb79482dc4568e0a501bc",
+        "sha256_in_prefix": "52336dbbeac51e784c4b6a3e6699dc7c02cdd17960ffb79482dc4568e0a501bc",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "lib/libspglib_f08.so",
+        "path_type": "softlink",
+        "sha256": "cf152ce68359d66723909f0ba267d38039e16395de95b091b7f3dbdb636c97ee",
+        "size_in_bytes": 44024
+      },
+      {
+        "_path": "lib/libspglib_f08.so.2",
+        "path_type": "softlink",
+        "sha256": "cf152ce68359d66723909f0ba267d38039e16395de95b091b7f3dbdb636c97ee",
+        "size_in_bytes": 44024
+      },
+      {
+        "_path": "lib/libspglib_f08.so.2.6.0",
+        "path_type": "hardlink",
+        "sha256": "cf152ce68359d66723909f0ba267d38039e16395de95b091b7f3dbdb636c97ee",
+        "sha256_in_prefix": "cf152ce68359d66723909f0ba267d38039e16395de95b091b7f3dbdb636c97ee",
+        "size_in_bytes": 44024
+      },
+      {
+        "_path": "lib/libsymspg.so",
+        "path_type": "softlink",
+        "sha256": "f10d4945f77197d702ebadd7e26130d459c6cd0c4c68a63f4e5a82d946db9ad5",
+        "size_in_bytes": 1886032
+      },
+      {
+        "_path": "lib/libsymspg.so.2",
+        "path_type": "softlink",
+        "sha256": "f10d4945f77197d702ebadd7e26130d459c6cd0c4c68a63f4e5a82d946db9ad5",
+        "size_in_bytes": 1886032
+      },
+      {
+        "_path": "lib/libsymspg.so.2.6.0",
+        "path_type": "hardlink",
+        "sha256": "f10d4945f77197d702ebadd7e26130d459c6cd0c4c68a63f4e5a82d946db9ad5",
+        "sha256_in_prefix": "f10d4945f77197d702ebadd7e26130d459c6cd0c4c68a63f4e5a82d946db9ad5",
+        "size_in_bytes": 1886032
+      },
+      {
+        "_path": "lib/pkgconfig/spglib.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/spglib_1756542934664/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "0c6c690e2a35f3cc422e89356a9af0df35960317362d6102ce14a0c074f1ccb0",
+        "sha256_in_prefix": "2acb8e0383dd2dbc4d509d3cac277ee9d4303bef42ecf4a75a0936a5d71c2a34",
+        "size_in_bytes": 611
+      },
+      {
+        "_path": "lib/pkgconfig/spglib_f08.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/spglib_1756542934664/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "49c43bde2094562a092c672a3b0ad4dff981d69c2354b7e713128bcd01accf83",
+        "sha256_in_prefix": "9e9ad3fe31aea614e8588f666cafcd853547fdf062edb8ca554f0de63c62d220",
+        "size_in_bytes": 680
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "fd3dc3bec865ca61f3952a26d1b8d02f82545c6ff64560bdc964cbfe923d3f6b",
+        "sha256_in_prefix": "fd3dc3bec865ca61f3952a26d1b8d02f82545c6ff64560bdc964cbfe923d3f6b",
+        "size_in_bytes": 4229
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "7dc541bf82296b877ab2162f9971afe5e9ea63cab3ba087a9b06ceccf3ca4412",
+        "sha256_in_prefix": "7dc541bf82296b877ab2162f9971afe5e9ea63cab3ba087a9b06ceccf3ca4412",
+        "size_in_bytes": 1913
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c429c0d449623d99702b4a44740d0d642157e442ed0d2629ffdaf65e35dd2bca",
+        "sha256_in_prefix": "c429c0d449623d99702b4a44740d0d642157e442ed0d2629ffdaf65e35dd2bca",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a36a5b0ae49b6707d0b07074d38a20f4d4fca4920ef0ce72027ea50c0257722a",
+        "sha256_in_prefix": "a36a5b0ae49b6707d0b07074d38a20f4d4fca4920ef0ce72027ea50c0257722a",
+        "size_in_bytes": 102
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib-2.6.0.dist-info/licenses/COPYING",
+        "path_type": "hardlink",
+        "sha256": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f",
+        "sha256_in_prefix": "9c4e602ce15bf48206dad105b666ddaeedba747eeda6465807106bc11f4f587f",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9a3953bbfd396d141050707454871a29917cff57055c03b11892d4898107a87b",
+        "sha256_in_prefix": "9a3953bbfd396d141050707454871a29917cff57055c03b11892d4898107a87b",
+        "size_in_bytes": 1222
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "a9928fcb116d291b0b558070b487ff6850749f460241d0be40a83600136316fe",
+        "sha256_in_prefix": "a9928fcb116d291b0b558070b487ff6850749f460241d0be40a83600136316fe",
+        "size_in_bytes": 1455
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/__pycache__/_version.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e2f87a4849b746b03a7892eeec3fc98b08ac1d9301dcd159bfd690ce2b88cc6",
+        "sha256_in_prefix": "1e2f87a4849b746b03a7892eeec3fc98b08ac1d9301dcd159bfd690ce2b88cc6",
+        "size_in_bytes": 1286
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/__pycache__/spglib.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "f870860a75283279e7f99b6bec6ed507567ca47d74daae921c24ca14d0c940e9",
+        "sha256_in_prefix": "f870860a75283279e7f99b6bec6ed507567ca47d74daae921c24ca14d0c940e9",
+        "size_in_bytes": 69080
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "ad29c9917dc8a2369dcba9933c4337b4f9dcefa3f6a877aacfeb7c66600a97a4",
+        "sha256_in_prefix": "ad29c9917dc8a2369dcba9933c4337b4f9dcefa3f6a877aacfeb7c66600a97a4",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/__pycache__/typing.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8154dd46dd51681152e684ffb8b1cc1e223ce59163367fdf04320da3a8b0adc",
+        "sha256_in_prefix": "a8154dd46dd51681152e684ffb8b1cc1e223ce59163367fdf04320da3a8b0adc",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/__pycache__/warnings.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "d33b95ea168a14c11f123aa852c1a2df2d0b65d037ba7af2166d339e7abeb24c",
+        "sha256_in_prefix": "d33b95ea168a14c11f123aa852c1a2df2d0b65d037ba7af2166d339e7abeb24c",
+        "size_in_bytes": 405
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/importlib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/importlib/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "fab00a8780e16a0d82cb5b1c595da5a4c41ee8bbbb88bb66a465c4a27f0731ec",
+        "sha256_in_prefix": "fab00a8780e16a0d82cb5b1c595da5a4c41ee8bbbb88bb66a465c4a27f0731ec",
+        "size_in_bytes": 164
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/importlib/__pycache__/resources.cpython-314.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae04f07efc2c3f1246617321c619b9ad682598d976b844d6550baa42c91ab9eb",
+        "sha256_in_prefix": "ae04f07efc2c3f1246617321c619b9ad682598d976b844d6550baa42c91ab9eb",
+        "size_in_bytes": 412
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/importlib/resources.py",
+        "path_type": "hardlink",
+        "sha256": "eb1245688740d36afa9d30870482c6147d098bcb3f0763d3089752099ec578e1",
+        "sha256_in_prefix": "eb1245688740d36afa9d30870482c6147d098bcb3f0763d3089752099ec578e1",
+        "size_in_bytes": 195
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/typing.py",
+        "path_type": "hardlink",
+        "sha256": "9e0dfe9b09a7904286cd85a2dd1d2720d3d805c073eb5995b7eecd8b298d5c4b",
+        "sha256_in_prefix": "9e0dfe9b09a7904286cd85a2dd1d2720d3d805c073eb5995b7eecd8b298d5c4b",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_compat/warnings.py",
+        "path_type": "hardlink",
+        "sha256": "8881fedd7d085fe56cd1d945260451d39e7ec7074cd76d6241bfc4734886b210",
+        "sha256_in_prefix": "8881fedd7d085fe56cd1d945260451d39e7ec7074cd76d6241bfc4734886b210",
+        "size_in_bytes": 201
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_spglib.cpython-314-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "3d4e8874e8e0d4aa7627b50cbf9ea43c70b953443c23e7d4c67410317c0b1efd",
+        "sha256_in_prefix": "3d4e8874e8e0d4aa7627b50cbf9ea43c70b953443c23e7d4c67410317c0b1efd",
+        "size_in_bytes": 35720
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_spglib.pyi",
+        "path_type": "hardlink",
+        "sha256": "fdee74060c00fa9feb25b0122e3fb5c7388b1a51b23f980ee4a0f15b27cabd68",
+        "sha256_in_prefix": "fdee74060c00fa9feb25b0122e3fb5c7388b1a51b23f980ee4a0f15b27cabd68",
+        "size_in_bytes": 5150
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/_version.py",
+        "path_type": "hardlink",
+        "sha256": "d865c5e76208bad7e22279e858622d1d607ac4ce391c6550609dc9efbfa2515d",
+        "sha256_in_prefix": "d865c5e76208bad7e22279e858622d1d607ac4ce391c6550609dc9efbfa2515d",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.14/site-packages/spglib/spglib.py",
+        "path_type": "hardlink",
+        "sha256": "490680bbea407124a9cdd64318251daa8af9412fc04a6c238910a79eb5eca6ac",
+        "sha256_in_prefix": "490680bbea407124a9cdd64318251daa8af9412fc04a6c238910a79eb5eca6ac",
+        "size_in_bytes": 67428
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3c96f4fa01847893ed152127c4d22f3db7e3b39793e37f78971463c7cc4daca6",
+  "size": 341525,
+  "subdir": "linux-64",
+  "timestamp": 1756543095000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/spglib-2.6.0-py314h3122b88_1.conda",
+  "version": "2.6.0"
+}

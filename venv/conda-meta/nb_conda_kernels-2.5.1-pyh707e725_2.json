@@ -1,0 +1,198 @@
+{
+  "build": "pyh707e725_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "__unix",
+    "jupyter_client >=4.2",
+    "notebook",
+    "psutil",
+    "python >=3.8",
+    "requests"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/nb_conda_kernels-2.5.1-pyh707e725_2",
+  "files": [
+    "bin/.nb_conda_kernels-post-link.sh",
+    "bin/.nb_conda_kernels-pre-unlink.sh",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/LICENSE",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/METADATA",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/RECORD",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/WHEEL",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/nb_conda_kernels-2.5.1.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/nb_conda_kernels/__init__.py",
+    "lib/python3.14/site-packages/nb_conda_kernels/__main__.py",
+    "lib/python3.14/site-packages/nb_conda_kernels/_version.py",
+    "lib/python3.14/site-packages/nb_conda_kernels/install.py",
+    "lib/python3.14/site-packages/nb_conda_kernels/manager.py",
+    "lib/python3.14/site-packages/nb_conda_kernels/runner.py",
+    "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/__main__.cpython-314.pyc",
+    "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/install.cpython-314.pyc",
+    "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/manager.cpython-314.pyc",
+    "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/runner.cpython-314.pyc"
+  ],
+  "fn": "nb_conda_kernels-2.5.1-pyh707e725_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/conda/pkgs/nb_conda_kernels-2.5.1-pyh707e725_2",
+    "type": 1
+  },
+  "md5": "076e6d822442987779a6622092a8fb6a",
+  "name": "nb_conda_kernels",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/nb_conda_kernels-2.5.1-pyh707e725_2.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/.nb_conda_kernels-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "4d513864f58a9a518ca5df80feb6b40abbc6e272772b48c33e38af0da9e96cbb",
+        "sha256_in_prefix": "4d513864f58a9a518ca5df80feb6b40abbc6e272772b48c33e38af0da9e96cbb",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "python-scripts/.nb_conda_kernels-pre-unlink.sh",
+        "path_type": "hardlink",
+        "sha256": "1ec4539f56eee6aa323c3e3430f8075b7c03749a2f5395f55f739f6ba224866b",
+        "sha256_in_prefix": "1ec4539f56eee6aa323c3e3430f8075b7c03749a2f5395f55f739f6ba224866b",
+        "size_in_bytes": 94
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "704c3ddca05dc980400f7cd6a945475522e45f4a9b6a6d61d3fffc553c424665",
+        "sha256_in_prefix": "704c3ddca05dc980400f7cd6a945475522e45f4a9b6a6d61d3fffc553c424665",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "81cce78254183d8349e04ccfbfc18cd71c787e36ab3d5ce5aa1e51d6ed4413b5",
+        "sha256_in_prefix": "81cce78254183d8349e04ccfbfc18cd71c787e36ab3d5ce5aa1e51d6ed4413b5",
+        "size_in_bytes": 11094
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0e1bc723e3fe0d3302d67dd148708f39a2130dd3c2d791f3ae1d57aab58f2dce",
+        "sha256_in_prefix": "0e1bc723e3fe0d3302d67dd148708f39a2130dd3c2d791f3ae1d57aab58f2dce",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "sha256_in_prefix": "189eedfe4581172c1b6a02b97a8f48a14c0b5baa3239e4ca990fbd8871553714",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "de881c3ea38001903c0190225110702addc41a57033938ff28d6be3860e04448",
+        "sha256_in_prefix": "de881c3ea38001903c0190225110702addc41a57033938ff28d6be3860e04448",
+        "size_in_bytes": 112
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels-2.5.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3469c1d14758e1cd116c78a613017324a14dde222eb2b41e602f64ab4e681ad6",
+        "sha256_in_prefix": "3469c1d14758e1cd116c78a613017324a14dde222eb2b41e602f64ab4e681ad6",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "02ed2912d76172f1f03a2469093ee175554bd18ffa0d8fcd7182266afde96dab",
+        "sha256_in_prefix": "02ed2912d76172f1f03a2469093ee175554bd18ffa0d8fcd7182266afde96dab",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "bab7f8d98581da01f8149420aa542917c8f5fb79a5bb7d070f05067fa8aba600",
+        "sha256_in_prefix": "bab7f8d98581da01f8149420aa542917c8f5fb79a5bb7d070f05067fa8aba600",
+        "size_in_bytes": 233
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels/_version.py",
+        "path_type": "hardlink",
+        "sha256": "318cee9c0c259cc7d9ec0c58eb599993cf3100a10660e99aff300b84e336d819",
+        "sha256_in_prefix": "318cee9c0c259cc7d9ec0c58eb599993cf3100a10660e99aff300b84e336d819",
+        "size_in_bytes": 497
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels/install.py",
+        "path_type": "hardlink",
+        "sha256": "cfe6854b881136e9c1630adb5f5982bcfc7c6bf1a294a49d55c85de9a168620d",
+        "sha256_in_prefix": "cfe6854b881136e9c1630adb5f5982bcfc7c6bf1a294a49d55c85de9a168620d",
+        "size_in_bytes": 9208
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels/manager.py",
+        "path_type": "hardlink",
+        "sha256": "d019afec081176971a30161313945bd693994375866e30205867f604a9c2aa99",
+        "sha256_in_prefix": "d019afec081176971a30161313945bd693994375866e30205867f604a9c2aa99",
+        "size_in_bytes": 20072
+      },
+      {
+        "_path": "site-packages/nb_conda_kernels/runner.py",
+        "path_type": "hardlink",
+        "sha256": "e8135cfae1c36165a7d97d57a2399fdf01ef8831da73096ad9c1d1dd2ca43cba",
+        "sha256_in_prefix": "e8135cfae1c36165a7d97d57a2399fdf01ef8831da73096ad9c1d1dd2ca43cba",
+        "size_in_bytes": 1429
+      },
+      {
+        "_path": "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/__main__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/_version.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/install.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/manager.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/nb_conda_kernels/__pycache__/runner.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2aaf48824b2bba5af5fe6c36c3d2a8314fee52b3b86e9f84c6009817ba19309c",
+  "size": 22025,
+  "subdir": "noarch",
+  "timestamp": 1714150164000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nb_conda_kernels-2.5.1-pyh707e725_2.conda",
+  "version": "2.5.1"
+}

@@ -1,0 +1,954 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "anywidget >=0.9.18",
+    "moyopy >=0.4.1",
+    "nbformat >=5.10",
+    "numpy >=2",
+    "pandas >=2.2",
+    "plotly >=6",
+    "pymatgen >=2025.2.18",
+    "python >=3.11",
+    "python-kaleido >=1.0.0",
+    "pyyaml >=6",
+    "scikit-learn >=1.5",
+    "scipy >=1.14"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/pymatviz-0.17.2-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.14/site-packages/pymatviz-0.17.2.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/pymatviz-0.17.2.dist-info/METADATA",
+    "lib/python3.14/site-packages/pymatviz-0.17.2.dist-info/RECORD",
+    "lib/python3.14/site-packages/pymatviz-0.17.2.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/pymatviz-0.17.2.dist-info/WHEEL",
+    "lib/python3.14/site-packages/pymatviz-0.17.2.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/pymatviz/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/bar.py",
+    "lib/python3.14/site-packages/pymatviz/brillouin.py",
+    "lib/python3.14/site-packages/pymatviz/chem_env.py",
+    "lib/python3.14/site-packages/pymatviz/classify/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/classify/confusion_matrix.py",
+    "lib/python3.14/site-packages/pymatviz/classify/curves.py",
+    "lib/python3.14/site-packages/pymatviz/cluster/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/embed.py",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/plot.py",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/project.py",
+    "lib/python3.14/site-packages/pymatviz/colors.py",
+    "lib/python3.14/site-packages/pymatviz/coordination/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/coordination/helpers.py",
+    "lib/python3.14/site-packages/pymatviz/coordination/plotly.py",
+    "lib/python3.14/site-packages/pymatviz/data/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/elements.csv",
+    "lib/python3.14/site-packages/pymatviz/enums.py",
+    "lib/python3.14/site-packages/pymatviz/histogram.py",
+    "lib/python3.14/site-packages/pymatviz/io.py",
+    "lib/python3.14/site-packages/pymatviz/keys.yml",
+    "lib/python3.14/site-packages/pymatviz/notebook.py",
+    "lib/python3.14/site-packages/pymatviz/phonons/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/phonons/helpers.py",
+    "lib/python3.14/site-packages/pymatviz/phonons/plotly.py",
+    "lib/python3.14/site-packages/pymatviz/powerups.py",
+    "lib/python3.14/site-packages/pymatviz/process_data.py",
+    "lib/python3.14/site-packages/pymatviz/ptable/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/ptable/plotly.py",
+    "lib/python3.14/site-packages/pymatviz/py.typed",
+    "lib/python3.14/site-packages/pymatviz/rainclouds.py",
+    "lib/python3.14/site-packages/pymatviz/rdf/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/rdf/helpers.py",
+    "lib/python3.14/site-packages/pymatviz/rdf/plotly.py",
+    "lib/python3.14/site-packages/pymatviz/sankey.py",
+    "lib/python3.14/site-packages/pymatviz/scatter.py",
+    "lib/python3.14/site-packages/pymatviz/structure/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/structure/helpers.py",
+    "lib/python3.14/site-packages/pymatviz/structure/plotly.py",
+    "lib/python3.14/site-packages/pymatviz/sunburst/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/sunburst/chem_env.py",
+    "lib/python3.14/site-packages/pymatviz/sunburst/chem_sys.py",
+    "lib/python3.14/site-packages/pymatviz/sunburst/helpers.py",
+    "lib/python3.14/site-packages/pymatviz/sunburst/spacegroup.py",
+    "lib/python3.14/site-packages/pymatviz/templates.py",
+    "lib/python3.14/site-packages/pymatviz/treemap/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/treemap/chem_env.py",
+    "lib/python3.14/site-packages/pymatviz/treemap/chem_sys.py",
+    "lib/python3.14/site-packages/pymatviz/treemap/py_pkg.py",
+    "lib/python3.14/site-packages/pymatviz/typing.py",
+    "lib/python3.14/site-packages/pymatviz/uncertainty.py",
+    "lib/python3.14/site-packages/pymatviz/utils/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/utils/data.py",
+    "lib/python3.14/site-packages/pymatviz/utils/plotting.py",
+    "lib/python3.14/site-packages/pymatviz/utils/testing.py",
+    "lib/python3.14/site-packages/pymatviz/widgets/.pytest_cache/.gitignore",
+    "lib/python3.14/site-packages/pymatviz/widgets/.pytest_cache/CACHEDIR.TAG",
+    "lib/python3.14/site-packages/pymatviz/widgets/.pytest_cache/README.md",
+    "lib/python3.14/site-packages/pymatviz/widgets/.pytest_cache/v/cache/lastfailed",
+    "lib/python3.14/site-packages/pymatviz/widgets/.pytest_cache/v/cache/nodeids",
+    "lib/python3.14/site-packages/pymatviz/widgets/.ruff_cache/.gitignore",
+    "lib/python3.14/site-packages/pymatviz/widgets/.ruff_cache/CACHEDIR.TAG",
+    "lib/python3.14/site-packages/pymatviz/widgets/__init__.py",
+    "lib/python3.14/site-packages/pymatviz/widgets/composition.py",
+    "lib/python3.14/site-packages/pymatviz/widgets/matterviz.py",
+    "lib/python3.14/site-packages/pymatviz/widgets/mime.py",
+    "lib/python3.14/site-packages/pymatviz/widgets/structure.py",
+    "lib/python3.14/site-packages/pymatviz/widgets/trajectory.py",
+    "lib/python3.14/site-packages/pymatviz/xrd.py",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/bar.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/brillouin.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/chem_env.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/classify/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/classify/__pycache__/confusion_matrix.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/classify/__pycache__/curves.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/cluster/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/embed.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/plot.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/project.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/colors.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/coordination/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/coordination/__pycache__/helpers.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/coordination/__pycache__/plotly.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/data/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/enums.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/histogram.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/io.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/notebook.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/phonons/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/phonons/__pycache__/helpers.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/phonons/__pycache__/plotly.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/powerups.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/process_data.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/ptable/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/ptable/__pycache__/plotly.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/rainclouds.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/rdf/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/rdf/__pycache__/helpers.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/rdf/__pycache__/plotly.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/sankey.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/scatter.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/structure/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/structure/__pycache__/helpers.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/structure/__pycache__/plotly.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/chem_env.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/chem_sys.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/helpers.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/spacegroup.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/templates.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/chem_env.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/chem_sys.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/py_pkg.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/typing.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/uncertainty.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/utils/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/utils/__pycache__/data.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/utils/__pycache__/plotting.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/utils/__pycache__/testing.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/composition.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/matterviz.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/mime.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/structure.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/trajectory.cpython-314.pyc",
+    "lib/python3.14/site-packages/pymatviz/__pycache__/xrd.cpython-314.pyc"
+  ],
+  "fn": "pymatviz-0.17.2-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/pymatviz-0.17.2-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "aaae6ce405da396539e0f847062bcbfb",
+  "name": "pymatviz",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/pymatviz-0.17.2-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pymatviz-0.17.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pymatviz-0.17.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "64b53722f4c0209df8734b1b0415f151279a0cfbec82e4609867990ab32c7f28",
+        "sha256_in_prefix": "64b53722f4c0209df8734b1b0415f151279a0cfbec82e4609867990ab32c7f28",
+        "size_in_bytes": 43429
+      },
+      {
+        "_path": "site-packages/pymatviz-0.17.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "80565e355630509e9ba03d4f8febfc65d03880e14d2ecb124440b173fd10a8b9",
+        "sha256_in_prefix": "80565e355630509e9ba03d4f8febfc65d03880e14d2ecb124440b173fd10a8b9",
+        "size_in_bytes": 11379
+      },
+      {
+        "_path": "site-packages/pymatviz-0.17.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pymatviz-0.17.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "93de19be7d53119d6ff54257ff9c5f7ccc85e74dcd153606ae40561b2cc06a21",
+        "sha256_in_prefix": "93de19be7d53119d6ff54257ff9c5f7ccc85e74dcd153606ae40561b2cc06a21",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "site-packages/pymatviz-0.17.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c72191462ad3a922e1b13cbd18cf26b82e87b1e2a6ad401e9455d2627aed7c54",
+        "sha256_in_prefix": "c72191462ad3a922e1b13cbd18cf26b82e87b1e2a6ad401e9455d2627aed7c54",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/pymatviz/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7e1b619c142bc28950cf1c24c671b6681eed40966cb047052459a3b0f2ce736e",
+        "sha256_in_prefix": "7e1b619c142bc28950cf1c24c671b6681eed40966cb047052459a3b0f2ce736e",
+        "size_in_bytes": 3781
+      },
+      {
+        "_path": "site-packages/pymatviz/bar.py",
+        "path_type": "hardlink",
+        "sha256": "de71e11fcd1516d79e774d51f5b9b81393f93793f6265eec4b3afa092ac8025c",
+        "sha256_in_prefix": "de71e11fcd1516d79e774d51f5b9b81393f93793f6265eec4b3afa092ac8025c",
+        "size_in_bytes": 6818
+      },
+      {
+        "_path": "site-packages/pymatviz/brillouin.py",
+        "path_type": "hardlink",
+        "sha256": "4388d0fce2a5063fa561d8deab3ea4a8572d1c8484c09f815357e67c9815190f",
+        "sha256_in_prefix": "4388d0fce2a5063fa561d8deab3ea4a8572d1c8484c09f815357e67c9815190f",
+        "size_in_bytes": 13516
+      },
+      {
+        "_path": "site-packages/pymatviz/chem_env.py",
+        "path_type": "hardlink",
+        "sha256": "8d66632f3ec813f998d2e2f37b6e16587b3cd9d1a9d3cd216822cdfbb7884557",
+        "sha256_in_prefix": "8d66632f3ec813f998d2e2f37b6e16587b3cd9d1a9d3cd216822cdfbb7884557",
+        "size_in_bytes": 3656
+      },
+      {
+        "_path": "site-packages/pymatviz/classify/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e2d9d5ffb037fe99eebed6743e74234f1d56ab3c3695bb33b0c77464ed4f5e16",
+        "sha256_in_prefix": "e2d9d5ffb037fe99eebed6743e74234f1d56ab3c3695bb33b0c77464ed4f5e16",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "site-packages/pymatviz/classify/confusion_matrix.py",
+        "path_type": "hardlink",
+        "sha256": "4998bd9eaeb20a0e90ac0c0828d39f44d11b4cdab56dc05fb8807aaa48b46e4d",
+        "sha256_in_prefix": "4998bd9eaeb20a0e90ac0c0828d39f44d11b4cdab56dc05fb8807aaa48b46e4d",
+        "size_in_bytes": 10175
+      },
+      {
+        "_path": "site-packages/pymatviz/classify/curves.py",
+        "path_type": "hardlink",
+        "sha256": "ce310c3fe1c96722f3bfdd00f195a0f88a961059cc8de8031d222e68e0d1afee",
+        "sha256_in_prefix": "ce310c3fe1c96722f3bfdd00f195a0f88a961059cc8de8031d222e68e0d1afee",
+        "size_in_bytes": 10387
+      },
+      {
+        "_path": "site-packages/pymatviz/cluster/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c8630202f7a7bd836faa93472e1a73b6223baf270d7e17f71791b404639b50ce",
+        "sha256_in_prefix": "c8630202f7a7bd836faa93472e1a73b6223baf270d7e17f71791b404639b50ce",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "site-packages/pymatviz/cluster/composition/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "75757effb8f2c1009fc7b8e7f6ef0f160c688b2ebfcbcdce1f6ca08647df8ffc",
+        "sha256_in_prefix": "75757effb8f2c1009fc7b8e7f6ef0f160c688b2ebfcbcdce1f6ca08647df8ffc",
+        "size_in_bytes": 446
+      },
+      {
+        "_path": "site-packages/pymatviz/cluster/composition/embed.py",
+        "path_type": "hardlink",
+        "sha256": "bee4b7723c2ec954e7f0702ca6b1e7e78d86504e903609f2cee1f5de59dec836",
+        "sha256_in_prefix": "bee4b7723c2ec954e7f0702ca6b1e7e78d86504e903609f2cee1f5de59dec836",
+        "size_in_bytes": 5794
+      },
+      {
+        "_path": "site-packages/pymatviz/cluster/composition/plot.py",
+        "path_type": "hardlink",
+        "sha256": "91f1efd82c9df072a7425ca47dfdcc5dc25482c65a385dff8fce47eb16633e62",
+        "sha256_in_prefix": "91f1efd82c9df072a7425ca47dfdcc5dc25482c65a385dff8fce47eb16633e62",
+        "size_in_bytes": 48310
+      },
+      {
+        "_path": "site-packages/pymatviz/cluster/composition/project.py",
+        "path_type": "hardlink",
+        "sha256": "37fdfe01f28180febd56f0cd3b8fe1f3c026dc87b932408e219c2554739a5f21",
+        "sha256_in_prefix": "37fdfe01f28180febd56f0cd3b8fe1f3c026dc87b932408e219c2554739a5f21",
+        "size_in_bytes": 5824
+      },
+      {
+        "_path": "site-packages/pymatviz/colors.py",
+        "path_type": "hardlink",
+        "sha256": "fe0bb17a86443c0aef217f728b9073c0ee727c99c9cbad0898db4582d1e0dede",
+        "sha256_in_prefix": "fe0bb17a86443c0aef217f728b9073c0ee727c99c9cbad0898db4582d1e0dede",
+        "size_in_bytes": 12084
+      },
+      {
+        "_path": "site-packages/pymatviz/coordination/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a55e53d62ba4439ea35933b294661833251bcf6605a4411746b7fddb4d9dcc73",
+        "sha256_in_prefix": "a55e53d62ba4439ea35933b294661833251bcf6605a4411746b7fddb4d9dcc73",
+        "size_in_bytes": 229
+      },
+      {
+        "_path": "site-packages/pymatviz/coordination/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "0f2c196e31f00ad035e1c73e65dccb8b58e80b606cf131b99a21f2077871d582",
+        "sha256_in_prefix": "0f2c196e31f00ad035e1c73e65dccb8b58e80b606cf131b99a21f2077871d582",
+        "size_in_bytes": 4891
+      },
+      {
+        "_path": "site-packages/pymatviz/coordination/plotly.py",
+        "path_type": "hardlink",
+        "sha256": "f280e325b208e8104c12a845bbb33763e4e5a57f6c017df8614657fd28953b01",
+        "sha256_in_prefix": "f280e325b208e8104c12a845bbb33763e4e5a57f6c017df8614657fd28953b01",
+        "size_in_bytes": 19470
+      },
+      {
+        "_path": "site-packages/pymatviz/data/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fbcdc20476ee124b8316a9881cd7cc88fe44e4fa03cff5656c8e461cd73557fb",
+        "sha256_in_prefix": "fbcdc20476ee124b8316a9881cd7cc88fe44e4fa03cff5656c8e461cd73557fb",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "site-packages/pymatviz/elements.csv",
+        "path_type": "hardlink",
+        "sha256": "ddf1ce70aca9f359802b45babcd367026c7df3eb9f232d303404ffbbb4a79c23",
+        "sha256_in_prefix": "ddf1ce70aca9f359802b45babcd367026c7df3eb9f232d303404ffbbb4a79c23",
+        "size_in_bytes": 19370
+      },
+      {
+        "_path": "site-packages/pymatviz/enums.py",
+        "path_type": "hardlink",
+        "sha256": "fe92c86d78b2147d6929500df3c1c8f2e601f6002f0fed5e1f3d21060b1491d4",
+        "sha256_in_prefix": "fe92c86d78b2147d6929500df3c1c8f2e601f6002f0fed5e1f3d21060b1491d4",
+        "size_in_bytes": 31987
+      },
+      {
+        "_path": "site-packages/pymatviz/histogram.py",
+        "path_type": "hardlink",
+        "sha256": "ffb93e8d1881c5643231354d98aaaef876e767d8e2e64bae3d601fb42b6e8424",
+        "sha256_in_prefix": "ffb93e8d1881c5643231354d98aaaef876e767d8e2e64bae3d601fb42b6e8424",
+        "size_in_bytes": 6463
+      },
+      {
+        "_path": "site-packages/pymatviz/io.py",
+        "path_type": "hardlink",
+        "sha256": "9cbc84430b7601d1b38e929bd6264b6c0daa08eb8c79c16649d9d0ac6809194c",
+        "sha256_in_prefix": "9cbc84430b7601d1b38e929bd6264b6c0daa08eb8c79c16649d9d0ac6809194c",
+        "size_in_bytes": 23510
+      },
+      {
+        "_path": "site-packages/pymatviz/keys.yml",
+        "path_type": "hardlink",
+        "sha256": "76b6149d4a1aa0897911636b31cab280a903e81e316766e7126cb5c21d1e724d",
+        "sha256_in_prefix": "76b6149d4a1aa0897911636b31cab280a903e81e316766e7126cb5c21d1e724d",
+        "size_in_bytes": 49156
+      },
+      {
+        "_path": "site-packages/pymatviz/notebook.py",
+        "path_type": "hardlink",
+        "sha256": "fd5ed56c2361edd51918b5154820a9f77d1730148800351dc83f37b5bf5d05e3",
+        "sha256_in_prefix": "fd5ed56c2361edd51918b5154820a9f77d1730148800351dc83f37b5bf5d05e3",
+        "size_in_bytes": 10334
+      },
+      {
+        "_path": "site-packages/pymatviz/phonons/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2808daa54b031dfd1caccb341a562e5d4e28980b399d525ec99cec327635c4d6",
+        "sha256_in_prefix": "2808daa54b031dfd1caccb341a562e5d4e28980b399d525ec99cec327635c4d6",
+        "size_in_bytes": 324
+      },
+      {
+        "_path": "site-packages/pymatviz/phonons/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "3664a5a88d8912b8b5a298580eab24a1d367314207caf9224be77abeb076fe7a",
+        "sha256_in_prefix": "3664a5a88d8912b8b5a298580eab24a1d367314207caf9224be77abeb076fe7a",
+        "size_in_bytes": 6772
+      },
+      {
+        "_path": "site-packages/pymatviz/phonons/plotly.py",
+        "path_type": "hardlink",
+        "sha256": "ec2f7344a1eff8fae5255c873d759aba5cbe839c95162e5ab06f1d042b24512d",
+        "sha256_in_prefix": "ec2f7344a1eff8fae5255c873d759aba5cbe839c95162e5ab06f1d042b24512d",
+        "size_in_bytes": 25651
+      },
+      {
+        "_path": "site-packages/pymatviz/powerups.py",
+        "path_type": "hardlink",
+        "sha256": "c0df4b7bec60cdfc6df59009df52848c1cdf3c7bce5d54e79e7413231d52dcc1",
+        "sha256_in_prefix": "c0df4b7bec60cdfc6df59009df52848c1cdf3c7bce5d54e79e7413231d52dcc1",
+        "size_in_bytes": 35875
+      },
+      {
+        "_path": "site-packages/pymatviz/process_data.py",
+        "path_type": "hardlink",
+        "sha256": "46ef9265478d0d57e02f2f8b5af5051fc2ffdf58ebcbe500b5f7d8fc3e07bbb3",
+        "sha256_in_prefix": "46ef9265478d0d57e02f2f8b5af5051fc2ffdf58ebcbe500b5f7d8fc3e07bbb3",
+        "size_in_bytes": 21008
+      },
+      {
+        "_path": "site-packages/pymatviz/ptable/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5a1081aa589651df68e04eb026214e5c8b5c39d3dd59c2dc72a1aabb64c6d4ff",
+        "sha256_in_prefix": "5a1081aa589651df68e04eb026214e5c8b5c39d3dd59c2dc72a1aabb64c6d4ff",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "site-packages/pymatviz/ptable/plotly.py",
+        "path_type": "hardlink",
+        "sha256": "4827f781f621098e40d585d764ad81efd319271319bd7bd358c64d5e24f77850",
+        "sha256_in_prefix": "4827f781f621098e40d585d764ad81efd319271319bd7bd358c64d5e24f77850",
+        "size_in_bytes": 80076
+      },
+      {
+        "_path": "site-packages/pymatviz/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pymatviz/rainclouds.py",
+        "path_type": "hardlink",
+        "sha256": "e1e3a653150a04dc33e0888e6c0d5ea0e2ed376174c74844187e09e47c028b83",
+        "sha256_in_prefix": "e1e3a653150a04dc33e0888e6c0d5ea0e2ed376174c74844187e09e47c028b83",
+        "size_in_bytes": 9459
+      },
+      {
+        "_path": "site-packages/pymatviz/rdf/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d65900353fa79e1758918c69158ecaba4072b9a6b579e0250865fcd25bdc8bbd",
+        "sha256_in_prefix": "d65900353fa79e1758918c69158ecaba4072b9a6b579e0250865fcd25bdc8bbd",
+        "size_in_bytes": 193
+      },
+      {
+        "_path": "site-packages/pymatviz/rdf/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "ab8f7977f4ee530ca4308e5a8ee65c1ce32debda26a9de0e25c8fac58cc7efda",
+        "sha256_in_prefix": "ab8f7977f4ee530ca4308e5a8ee65c1ce32debda26a9de0e25c8fac58cc7efda",
+        "size_in_bytes": 4378
+      },
+      {
+        "_path": "site-packages/pymatviz/rdf/plotly.py",
+        "path_type": "hardlink",
+        "sha256": "67c370a0f7235c701bccb848283b4f54efc2181a8616b300446b58d0595e45e3",
+        "sha256_in_prefix": "67c370a0f7235c701bccb848283b4f54efc2181a8616b300446b58d0595e45e3",
+        "size_in_bytes": 12266
+      },
+      {
+        "_path": "site-packages/pymatviz/sankey.py",
+        "path_type": "hardlink",
+        "sha256": "6b2ec95de4a19c969426ed472e58b8358454f41bf43abae8fad03b0d3a9d2123",
+        "sha256_in_prefix": "6b2ec95de4a19c969426ed472e58b8358454f41bf43abae8fad03b0d3a9d2123",
+        "size_in_bytes": 3299
+      },
+      {
+        "_path": "site-packages/pymatviz/scatter.py",
+        "path_type": "hardlink",
+        "sha256": "cec6ad44248023cdfd44843d380efbe79fae1b3117ac5f6f63970b806da32116",
+        "sha256_in_prefix": "cec6ad44248023cdfd44843d380efbe79fae1b3117ac5f6f63970b806da32116",
+        "size_in_bytes": 27329
+      },
+      {
+        "_path": "site-packages/pymatviz/structure/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a28b8af3c47597e9fb18577ed3e2a942b14c6bc1af4095f19e9bae545f339913",
+        "sha256_in_prefix": "a28b8af3c47597e9fb18577ed3e2a942b14c6bc1af4095f19e9bae545f339913",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "site-packages/pymatviz/structure/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "d1adaf7b31405e31e30d1c95fda6813ab6eace24a5deab673ad2db25ba45c071",
+        "sha256_in_prefix": "d1adaf7b31405e31e30d1c95fda6813ab6eace24a5deab673ad2db25ba45c071",
+        "size_in_bytes": 66397
+      },
+      {
+        "_path": "site-packages/pymatviz/structure/plotly.py",
+        "path_type": "hardlink",
+        "sha256": "e55386aa8deca57d29462a5a8ef64f611b142a34638a84a07592458203ee3559",
+        "sha256_in_prefix": "e55386aa8deca57d29462a5a8ef64f611b142a34638a84a07592458203ee3559",
+        "size_in_bytes": 38888
+      },
+      {
+        "_path": "site-packages/pymatviz/sunburst/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a9853c8c83b2e5fd26dadb749d364360e94c9e532e6746f7e257236d08ec54dd",
+        "sha256_in_prefix": "a9853c8c83b2e5fd26dadb749d364360e94c9e532e6746f7e257236d08ec54dd",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "site-packages/pymatviz/sunburst/chem_env.py",
+        "path_type": "hardlink",
+        "sha256": "599ffdbca32adba41e651ab21dd6c8eb2c09dab26a06fe13f21da283f4e19790",
+        "sha256_in_prefix": "599ffdbca32adba41e651ab21dd6c8eb2c09dab26a06fe13f21da283f4e19790",
+        "size_in_bytes": 13409
+      },
+      {
+        "_path": "site-packages/pymatviz/sunburst/chem_sys.py",
+        "path_type": "hardlink",
+        "sha256": "e38fa9ea5d142c5a09bd03b66c2b898c39e776be9b39fb7b90d3db5466e27139",
+        "sha256_in_prefix": "e38fa9ea5d142c5a09bd03b66c2b898c39e776be9b39fb7b90d3db5466e27139",
+        "size_in_bytes": 4419
+      },
+      {
+        "_path": "site-packages/pymatviz/sunburst/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "0aed7d8e1d4407e9c4f840156de6c29cf8180004f464a332c175566a160eb318",
+        "sha256_in_prefix": "0aed7d8e1d4407e9c4f840156de6c29cf8180004f464a332c175566a160eb318",
+        "size_in_bytes": 2580
+      },
+      {
+        "_path": "site-packages/pymatviz/sunburst/spacegroup.py",
+        "path_type": "hardlink",
+        "sha256": "954875a85c4edde9d229ba67c929cf844fbb1ee03a1eb15f30fa3a65d2802edc",
+        "sha256_in_prefix": "954875a85c4edde9d229ba67c929cf844fbb1ee03a1eb15f30fa3a65d2802edc",
+        "size_in_bytes": 4218
+      },
+      {
+        "_path": "site-packages/pymatviz/templates.py",
+        "path_type": "hardlink",
+        "sha256": "bd5ec95fd0375be9dd4b385dc5f3746e97b1eedc38295c1d705e25c58e084cec",
+        "sha256_in_prefix": "bd5ec95fd0375be9dd4b385dc5f3746e97b1eedc38295c1d705e25c58e084cec",
+        "size_in_bytes": 2550
+      },
+      {
+        "_path": "site-packages/pymatviz/treemap/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d69e5de6d2a3cda316e9b9cbb346a763ef1c3e9c034c8615dd062aa7db341884",
+        "sha256_in_prefix": "d69e5de6d2a3cda316e9b9cbb346a763ef1c3e9c034c8615dd062aa7db341884",
+        "size_in_bytes": 339
+      },
+      {
+        "_path": "site-packages/pymatviz/treemap/chem_env.py",
+        "path_type": "hardlink",
+        "sha256": "e8c1dadf3fa3e888b391dbe1eda4853d39b581641e1cdd73547c3af746f4b4ef",
+        "sha256_in_prefix": "e8c1dadf3fa3e888b391dbe1eda4853d39b581641e1cdd73547c3af746f4b4ef",
+        "size_in_bytes": 17730
+      },
+      {
+        "_path": "site-packages/pymatviz/treemap/chem_sys.py",
+        "path_type": "hardlink",
+        "sha256": "fa55e0c5b140618643eb6ed925dd47f597c3a4451727c2ab30b42f7d65f89556",
+        "sha256_in_prefix": "fa55e0c5b140618643eb6ed925dd47f597c3a4451727c2ab30b42f7d65f89556",
+        "size_in_bytes": 8635
+      },
+      {
+        "_path": "site-packages/pymatviz/treemap/py_pkg.py",
+        "path_type": "hardlink",
+        "sha256": "8698a90b3a219a4f04dd93d798d4844e816ead6b8cd807e3d598ca85cdfd81c5",
+        "sha256_in_prefix": "8698a90b3a219a4f04dd93d798d4844e816ead6b8cd807e3d598ca85cdfd81c5",
+        "size_in_bytes": 41932
+      },
+      {
+        "_path": "site-packages/pymatviz/typing.py",
+        "path_type": "hardlink",
+        "sha256": "1f07372a70ee4a1cd7722b513a99a5b28d13bd6540ad32845e2ff64b0de02b01",
+        "sha256_in_prefix": "1f07372a70ee4a1cd7722b513a99a5b28d13bd6540ad32845e2ff64b0de02b01",
+        "size_in_bytes": 2260
+      },
+      {
+        "_path": "site-packages/pymatviz/uncertainty.py",
+        "path_type": "hardlink",
+        "sha256": "dfa2cb0500dc2b8c975ecc1ad560a37fed662933f0a64f20bfcb1e3cf8f8f560",
+        "sha256_in_prefix": "dfa2cb0500dc2b8c975ecc1ad560a37fed662933f0a64f20bfcb1e3cf8f8f560",
+        "size_in_bytes": 6912
+      },
+      {
+        "_path": "site-packages/pymatviz/utils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "320fcd14421e6d0ad1568d69f8258175445f4f6ccd38281431cfc028326602de",
+        "sha256_in_prefix": "320fcd14421e6d0ad1568d69f8258175445f4f6ccd38281431cfc028326602de",
+        "size_in_bytes": 732
+      },
+      {
+        "_path": "site-packages/pymatviz/utils/data.py",
+        "path_type": "hardlink",
+        "sha256": "79b5c7fe73ed5aede433b183e92caa31948878795ae6896563710630373c0bdb",
+        "sha256_in_prefix": "79b5c7fe73ed5aede433b183e92caa31948878795ae6896563710630373c0bdb",
+        "size_in_bytes": 7431
+      },
+      {
+        "_path": "site-packages/pymatviz/utils/plotting.py",
+        "path_type": "hardlink",
+        "sha256": "579193d17fc594e151c66fb4b7c025f3bce885c74cca7c22caef0bbdb60a2b4d",
+        "sha256_in_prefix": "579193d17fc594e151c66fb4b7c025f3bce885c74cca7c22caef0bbdb60a2b4d",
+        "size_in_bytes": 12128
+      },
+      {
+        "_path": "site-packages/pymatviz/utils/testing.py",
+        "path_type": "hardlink",
+        "sha256": "6f3adbedb3c631e35e1ec53f6ae12d110355fb4fbf0dbd0906ef43ff99e5bf48",
+        "sha256_in_prefix": "6f3adbedb3c631e35e1ec53f6ae12d110355fb4fbf0dbd0906ef43ff99e5bf48",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.pytest_cache/.gitignore",
+        "path_type": "hardlink",
+        "sha256": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+        "sha256_in_prefix": "3ed731b65d06150c138e2dadb0be0697550888a6b47eb8c45ecc9adba8b8e9bd",
+        "size_in_bytes": 37
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.pytest_cache/CACHEDIR.TAG",
+        "path_type": "hardlink",
+        "sha256": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+        "sha256_in_prefix": "37dc88ef9a0abeddbe81053a6dd8fdfb13afb613045ea1eb4a5c815a74a3bde4",
+        "size_in_bytes": 191
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.pytest_cache/README.md",
+        "path_type": "hardlink",
+        "sha256": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+        "sha256_in_prefix": "73fd6fccdd802c419a6b2d983d6c3173b7da97558ac4b589edec2dfe443db9ad",
+        "size_in_bytes": 302
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.pytest_cache/v/cache/lastfailed",
+        "path_type": "hardlink",
+        "sha256": "4d336bd8deb6718245eaa6ca8dd174617d6d6e7e82b3d441e98fdff65753b281",
+        "sha256_in_prefix": "4d336bd8deb6718245eaa6ca8dd174617d6d6e7e82b3d441e98fdff65753b281",
+        "size_in_bytes": 6841
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.pytest_cache/v/cache/nodeids",
+        "path_type": "hardlink",
+        "sha256": "ac9d0369d52b19e57883fd5dc619a4342e7af9c98e8433c59adbed711b2bc901",
+        "sha256_in_prefix": "ac9d0369d52b19e57883fd5dc619a4342e7af9c98e8433c59adbed711b2bc901",
+        "size_in_bytes": 27919
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.ruff_cache/.gitignore",
+        "path_type": "hardlink",
+        "sha256": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+        "sha256_in_prefix": "9e3a60f1e6ec4ae60215c11d54b171392745ec25e9dded433d5bd921363af316",
+        "size_in_bytes": 35
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/.ruff_cache/CACHEDIR.TAG",
+        "path_type": "hardlink",
+        "sha256": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+        "sha256_in_prefix": "5953156d7e0c564a427251316eaf26f8870e6483ae2197f916b630e4f93e31ae",
+        "size_in_bytes": 43
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "ac6982abda2a89eff9be619166c490b9bd45eb80a599fc9f7343210898cd0fa8",
+        "sha256_in_prefix": "ac6982abda2a89eff9be619166c490b9bd45eb80a599fc9f7343210898cd0fa8",
+        "size_in_bytes": 586
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/composition.py",
+        "path_type": "hardlink",
+        "sha256": "a02c80ca19c7d58677925c01b3765f123ab541f329a045bc4b4e74f5468b3b30",
+        "sha256_in_prefix": "a02c80ca19c7d58677925c01b3765f123ab541f329a045bc4b4e74f5468b3b30",
+        "size_in_bytes": 2225
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/matterviz.py",
+        "path_type": "hardlink",
+        "sha256": "cd481dbcb7ff9c932ea96e03552a96b3c03b433cda9ddd07165c5f3f86971bdb",
+        "sha256_in_prefix": "cd481dbcb7ff9c932ea96e03552a96b3c03b433cda9ddd07165c5f3f86971bdb",
+        "size_in_bytes": 3595
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/mime.py",
+        "path_type": "hardlink",
+        "sha256": "b42d992c63a66de894af2a54f9d66d073229c3141358358212330163a42d4817",
+        "sha256_in_prefix": "b42d992c63a66de894af2a54f9d66d073229c3141358358212330163a42d4817",
+        "size_in_bytes": 3378
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/structure.py",
+        "path_type": "hardlink",
+        "sha256": "39892cae5982018cb1d1dbd1de285fcc2d4a8965b46aa0190823c5611fb9f44d",
+        "sha256_in_prefix": "39892cae5982018cb1d1dbd1de285fcc2d4a8965b46aa0190823c5611fb9f44d",
+        "size_in_bytes": 3720
+      },
+      {
+        "_path": "site-packages/pymatviz/widgets/trajectory.py",
+        "path_type": "hardlink",
+        "sha256": "78afe9759da7cb9eff845b4b7bbdbcad88653641c8d2f99673a194399eb8494b",
+        "sha256_in_prefix": "78afe9759da7cb9eff845b4b7bbdbcad88653641c8d2f99673a194399eb8494b",
+        "size_in_bytes": 10229
+      },
+      {
+        "_path": "site-packages/pymatviz/xrd.py",
+        "path_type": "hardlink",
+        "sha256": "d278670449dc55756530c2e736c52c7e4f38ad79f894e80b5f215b7e09460e1e",
+        "sha256_in_prefix": "d278670449dc55756530c2e736c52c7e4f38ad79f894e80b5f215b7e09460e1e",
+        "size_in_bytes": 11775
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/bar.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/brillouin.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/chem_env.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/classify/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/classify/__pycache__/confusion_matrix.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/classify/__pycache__/curves.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/cluster/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/embed.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/plot.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/cluster/composition/__pycache__/project.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/colors.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/coordination/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/coordination/__pycache__/helpers.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/coordination/__pycache__/plotly.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/data/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/enums.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/histogram.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/io.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/notebook.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/phonons/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/phonons/__pycache__/helpers.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/phonons/__pycache__/plotly.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/powerups.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/process_data.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/ptable/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/ptable/__pycache__/plotly.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/rainclouds.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/rdf/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/rdf/__pycache__/helpers.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/rdf/__pycache__/plotly.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/sankey.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/scatter.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/structure/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/structure/__pycache__/helpers.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/structure/__pycache__/plotly.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/chem_env.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/chem_sys.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/helpers.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/sunburst/__pycache__/spacegroup.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/templates.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/chem_env.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/chem_sys.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/treemap/__pycache__/py_pkg.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/typing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/uncertainty.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/utils/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/utils/__pycache__/data.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/utils/__pycache__/plotting.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/utils/__pycache__/testing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/composition.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/matterviz.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/mime.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/structure.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/widgets/__pycache__/trajectory.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/pymatviz/__pycache__/xrd.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pymatviz",
+  "sha256": "47d3a513ce7f5c21d34968b0333c748661fdaeb1fdd0a3b052a70d440b044618",
+  "size": 184764,
+  "subdir": "noarch",
+  "timestamp": 1755194691000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pymatviz-0.17.2-pyhd8ed1ab_0.conda",
+  "version": "0.17.2"
+}

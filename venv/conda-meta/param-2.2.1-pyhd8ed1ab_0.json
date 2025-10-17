@@ -1,0 +1,247 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/param-2.2.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.14/site-packages/numbergen/__init__.py",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/METADATA",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/RECORD",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/WHEEL",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/param-2.2.1.dist-info/licenses/LICENSE.txt",
+    "lib/python3.14/site-packages/param/__init__.py",
+    "lib/python3.14/site-packages/param/_utils.py",
+    "lib/python3.14/site-packages/param/_version.py",
+    "lib/python3.14/site-packages/param/depends.py",
+    "lib/python3.14/site-packages/param/display.py",
+    "lib/python3.14/site-packages/param/ipython.py",
+    "lib/python3.14/site-packages/param/parameterized.py",
+    "lib/python3.14/site-packages/param/parameters.py",
+    "lib/python3.14/site-packages/param/reactive.py",
+    "lib/python3.14/site-packages/param/serializer.py",
+    "lib/python3.14/site-packages/param/version.py",
+    "lib/python3.14/site-packages/numbergen/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/_utils.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/depends.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/display.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/ipython.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/parameterized.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/parameters.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/reactive.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/serializer.cpython-314.pyc",
+    "lib/python3.14/site-packages/param/__pycache__/version.cpython-314.pyc"
+  ],
+  "fn": "param-2.2.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/opt/conda/pkgs/param-2.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "b6f8a6ac73c7d5fdc5efc206ac8c98c4",
+  "name": "param",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/param-2.2.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/numbergen/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e1029d0c80f2ca3d47d50876f2b5753217a24791184f5ab00181e9f501546fee",
+        "sha256_in_prefix": "e1029d0c80f2ca3d47d50876f2b5753217a24791184f5ab00181e9f501546fee",
+        "size_in_bytes": 27890
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "056cc03e140ff9f12026c7372458a7dbfdfd8ca238356bca487b1eb124084af8",
+        "sha256_in_prefix": "056cc03e140ff9f12026c7372458a7dbfdfd8ca238356bca487b1eb124084af8",
+        "size_in_bytes": 6558
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b0023c092c47be1297cf030bde5572d0387b5ff5597d57446b0b437d82d95d82",
+        "sha256_in_prefix": "b0023c092c47be1297cf030bde5572d0387b5ff5597d57446b0b437d82d95d82",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "71908a0a80ef04d92fd5a05a73c9f77dde0352a5d7b752b16933cbc17bccf7d8",
+        "sha256_in_prefix": "71908a0a80ef04d92fd5a05a73c9f77dde0352a5d7b752b16933cbc17bccf7d8",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/param-2.2.1.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "f9e7df20267e59403800301776531f1998c710042814fabfc01211ecffb07716",
+        "sha256_in_prefix": "f9e7df20267e59403800301776531f1998c710042814fabfc01211ecffb07716",
+        "size_in_bytes": 1506
+      },
+      {
+        "_path": "site-packages/param/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9d61619ac2c1dc81bc3eb6aeabc2aa5ebce5637433a24670c9e85978a41f5209",
+        "sha256_in_prefix": "9d61619ac2c1dc81bc3eb6aeabc2aa5ebce5637433a24670c9e85978a41f5209",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "site-packages/param/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "7b370979f6176ccbf5785c358e29a400c149f895da298509b64597deccb18bbc",
+        "sha256_in_prefix": "7b370979f6176ccbf5785c358e29a400c149f895da298509b64597deccb18bbc",
+        "size_in_bytes": 19666
+      },
+      {
+        "_path": "site-packages/param/_version.py",
+        "path_type": "hardlink",
+        "sha256": "c145289f1e4736fcd4b0262b47fa1e93b0deefa22c0f57aa838e9ce196d68838",
+        "sha256_in_prefix": "c145289f1e4736fcd4b0262b47fa1e93b0deefa22c0f57aa838e9ce196d68838",
+        "size_in_bytes": 511
+      },
+      {
+        "_path": "site-packages/param/depends.py",
+        "path_type": "hardlink",
+        "sha256": "597a92dbd048eb6794c56659d7fd90b1f99fc1f60a102fa1c22734f61d0f1e4e",
+        "sha256_in_prefix": "597a92dbd048eb6794c56659d7fd90b1f99fc1f60a102fa1c22734f61d0f1e4e",
+        "size_in_bytes": 6172
+      },
+      {
+        "_path": "site-packages/param/display.py",
+        "path_type": "hardlink",
+        "sha256": "4e170053ff52167569cf72f985a511dfbc459eb8129db164c88247f3756bbee3",
+        "sha256_in_prefix": "4e170053ff52167569cf72f985a511dfbc459eb8129db164c88247f3756bbee3",
+        "size_in_bytes": 822
+      },
+      {
+        "_path": "site-packages/param/ipython.py",
+        "path_type": "hardlink",
+        "sha256": "d4dd653d09ed5c864c9f43cc589a41f163a66cc3afb6d57419da1db051bcca51",
+        "sha256_in_prefix": "d4dd653d09ed5c864c9f43cc589a41f163a66cc3afb6d57419da1db051bcca51",
+        "size_in_bytes": 15009
+      },
+      {
+        "_path": "site-packages/param/parameterized.py",
+        "path_type": "hardlink",
+        "sha256": "79ba8a154e6251c76fe04bf8f18ccb0f252afc97ca4ad579d3c34d9b2c2d2457",
+        "sha256_in_prefix": "79ba8a154e6251c76fe04bf8f18ccb0f252afc97ca4ad579d3c34d9b2c2d2457",
+        "size_in_bytes": 184992
+      },
+      {
+        "_path": "site-packages/param/parameters.py",
+        "path_type": "hardlink",
+        "sha256": "e5a641adc2cac85f9f63b403e31ce870f63125008d1c125fd97de8229abefaa1",
+        "sha256_in_prefix": "e5a641adc2cac85f9f63b403e31ce870f63125008d1c125fd97de8229abefaa1",
+        "size_in_bytes": 105517
+      },
+      {
+        "_path": "site-packages/param/reactive.py",
+        "path_type": "hardlink",
+        "sha256": "2e423cb0a08cdbf7bcea64d2fa52f5ba19dfd9e9b09dffc3f43dd8024ea66e9f",
+        "sha256_in_prefix": "2e423cb0a08cdbf7bcea64d2fa52f5ba19dfd9e9b09dffc3f43dd8024ea66e9f",
+        "size_in_bytes": 47349
+      },
+      {
+        "_path": "site-packages/param/serializer.py",
+        "path_type": "hardlink",
+        "sha256": "e7350baf231f8e30645f7b43bcad22011ba786360ff681d8337fc55cc47a0252",
+        "sha256_in_prefix": "e7350baf231f8e30645f7b43bcad22011ba786360ff681d8337fc55cc47a0252",
+        "size_in_bytes": 11336
+      },
+      {
+        "_path": "site-packages/param/version.py",
+        "path_type": "hardlink",
+        "sha256": "a6710ea7b2fc6dcf5eff313171c35f3f295dff68cf01e07936d30637b081dd79",
+        "sha256_in_prefix": "a6710ea7b2fc6dcf5eff313171c35f3f295dff68cf01e07936d30637b081dd79",
+        "size_in_bytes": 31080
+      },
+      {
+        "_path": "lib/python3.14/site-packages/numbergen/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/_utils.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/_version.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/depends.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/display.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/ipython.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/parameterized.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/parameters.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/reactive.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/serializer.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/param/__pycache__/version.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "2dc5b1f066e283d23678ef6484fa2fdaebe9db6a6d83905f7fc9233dc65ceba0",
+  "size": 105120,
+  "subdir": "noarch",
+  "timestamp": 1749664822000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/param-2.2.1-pyhd8ed1ab_0.conda",
+  "version": "2.2.1"
+}

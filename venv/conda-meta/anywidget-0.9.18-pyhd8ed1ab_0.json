@@ -1,0 +1,387 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "ipywidgets >=7.6.0",
+    "psygnal >=0.8.1",
+    "python >=3.9",
+    "typing_extensions >=4.2.0"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/anywidget-0.9.18-pyhd8ed1ab_0",
+  "files": [
+    "etc/jupyter/nbconfig/notebook.d/anywidget.json",
+    "share/jupyter/labextensions/anywidget/package.json",
+    "share/jupyter/labextensions/anywidget/static/387.f1b13efb.js",
+    "share/jupyter/labextensions/anywidget/static/387.f1b13efb.js.map",
+    "share/jupyter/labextensions/anywidget/static/807.ab4fa476.js",
+    "share/jupyter/labextensions/anywidget/static/807.ab4fa476.js.map",
+    "share/jupyter/labextensions/anywidget/static/main.7973f7f4.js",
+    "share/jupyter/labextensions/anywidget/static/main.7973f7f4.js.map",
+    "share/jupyter/labextensions/anywidget/static/remoteEntry.041f0a68.js",
+    "share/jupyter/nbextensions/anywidget/extension.js",
+    "share/jupyter/nbextensions/anywidget/index.js",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/METADATA",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/RECORD",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/WHEEL",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/anywidget-0.9.18.dist-info/licenses/LICENSE",
+    "lib/python3.14/site-packages/anywidget/__init__.py",
+    "lib/python3.14/site-packages/anywidget/_cellmagic.py",
+    "lib/python3.14/site-packages/anywidget/_descriptor.py",
+    "lib/python3.14/site-packages/anywidget/_file_contents.py",
+    "lib/python3.14/site-packages/anywidget/_protocols.py",
+    "lib/python3.14/site-packages/anywidget/_util.py",
+    "lib/python3.14/site-packages/anywidget/_version.py",
+    "lib/python3.14/site-packages/anywidget/experimental.py",
+    "lib/python3.14/site-packages/anywidget/labextension/package.json",
+    "lib/python3.14/site-packages/anywidget/labextension/static/387.f1b13efb.js",
+    "lib/python3.14/site-packages/anywidget/labextension/static/387.f1b13efb.js.map",
+    "lib/python3.14/site-packages/anywidget/labextension/static/807.ab4fa476.js",
+    "lib/python3.14/site-packages/anywidget/labextension/static/807.ab4fa476.js.map",
+    "lib/python3.14/site-packages/anywidget/labextension/static/main.7973f7f4.js",
+    "lib/python3.14/site-packages/anywidget/labextension/static/main.7973f7f4.js.map",
+    "lib/python3.14/site-packages/anywidget/labextension/static/remoteEntry.041f0a68.js",
+    "lib/python3.14/site-packages/anywidget/nbextension/extension.js",
+    "lib/python3.14/site-packages/anywidget/nbextension/index.js",
+    "lib/python3.14/site-packages/anywidget/py.typed",
+    "lib/python3.14/site-packages/anywidget/widget.py",
+    "lib/python3.14/site-packages/anywidget/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/_cellmagic.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/_descriptor.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/_file_contents.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/_protocols.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/_util.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/_version.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/experimental.cpython-314.pyc",
+    "lib/python3.14/site-packages/anywidget/__pycache__/widget.cpython-314.pyc"
+  ],
+  "fn": "anywidget-0.9.18-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/anywidget-0.9.18-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a196eb5a011dad49f6011b5a764654f4",
+  "name": "anywidget",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/anywidget-0.9.18-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "etc/jupyter/nbconfig/notebook.d/anywidget.json",
+        "path_type": "hardlink",
+        "sha256": "309d87ab674d3a87789a263e05c936074c67e1682498192901126098842cbbb7",
+        "sha256_in_prefix": "309d87ab674d3a87789a263e05c936074c67e1682498192901126098842cbbb7",
+        "size_in_bytes": 59
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/package.json",
+        "path_type": "hardlink",
+        "sha256": "adc239f2fc568d728f3d639ad45ca27947707ea7ee45a9f8de7bc630397dd308",
+        "sha256_in_prefix": "adc239f2fc568d728f3d639ad45ca27947707ea7ee45a9f8de7bc630397dd308",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/387.f1b13efb.js",
+        "path_type": "hardlink",
+        "sha256": "a37d4ae30c23ed65d07781a7114f42c5bba551164c6741ccbce8b1a67b72f830",
+        "sha256_in_prefix": "a37d4ae30c23ed65d07781a7114f42c5bba551164c6741ccbce8b1a67b72f830",
+        "size_in_bytes": 53343
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/387.f1b13efb.js.map",
+        "path_type": "hardlink",
+        "sha256": "ffe099d7a0b12ce417b376679ca0bce2795b74ff27d298a5a77d14d60b47b7d0",
+        "sha256_in_prefix": "ffe099d7a0b12ce417b376679ca0bce2795b74ff27d298a5a77d14d60b47b7d0",
+        "size_in_bytes": 66218
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/807.ab4fa476.js",
+        "path_type": "hardlink",
+        "sha256": "1cb75f0d2790af72e5e1dbd271519efc19ebeca245852aa1f056a80d13d43618",
+        "sha256_in_prefix": "1cb75f0d2790af72e5e1dbd271519efc19ebeca245852aa1f056a80d13d43618",
+        "size_in_bytes": 17546
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/807.ab4fa476.js.map",
+        "path_type": "hardlink",
+        "sha256": "b1836b5a4e883e797ece7a13518a66c5b821072aee02b42776e26bc643a85021",
+        "sha256_in_prefix": "b1836b5a4e883e797ece7a13518a66c5b821072aee02b42776e26bc643a85021",
+        "size_in_bytes": 22922
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/main.7973f7f4.js",
+        "path_type": "hardlink",
+        "sha256": "ec13a4a191b646de9d0a0785fd5770c3893bfa1195dee6ce0e7908e059d5d32b",
+        "sha256_in_prefix": "ec13a4a191b646de9d0a0785fd5770c3893bfa1195dee6ce0e7908e059d5d32b",
+        "size_in_bytes": 73351
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/main.7973f7f4.js.map",
+        "path_type": "hardlink",
+        "sha256": "27c70ce5ddcb6d29ea71aaec9f00401e6f0414ed2f95f223e7c9c6129d610a3c",
+        "sha256_in_prefix": "27c70ce5ddcb6d29ea71aaec9f00401e6f0414ed2f95f223e7c9c6129d610a3c",
+        "size_in_bytes": 88796
+      },
+      {
+        "_path": "share/jupyter/labextensions/anywidget/static/remoteEntry.041f0a68.js",
+        "path_type": "hardlink",
+        "sha256": "8d6f11f7966adefbd7f812d32810d5e8a122dcfb90fef4f4af7d87b29b5f1afd",
+        "sha256_in_prefix": "8d6f11f7966adefbd7f812d32810d5e8a122dcfb90fef4f4af7d87b29b5f1afd",
+        "size_in_bytes": 34894
+      },
+      {
+        "_path": "share/jupyter/nbextensions/anywidget/extension.js",
+        "path_type": "hardlink",
+        "sha256": "68289b797332edf23316f668e1e455b6c7ab3b598cd59eb7f6566cb1e198d10f",
+        "sha256_in_prefix": "68289b797332edf23316f668e1e455b6c7ab3b598cd59eb7f6566cb1e198d10f",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "share/jupyter/nbextensions/anywidget/index.js",
+        "path_type": "hardlink",
+        "sha256": "957ea6a5b0b77831024590070e4245cf870d8b5eea56e7630bb90ebf8ce14ec3",
+        "sha256_in_prefix": "957ea6a5b0b77831024590070e4245cf870d8b5eea56e7630bb90ebf8ce14ec3",
+        "size_in_bytes": 29349
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "cf987e44efdd8bbe9362c42bb5938b93be16b49eca6eca10951ac562595e78dd",
+        "sha256_in_prefix": "cf987e44efdd8bbe9362c42bb5938b93be16b49eca6eca10951ac562595e78dd",
+        "size_in_bytes": 8859
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c5021c9eead209a56dc590be551669d4a427097c34e98390a65f7788e0c6059b",
+        "sha256_in_prefix": "c5021c9eead209a56dc590be551669d4a427097c34e98390a65f7788e0c6059b",
+        "size_in_bytes": 4243
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "911c8084d23b3b448f59941f025206de314a750748459ceb94520d14ff71039e",
+        "sha256_in_prefix": "911c8084d23b3b448f59941f025206de314a750748459ceb94520d14ff71039e",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/anywidget-0.9.18.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "22c698b6e5f3878c292471980ffd352ee0fad053f9428c2281f34b5e28a6151f",
+        "sha256_in_prefix": "22c698b6e5f3878c292471980ffd352ee0fad053f9428c2281f34b5e28a6151f",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/anywidget/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f6e89dee07285b26ca522f5160d228f488b56458a9d845c88a3406011e439968",
+        "sha256_in_prefix": "f6e89dee07285b26ca522f5160d228f488b56458a9d845c88a3406011e439968",
+        "size_in_bytes": 704
+      },
+      {
+        "_path": "site-packages/anywidget/_cellmagic.py",
+        "path_type": "hardlink",
+        "sha256": "7180d75b20c269033a1681f5864cd22d9728d2d07166c8e88693ea39dab46c47",
+        "sha256_in_prefix": "7180d75b20c269033a1681f5864cd22d9728d2d07166c8e88693ea39dab46c47",
+        "size_in_bytes": 1933
+      },
+      {
+        "_path": "site-packages/anywidget/_descriptor.py",
+        "path_type": "hardlink",
+        "sha256": "d6b8ad17b15a2de5feb36186cba1266769539876f7f00db29923cf731affd4d4",
+        "sha256_in_prefix": "d6b8ad17b15a2de5feb36186cba1266769539876f7f00db29923cf731affd4d4",
+        "size_in_bytes": 28105
+      },
+      {
+        "_path": "site-packages/anywidget/_file_contents.py",
+        "path_type": "hardlink",
+        "sha256": "2c098856d712297b4a0983dbb0c0592f85fec75defc463d8b9f9ec01b5db2dd2",
+        "sha256_in_prefix": "2c098856d712297b4a0983dbb0c0592f85fec75defc463d8b9f9ec01b5db2dd2",
+        "size_in_bytes": 4391
+      },
+      {
+        "_path": "site-packages/anywidget/_protocols.py",
+        "path_type": "hardlink",
+        "sha256": "f187747878c20f0195b5bd80ea091c026db11a0fafefb78608d4460e5ca740c3",
+        "sha256_in_prefix": "f187747878c20f0195b5bd80ea091c026db11a0fafefb78608d4460e5ca740c3",
+        "size_in_bytes": 2018
+      },
+      {
+        "_path": "site-packages/anywidget/_util.py",
+        "path_type": "hardlink",
+        "sha256": "b1fe39f76d6ff0e965d2400710227241736c223ff82d5eefd6a2cad6753cdaae",
+        "sha256_in_prefix": "b1fe39f76d6ff0e965d2400710227241736c223ff82d5eefd6a2cad6753cdaae",
+        "size_in_bytes": 9444
+      },
+      {
+        "_path": "site-packages/anywidget/_version.py",
+        "path_type": "hardlink",
+        "sha256": "5cdf602b9aeb53d16b42a52f675e6a53c2a981ceb1b5e41a4b4a1129e9635872",
+        "sha256_in_prefix": "5cdf602b9aeb53d16b42a52f675e6a53c2a981ceb1b5e41a4b4a1129e9635872",
+        "size_in_bytes": 646
+      },
+      {
+        "_path": "site-packages/anywidget/experimental.py",
+        "path_type": "hardlink",
+        "sha256": "f32eda73b649ee74b1a5971da320bf2cd0f72b7459a22d79e815b768c7a2c974",
+        "sha256_in_prefix": "f32eda73b649ee74b1a5971da320bf2cd0f72b7459a22d79e815b768c7a2c974",
+        "size_in_bytes": 5021
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/package.json",
+        "path_type": "hardlink",
+        "sha256": "adc239f2fc568d728f3d639ad45ca27947707ea7ee45a9f8de7bc630397dd308",
+        "sha256_in_prefix": "adc239f2fc568d728f3d639ad45ca27947707ea7ee45a9f8de7bc630397dd308",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/387.f1b13efb.js",
+        "path_type": "hardlink",
+        "sha256": "a37d4ae30c23ed65d07781a7114f42c5bba551164c6741ccbce8b1a67b72f830",
+        "sha256_in_prefix": "a37d4ae30c23ed65d07781a7114f42c5bba551164c6741ccbce8b1a67b72f830",
+        "size_in_bytes": 53343
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/387.f1b13efb.js.map",
+        "path_type": "hardlink",
+        "sha256": "ffe099d7a0b12ce417b376679ca0bce2795b74ff27d298a5a77d14d60b47b7d0",
+        "sha256_in_prefix": "ffe099d7a0b12ce417b376679ca0bce2795b74ff27d298a5a77d14d60b47b7d0",
+        "size_in_bytes": 66218
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/807.ab4fa476.js",
+        "path_type": "hardlink",
+        "sha256": "1cb75f0d2790af72e5e1dbd271519efc19ebeca245852aa1f056a80d13d43618",
+        "sha256_in_prefix": "1cb75f0d2790af72e5e1dbd271519efc19ebeca245852aa1f056a80d13d43618",
+        "size_in_bytes": 17546
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/807.ab4fa476.js.map",
+        "path_type": "hardlink",
+        "sha256": "b1836b5a4e883e797ece7a13518a66c5b821072aee02b42776e26bc643a85021",
+        "sha256_in_prefix": "b1836b5a4e883e797ece7a13518a66c5b821072aee02b42776e26bc643a85021",
+        "size_in_bytes": 22922
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/main.7973f7f4.js",
+        "path_type": "hardlink",
+        "sha256": "ec13a4a191b646de9d0a0785fd5770c3893bfa1195dee6ce0e7908e059d5d32b",
+        "sha256_in_prefix": "ec13a4a191b646de9d0a0785fd5770c3893bfa1195dee6ce0e7908e059d5d32b",
+        "size_in_bytes": 73351
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/main.7973f7f4.js.map",
+        "path_type": "hardlink",
+        "sha256": "27c70ce5ddcb6d29ea71aaec9f00401e6f0414ed2f95f223e7c9c6129d610a3c",
+        "sha256_in_prefix": "27c70ce5ddcb6d29ea71aaec9f00401e6f0414ed2f95f223e7c9c6129d610a3c",
+        "size_in_bytes": 88796
+      },
+      {
+        "_path": "site-packages/anywidget/labextension/static/remoteEntry.041f0a68.js",
+        "path_type": "hardlink",
+        "sha256": "8d6f11f7966adefbd7f812d32810d5e8a122dcfb90fef4f4af7d87b29b5f1afd",
+        "sha256_in_prefix": "8d6f11f7966adefbd7f812d32810d5e8a122dcfb90fef4f4af7d87b29b5f1afd",
+        "size_in_bytes": 34894
+      },
+      {
+        "_path": "site-packages/anywidget/nbextension/extension.js",
+        "path_type": "hardlink",
+        "sha256": "68289b797332edf23316f668e1e455b6c7ab3b598cd59eb7f6566cb1e198d10f",
+        "sha256_in_prefix": "68289b797332edf23316f668e1e455b6c7ab3b598cd59eb7f6566cb1e198d10f",
+        "size_in_bytes": 338
+      },
+      {
+        "_path": "site-packages/anywidget/nbextension/index.js",
+        "path_type": "hardlink",
+        "sha256": "957ea6a5b0b77831024590070e4245cf870d8b5eea56e7630bb90ebf8ce14ec3",
+        "sha256_in_prefix": "957ea6a5b0b77831024590070e4245cf870d8b5eea56e7630bb90ebf8ce14ec3",
+        "size_in_bytes": 29349
+      },
+      {
+        "_path": "site-packages/anywidget/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/anywidget/widget.py",
+        "path_type": "hardlink",
+        "sha256": "bfc7929d3869be24bea5fba5a4bf0f226a9c7d8d32b458dd267af5c31eedad15",
+        "sha256_in_prefix": "bfc7929d3869be24bea5fba5a4bf0f226a9c7d8d32b458dd267af5c31eedad15",
+        "size_in_bytes": 3234
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/_cellmagic.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/_descriptor.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/_file_contents.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/_protocols.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/_util.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/_version.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/experimental.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/anywidget/__pycache__/widget.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "51b282c0144acd119d508ac220fb1e699ea6fe9f392159403d2f2d347311b7d9",
+  "size": 69638,
+  "subdir": "noarch",
+  "timestamp": 1742800740000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/anywidget-0.9.18-pyhd8ed1ab_0.conda",
+  "version": "0.9.18"
+}

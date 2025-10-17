@@ -1,0 +1,460 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "python >=3.10",
+    "ruamel.yaml"
+  ],
+  "extracted_package_dir": "/opt/conda/pkgs/monty-2025.3.3-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/INSTALLER",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/LICENSE.rst",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/METADATA",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/RECORD",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/REQUESTED",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/WHEEL",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/direct_url.json",
+    "lib/python3.14/site-packages/monty-2025.3.3.dist-info/top_level.txt",
+    "lib/python3.14/site-packages/monty/__init__.py",
+    "lib/python3.14/site-packages/monty/bisect.py",
+    "lib/python3.14/site-packages/monty/collections.py",
+    "lib/python3.14/site-packages/monty/design_patterns.py",
+    "lib/python3.14/site-packages/monty/dev.py",
+    "lib/python3.14/site-packages/monty/fnmatch.py",
+    "lib/python3.14/site-packages/monty/fractions.py",
+    "lib/python3.14/site-packages/monty/functools.py",
+    "lib/python3.14/site-packages/monty/inspect.py",
+    "lib/python3.14/site-packages/monty/io.py",
+    "lib/python3.14/site-packages/monty/itertools.py",
+    "lib/python3.14/site-packages/monty/json.py",
+    "lib/python3.14/site-packages/monty/logging.py",
+    "lib/python3.14/site-packages/monty/math.py",
+    "lib/python3.14/site-packages/monty/msgpack.py",
+    "lib/python3.14/site-packages/monty/multiprocessing.py",
+    "lib/python3.14/site-packages/monty/operator.py",
+    "lib/python3.14/site-packages/monty/os/__init__.py",
+    "lib/python3.14/site-packages/monty/os/path.py",
+    "lib/python3.14/site-packages/monty/pprint.py",
+    "lib/python3.14/site-packages/monty/py.typed",
+    "lib/python3.14/site-packages/monty/re.py",
+    "lib/python3.14/site-packages/monty/serialization.py",
+    "lib/python3.14/site-packages/monty/shutil.py",
+    "lib/python3.14/site-packages/monty/string.py",
+    "lib/python3.14/site-packages/monty/subprocess.py",
+    "lib/python3.14/site-packages/monty/tempfile.py",
+    "lib/python3.14/site-packages/monty/termcolor.py",
+    "lib/python3.14/site-packages/monty/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/bisect.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/collections.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/design_patterns.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/dev.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/fnmatch.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/fractions.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/functools.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/inspect.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/io.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/itertools.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/json.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/logging.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/math.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/msgpack.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/multiprocessing.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/operator.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/os/__pycache__/__init__.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/os/__pycache__/path.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/pprint.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/re.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/serialization.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/shutil.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/string.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/subprocess.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/tempfile.cpython-314.pyc",
+    "lib/python3.14/site-packages/monty/__pycache__/termcolor.cpython-314.pyc"
+  ],
+  "fn": "monty-2025.3.3-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/opt/conda/pkgs/monty-2025.3.3-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "0229880a24665ccd91b4c40688c48016",
+  "name": "monty",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/conda/pkgs/monty-2025.3.3-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "05c7e0131a8eef3bb7c90d96e6ce18143cd41056657fe2097b232c6b528e13d4",
+        "sha256_in_prefix": "05c7e0131a8eef3bb7c90d96e6ce18143cd41056657fe2097b232c6b528e13d4",
+        "size_in_bytes": 1088
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b8914f1bf5ff35ed04033406ccfb13d48ca0e9762c7310b11c87f837edefe4f7",
+        "sha256_in_prefix": "b8914f1bf5ff35ed04033406ccfb13d48ca0e9762c7310b11c87f837edefe4f7",
+        "size_in_bytes": 3636
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "c5d1f3c9834974629e92a76216a2e5e40d18b23ee3e4a4cdf514d82ec27880bb",
+        "sha256_in_prefix": "c5d1f3c9834974629e92a76216a2e5e40d18b23ee3e4a4cdf514d82ec27880bb",
+        "size_in_bytes": 3995
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
+        "sha256_in_prefix": "8c1ef367737d84833d69d5bbaa54c0cb270b616f67a5a58a2d1cdaa1570b29c3",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "59597102b43e380ec53d9c624fb1f69de9956adca209f317f08abfddfea83f39",
+        "sha256_in_prefix": "59597102b43e380ec53d9c624fb1f69de9956adca209f317f08abfddfea83f39",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/monty-2025.3.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f383db02710214116022600ba12fabf42dd173d220ffb2faf76ee9c9c5873e09",
+        "sha256_in_prefix": "f383db02710214116022600ba12fabf42dd173d220ffb2faf76ee9c9c5873e09",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/monty/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "69f7b6acefe9c749c847bf8a2db348cd043fcc4f734a980108d32fc250d21a03",
+        "sha256_in_prefix": "69f7b6acefe9c749c847bf8a2db348cd043fcc4f734a980108d32fc250d21a03",
+        "size_in_bytes": 711
+      },
+      {
+        "_path": "site-packages/monty/bisect.py",
+        "path_type": "hardlink",
+        "sha256": "fc80fca7a1b1771fde9df4a8f48fc32eb2e62e128c476d8124786de628250319",
+        "sha256_in_prefix": "fc80fca7a1b1771fde9df4a8f48fc32eb2e62e128c476d8124786de628250319",
+        "size_in_bytes": 1716
+      },
+      {
+        "_path": "site-packages/monty/collections.py",
+        "path_type": "hardlink",
+        "sha256": "9e60d9411735c37c3485c304aa76835e115e6a706eb42d4cf57c905fcbee7892",
+        "sha256_in_prefix": "9e60d9411735c37c3485c304aa76835e115e6a706eb42d4cf57c905fcbee7892",
+        "size_in_bytes": 10866
+      },
+      {
+        "_path": "site-packages/monty/design_patterns.py",
+        "path_type": "hardlink",
+        "sha256": "9961447f7886a41f6d58a398241e01dc244a63c06c04bab891beb38a8c861618",
+        "sha256_in_prefix": "9961447f7886a41f6d58a398241e01dc244a63c06c04bab891beb38a8c861618",
+        "size_in_bytes": 3681
+      },
+      {
+        "_path": "site-packages/monty/dev.py",
+        "path_type": "hardlink",
+        "sha256": "422d94f581d258a6f048bd0c38070d471c76ec0de97bd5e19c83429a008c719c",
+        "sha256_in_prefix": "422d94f581d258a6f048bd0c38070d471c76ec0de97bd5e19c83429a008c719c",
+        "size_in_bytes": 6614
+      },
+      {
+        "_path": "site-packages/monty/fnmatch.py",
+        "path_type": "hardlink",
+        "sha256": "1db4ed6b9192b1292c1dba58b2d279a1c28881cee1af194595916ab6946b33a7",
+        "sha256_in_prefix": "1db4ed6b9192b1292c1dba58b2d279a1c28881cee1af194595916ab6946b33a7",
+        "size_in_bytes": 1500
+      },
+      {
+        "_path": "site-packages/monty/fractions.py",
+        "path_type": "hardlink",
+        "sha256": "c05e559e205264821ebaf5936a2f6a32bca1c20646cdf1dbee1f04e777297af2",
+        "sha256_in_prefix": "c05e559e205264821ebaf5936a2f6a32bca1c20646cdf1dbee1f04e777297af2",
+        "size_in_bytes": 1544
+      },
+      {
+        "_path": "site-packages/monty/functools.py",
+        "path_type": "hardlink",
+        "sha256": "78ea078ada9c98e42cefeabc7329498308cb75298a77cd72f613d30213d8c626",
+        "sha256_in_prefix": "78ea078ada9c98e42cefeabc7329498308cb75298a77cd72f613d30213d8c626",
+        "size_in_bytes": 8274
+      },
+      {
+        "_path": "site-packages/monty/inspect.py",
+        "path_type": "hardlink",
+        "sha256": "0032ca998ffcbfbc4aeb9842c29e538d6fc64bbddd87bf82418a4eded0585185",
+        "sha256_in_prefix": "0032ca998ffcbfbc4aeb9842c29e538d6fc64bbddd87bf82418a4eded0585185",
+        "size_in_bytes": 2226
+      },
+      {
+        "_path": "site-packages/monty/io.py",
+        "path_type": "hardlink",
+        "sha256": "8985ee7d012e290a1d005a3464469005291e12c3aa1e78dd342ee01279daf198",
+        "sha256_in_prefix": "8985ee7d012e290a1d005a3464469005291e12c3aa1e78dd342ee01279daf198",
+        "size_in_bytes": 15364
+      },
+      {
+        "_path": "site-packages/monty/itertools.py",
+        "path_type": "hardlink",
+        "sha256": "18bf571eb299471b0f8569991c2d1295c5a250c6ef5866a070bbd01509405938",
+        "sha256_in_prefix": "18bf571eb299471b0f8569991c2d1295c5a250c6ef5866a070bbd01509405938",
+        "size_in_bytes": 2972
+      },
+      {
+        "_path": "site-packages/monty/json.py",
+        "path_type": "hardlink",
+        "sha256": "d60f029bf03d5592747d3ae7e80938c4e55a6d7fd9144a0e17ad3b63a5a75f4e",
+        "sha256_in_prefix": "d60f029bf03d5592747d3ae7e80938c4e55a6d7fd9144a0e17ad3b63a5a75f4e",
+        "size_in_bytes": 38082
+      },
+      {
+        "_path": "site-packages/monty/logging.py",
+        "path_type": "hardlink",
+        "sha256": "c284c3cc1c42e07fc948437f950ba5b9d6acfb3b00c79ea34f76507961b8a258",
+        "sha256_in_prefix": "c284c3cc1c42e07fc948437f950ba5b9d6acfb3b00c79ea34f76507961b8a258",
+        "size_in_bytes": 2302
+      },
+      {
+        "_path": "site-packages/monty/math.py",
+        "path_type": "hardlink",
+        "sha256": "011a96b08d5d8eabc0dc1e1549ea7a2ec4d8dfcd3fc6dcc1db74228c50f3be8b",
+        "sha256_in_prefix": "011a96b08d5d8eabc0dc1e1549ea7a2ec4d8dfcd3fc6dcc1db74228c50f3be8b",
+        "size_in_bytes": 601
+      },
+      {
+        "_path": "site-packages/monty/msgpack.py",
+        "path_type": "hardlink",
+        "sha256": "86306b6e16b673677acd9b13e5b6fa75a7404483daeeed41876631aab4120315",
+        "sha256_in_prefix": "86306b6e16b673677acd9b13e5b6fa75a7404483daeeed41876631aab4120315",
+        "size_in_bytes": 740
+      },
+      {
+        "_path": "site-packages/monty/multiprocessing.py",
+        "path_type": "hardlink",
+        "sha256": "f4b898e07a983f9f3f0bf63e3c57ae9db87e9b61a4f98903c72767a3f7a2e18b",
+        "sha256_in_prefix": "f4b898e07a983f9f3f0bf63e3c57ae9db87e9b61a4f98903c72767a3f7a2e18b",
+        "size_in_bytes": 1187
+      },
+      {
+        "_path": "site-packages/monty/operator.py",
+        "path_type": "hardlink",
+        "sha256": "365acacc9e08a2430f2e39cc3dbf786a2a89737498e496161f032b132d81a8dd",
+        "sha256_in_prefix": "365acacc9e08a2430f2e39cc3dbf786a2a89737498e496161f032b132d81a8dd",
+        "size_in_bytes": 789
+      },
+      {
+        "_path": "site-packages/monty/os/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2d2a6de8df23a39716e09a4f0172b54e133eafd71acfd9c116711085409c7d29",
+        "sha256_in_prefix": "2d2a6de8df23a39716e09a4f0172b54e133eafd71acfd9c116711085409c7d29",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "site-packages/monty/os/path.py",
+        "path_type": "hardlink",
+        "sha256": "41c3ea78e2bdddb0a84d104a29c945b1522aa79246725b3350a01f6679a10e97",
+        "sha256_in_prefix": "41c3ea78e2bdddb0a84d104a29c945b1522aa79246725b3350a01f6679a10e97",
+        "size_in_bytes": 3536
+      },
+      {
+        "_path": "site-packages/monty/pprint.py",
+        "path_type": "hardlink",
+        "sha256": "378ed72dc8656be2f5076d79072b5f0b0f9be54d98bd26bf229e76b905caf1aa",
+        "sha256_in_prefix": "378ed72dc8656be2f5076d79072b5f0b0f9be54d98bd26bf229e76b905caf1aa",
+        "size_in_bytes": 3480
+      },
+      {
+        "_path": "site-packages/monty/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/monty/re.py",
+        "path_type": "hardlink",
+        "sha256": "3fdc9b6c1c1bd2db7b9dbd696fe069bbb398d4f8a71b6580372c0fe6552ada1b",
+        "sha256_in_prefix": "3fdc9b6c1c1bd2db7b9dbd696fe069bbb398d4f8a71b6580372c0fe6552ada1b",
+        "size_in_bytes": 2156
+      },
+      {
+        "_path": "site-packages/monty/serialization.py",
+        "path_type": "hardlink",
+        "sha256": "4689cdb7606fe97bac398e469a9e1ef3538af3e6ba3f51e4996c0e87af486930",
+        "sha256_in_prefix": "4689cdb7606fe97bac398e469a9e1ef3538af3e6ba3f51e4996c0e87af486930",
+        "size_in_bytes": 4929
+      },
+      {
+        "_path": "site-packages/monty/shutil.py",
+        "path_type": "hardlink",
+        "sha256": "17fbff1803748f33664cd8f88b3c9f7b5d2d7a97227b8d4969b093aaa8f7c5fb",
+        "sha256_in_prefix": "17fbff1803748f33664cd8f88b3c9f7b5d2d7a97227b8d4969b093aaa8f7c5fb",
+        "size_in_bytes": 6674
+      },
+      {
+        "_path": "site-packages/monty/string.py",
+        "path_type": "hardlink",
+        "sha256": "3c27ab5d1950de0cfaca88030b2ef49456f1259041722c9dac7a486205328cc7",
+        "sha256_in_prefix": "3c27ab5d1950de0cfaca88030b2ef49456f1259041722c9dac7a486205328cc7",
+        "size_in_bytes": 3367
+      },
+      {
+        "_path": "site-packages/monty/subprocess.py",
+        "path_type": "hardlink",
+        "sha256": "7647635b35ffc10bfac2e97df44235a5ca43ed8ec2a75fb45c179f2b49b00c1e",
+        "sha256_in_prefix": "7647635b35ffc10bfac2e97df44235a5ca43ed8ec2a75fb45c179f2b49b00c1e",
+        "size_in_bytes": 2710
+      },
+      {
+        "_path": "site-packages/monty/tempfile.py",
+        "path_type": "hardlink",
+        "sha256": "79a8bece681cf1c9d1809fea7c51048350c9597dae5591669fc4fed4e1bca72d",
+        "sha256_in_prefix": "79a8bece681cf1c9d1809fea7c51048350c9597dae5591669fc4fed4e1bca72d",
+        "size_in_bytes": 5203
+      },
+      {
+        "_path": "site-packages/monty/termcolor.py",
+        "path_type": "hardlink",
+        "sha256": "0712db3d40b6f23a67f8fb2df03b30ff6579280bc5b8987c032ee1864982d497",
+        "sha256_in_prefix": "0712db3d40b6f23a67f8fb2df03b30ff6579280bc5b8987c032ee1864982d497",
+        "size_in_bytes": 5330
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/bisect.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/collections.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/design_patterns.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/dev.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/fnmatch.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/fractions.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/functools.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/inspect.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/io.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/itertools.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/json.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/logging.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/math.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/msgpack.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/multiprocessing.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/operator.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/os/__pycache__/__init__.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/os/__pycache__/path.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/pprint.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/re.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/serialization.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/shutil.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/string.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/subprocess.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/tempfile.cpython-314.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.14/site-packages/monty/__pycache__/termcolor.cpython-314.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dab67933a8a691f624ada6283a4d66fdf4f0d98c0b53b31bc55f6af477052615",
+  "size": 47415,
+  "subdir": "noarch",
+  "timestamp": 1741071970000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/monty-2025.3.3-pyhd8ed1ab_0.conda",
+  "version": "2025.3.3"
+}
