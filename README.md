@@ -27,6 +27,25 @@ can also run the exercises on Google Colab.
 - [Here](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) are some nice tips/tricks for using Jupyter notebooks
 - For plotting, we use the [holoviews library](https://holoviews.org/) as it is one of the simplest ways to create interactive figures in Python (it is a high-level interface to the [bokeh library](https://bokeh.org/)). You mind find the [Getting Started section of the documentation](https://holoviews.org/getting_started/) useful if you want to understand it better. I also found [this guide from Caltech](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2019a/content/lessons/lesson_03/intro_to_holoviews.html) useful.
 
+## Collaborate using github
+When you work locally, in order to collaborate with your friends you may want to use github. In that case you need to clone this repository and instead of 
+
+```bash
+git clone --depth 1 https://github.com/amir-elahi/ml_project_ch315.git
+cd ml_project_ch315
+git checkout 2025
+```
+
+You have to do
+
+```bash
+git clone --depth 1 https://github.com/{username}/ml_project_ch315.git
+cd ml_project_ch315
+git checkout 2025
+```
+
+Make sure to change the {username} with your github usename. This way you will own that forked repository and you can make new branches and work collaboratively.
+
 ## Run it locally (recommended)
 
 The following steps assume that you use MacOS or some Linux flavor. If you use Windows, we recommend that you first install the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
