@@ -35,8 +35,8 @@ Create a new folder and clone this repository (you need `git` for this, if you g
 
 ```bash
 git clone --depth 1 https://github.com/amir-elahi/ml_project_ch315.git
+cd ml_project_ch315
 git checkout 2025
-cd ml_project_2025
 ```
 
 We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there.
