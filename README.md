@@ -80,17 +80,7 @@ After that you will see a pop-up asking you about the url. Enter:
 https://github.com/amir-elahi/ml_project_ch315.git
 ````
 
-You will see a folder called `ml_project_ch315`. Open that folder, the got to ` git -> Open Git Repository in Terminal` as you see in the picture below.
-
-![NOTO git terminal](assets/NOTO2.png)
-
-A terminal will open. Type the command below on the terminal:
-
-```bash
-git checkout 2025
-```
-
-After that you should see the correct notebook which you should edit (group#_block3_project.ipynb) like the image below:
+You will see a folder called `ml_project_ch315`. Open that folder, After that you should see the correct notebook which you should edit (group#_block3_project.ipynb) like the image below:
 
 ![NOTO Checkout to new branch](assets/NOTO_Final.png)
 
