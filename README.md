@@ -34,9 +34,9 @@ The following steps assume that you use MacOS or some Linux flavor. If you use W
 Create a new folder and clone this repository (you need `git` for this, if you get a `missing command` error for `git` you can install it with `sudo apt-get install git`)
 
 ```bash
-git clone --depth 1 https://github.com/kjappelbaum/ml_molsim.git\
-git checkout 2024
-cd ml_molsim
+git clone --depth 1 https://github.com/amir-elahi/ml_project_ch315.git
+git checkout 2025
+cd ml_project_2025
 ```
 
 We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there.
@@ -44,18 +44,18 @@ We recommend that you create a virtual conda environment on your computer in whi
 Then, use
 
 ```bash
-conda env create -f environment.yml -n ml_molsim
+conda env create -f environment.yml -n ml_project_ch315
 ```
 
 You can activate this environment using
 
 ```bash
-conda activate ml_molsim
+conda activate ml_project_ch315
 ```
 
-After this you can start Jupyter Lab and select the `molsim_ml.ipynb` file from the file browser.
+After this you can start Jupyter Lab and select the `group#_block3_project.ipynb` file from the file browser.
 
-```(bash)
+<!-- ```(bash)
 jupyter lab
 ```
 
@@ -63,7 +63,38 @@ Make sure that the notebook kernel runs in the correct environment:
 
 ![Environment name](assets/conda_env_name.png)
 
-If the environment name that is shown is different from "ml_molsim" you can click on it and select the correct one.
+If the environment name that is shown is different from "ml_molsim" you can click on it and select the correct one. -->
+
+
+## Use it on [noto.epfl.ch](noto.epfl.ch)
+
+First you need to clone to the repository, in order to do that click on git clone symbol which is cricled below:
+
+![NOTO clone github](assets/NOTO1.png)
+
+You can also go to `git -> clone a repository` in the navigator.
+
+After that you will see a pop-up asking you about the url. Enter:
+
+```bash
+https://github.com/amir-elahi/ml_project_ch315.git
+````
+
+You will see a folder called `ml_project_ch315`. Open that folder, the got to ` git -> Open Git Repository in Terminal` as you see in the picture below.
+
+![NOTO git terminal](assets/NOTO2.png)
+
+A terminal will open. Type the command below on the terminal:
+
+```bash
+git checkout 2025
+```
+
+After that you should see the correct notebook which you should edit (group#_block3_project.ipynb) like the image below:
+
+![NOTO Checkout to new branch](assets/NOTO_Final.png)
+
+Open the notebook and you can start right away. You don't need to set up any new environment. Everything you need is preinstalled in the NOTO.
 
 ## Use it on Google Colab
 
@@ -89,4 +120,4 @@ So, you have to start every cell with a holoviews plot with `hv.extension('bokeh
 ## Acknowledgements
 
 We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input during the initial phases of development.
-We also want to thank Peter Alexander Knudsen for spotting typos, as well as [Prof. Tristan Bereau](https://github.com/tbereau) and all MolSim participant and TAs for feedback. This repository is a fork from Kevin [Jablonka](https://kjablonka.com/)
+We also want to thank Peter Alexander Knudsen for spotting typos, as well as [Prof. Tristan Bereau](https://github.com/tbereau) and all MolSim participant and TAs for feedback. This repository is a fork from [Kevin Jablonka](https://kjablonka.com/)
