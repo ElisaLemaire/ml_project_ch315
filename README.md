@@ -1,4 +1,4 @@
-# ML workshop for MolSim 2024
+# ML project for CH-315 2025
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim/blob/2024/molsim_ml.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim/2024?filepath=molsim_ml.ipynb)
@@ -89,4 +89,4 @@ So, you have to start every cell with a holoviews plot with `hv.extension('bokeh
 ## Acknowledgements
 
 We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input during the initial phases of development.
-We also want to thank Peter Alexander Knudsen for spotting typos, as well as [Prof. Tristan Bereau](https://github.com/tbereau) and all MolSim participant and TAs for feedback.
+We also want to thank Peter Alexander Knudsen for spotting typos, as well as [Prof. Tristan Bereau](https://github.com/tbereau) and all MolSim participant and TAs for feedback. This repository is a fork from Kevin [Jablonka](https://kjablonka.com/)
